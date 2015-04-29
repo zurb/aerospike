@@ -1,0 +1,66 @@
+/*Activate commented out code if you want a mobile and tablet fixed header */ 
+
+.tab-bar { 
+	//position:fixed;
+	// top:0;
+	// left:0;
+	// width:100%;
+	z-index:1000000;
+}
+
+//Fix Hamburger Menu Positioning
+// .tab-bar .menu-icon span::after { 
+// 	right: 30px !important;
+// 	left:auto; 
+// }
+
+//Stop Main Canvas from Moving When Off-Canvas Menu is Open
+// @media #{$small-only} { 
+// 	.main-section {
+// 		margin-top:$column-gutter;
+// 	  overflow-y: auto;
+// 	}
+// 	.main-section,
+// 	body,
+// 	html,
+// 	.off-canvas-wrap, 
+// 	.off-canvas-wrap .inner-wrap,
+// 	body > .row {
+// 	  height: 100%;
+// 	  width: 100%;
+// 	}
+// 	.mobile-header {
+// 	  position: absolute;
+// 	  top: 0;
+// 	  width: 100%;
+// 	  z-index: 99;
+// 	}
+// }
+
+// @media #{$medium-only} { 
+// 	.main-section {
+// 	  overflow-y: auto;
+// 	}
+// 	.main-section,
+// 	body,
+// 	html,
+// 	.off-canvas-wrap, 
+// 	.off-canvas-wrap .inner-wrap,
+// 	body > .row {
+// 	  height: 100%;
+// 	  width: 100%;
+// 	}
+// 	.mobile-header {
+// 	  position: absolute;
+// 	  top: 0;
+// 	  width: 100%;
+// 	  z-index: 99;
+// 	}
+// }
+
+
+
+
+
+
+

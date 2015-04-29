@@ -1,0 +1,30 @@
+.content-section { 
+	margin-top:$column-gutter; 
+	margin-bottom:$column-gutter; 
+	clear:both;
+	@include clearfix();
+	h4 { margin-bottom:0; }
+}
+
+.section-heading-container { 
+	@include headings() { text-align: center; }
+	.subhead { text-align: center; }	
+	margin-bottom:$column-gutter*2;
+	.subhead { 
+		width:70%; 
+		float:none;
+		margin:0 auto;
+	}
+}
+
+.topic-point { 
+	padding:0 $column-gutter*1.5; 
+}
+
+.content-section.features { 
+	text-align:center;
+	.points-for-features-content { margin-bottom:$column-gutter*1.5; }
+	.points-for-features-content.last { margin-bottom:0; } 
+}
+
+

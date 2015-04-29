@@ -1,0 +1,27 @@
+.tabs { 
+	.tab-title.active,
+	.tab-title.active:hover { 
+		border-bottom: 2px solid $primary-color;
+	} 
+	.tab-title:hover { 
+		border-bottom: 2px solid tint($secondary-color, 75%);
+	}
+}
+
+.tabs-content { 
+  border: 2px solid tint($secondary-color,75%);
+  &.active:before { 
+  	
+  }
+	.content-container { padding:$column-gutter $column-gutter*1.5; } 
+}
+
+.tabs.architecture-points { 
+	.tab-title.active,
+	.tab-title.active:hover { 
+		border-bottom: none;
+	} 
+	.tab-title:hover { 
+		border-bottom: none;
+	}
+}

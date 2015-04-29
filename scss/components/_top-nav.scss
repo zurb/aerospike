@@ -1,0 +1,63 @@
+.logo span { display:none; } 
+.logo { 
+	margin-bottom:0;
+	margin-top:0;
+	float:left;
+	display:inline;
+	width:241px;
+	height:41px; 
+	background:url('../images/aerospike-logo.png') no-repeat;
+	a { 
+		width:241px;
+		height:41px; 
+		display:block;		
+	}
+}
+
+.top-nav {
+	z-index:10;
+  position: relative;
+	margin-top:24px;
+	.nav-products,
+	.nav-auxiliary { 
+		.getting-started-button { 
+			margin-top: -11px; 
+			margin-bottom:0; 
+		}
+		margin-top: 9px;
+	  margin-bottom: 0;
+		list-style:none;
+		margin-left:0;
+		a { 
+			font-weight:300;
+			color:tint($primary-color,90%);
+			&:hover { 
+				color:tint($primary-color,70%);
+			}
+			&:active, &.active { 
+				color:tint($secondary-color,100%);
+			}
+		}
+		li { 
+			float:left;
+			display:inline;
+			margin-right:($column-gutter/1.5);
+			&:last-child { 
+				margin-right:0;
+			}
+		}
+	}
+	.nav-products { 
+		a { font-size:rem-calc(14); text-transform: uppercase; }
+		margin-left:30px;
+		float:left;
+	}
+	.nav-auxiliary { 
+		margin-top: 9px;
+		float:right;		
+		a { 
+			font-size:rem-calc(14); 
+			text-transform: capitalize;
+		}		
+	}
+}

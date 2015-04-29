@@ -1,6 +1,21 @@
 @import "settings";
 @import "foundation";
 
+//Aerospike Mixins
+@import "mixins/headings";
+
+//Aerospike Components
+@import "components/buttons";
+@import "components/content-icon";
+@import "components/hero-unit";
+@import "components/content-section";
+@import "components/site-footer";
+@import "components/top-nav";
+@import "components/tab-bar";
+@import "components/tabs";
+@import "components/typography";
+
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",

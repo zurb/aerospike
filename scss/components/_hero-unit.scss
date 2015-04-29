@@ -1,0 +1,24 @@
+.hero { 
+	width:100%;
+  position: relative;
+  margin-top: -76px;  
+  height: 461px;
+  clear: both;
+  @include clearfix();
+  z-index:1;
+	background:$primary-color url('../images/home-hero-unit-sm.jpg') no-repeat top center; 
+	.hero-heading { 
+	  margin-top: 155px;
+	}
+	p { color:#fff; }
+	.lead { 
+	  color: #fff;
+	  margin-top: 30px;
+	  font-size: 22px;
+	  line-height: 30px;		
+	}
+	@media #{$large-up} { 
+		background: $primary-color url('../images/home-hero-unit-lg.jpg') no-repeat top center;
+		height:902px; 
+	}
+}

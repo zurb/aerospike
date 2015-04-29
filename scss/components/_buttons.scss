@@ -1,0 +1,49 @@
+.button { 
+	font-weight: 500;
+	border-radius:$global-radius; 
+	-webkit-border-radius:$global-radius;
+}
+
+.link-button { 
+	color:tint($secondary-color,50%);	
+	&:after { 
+		content: "\2192"; 
+		font-size:rem-calc(13);
+		position: relative;
+	  left: 8px;
+	  top: 0px;
+	}
+	font-weight:700;
+	font-size:rem-calc(16);
+}
+
+.link-button:hover { 
+	color:tint($secondary-color,40%);
+}
+
+.link-button:active { 
+	color:tint($secondary-color,30%);
+}
+
+.hero,
+.top-nav {
+	.button { 
+		border-color:#fff !important; 
+		color:#fff; 
+	}		
+	.button:hover, 
+	.button:active { 
+		border-color:#fff !important; 
+		color:#fff !important; 
+	}
+	.button:hover { background-color:rgba(#fff,.15); }	
+	.button:active { background-color:rgba(#fff,.25); }	
+
+	.link-button { color:#fff; }
+	.link-button:hover { color:tint($primary-color,85%); }
+	.link-button:active { color:tint($primary-color,70%); }
+}
+
+.technologies-link-on-homepage { 
+	color:#fff;
+}
