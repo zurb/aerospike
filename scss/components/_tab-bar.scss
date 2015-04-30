@@ -1,10 +1,13 @@
+.getting-started-offcanvas-cta { 
+	padding:16px; 
+}
 /*Activate commented out code if you want a mobile and tablet fixed header */ 
-
 .tab-bar { 
 	//position:fixed;
 	// top:0;
 	// left:0;
 	// width:100%;
+	background-color:transparent !important; 
 	z-index:1000000;
 }
 

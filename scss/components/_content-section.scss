@@ -21,10 +21,117 @@
 	padding:0 $column-gutter*1.5; 
 }
 
+//Problem-Solution
+.content-section.problem-solution { 
+	margin:$column-gutter*3 0;
+}
+
+//Features 
 .content-section.features { 
+	margin-top:0; 
+  background-color: tint($secondary-color,97%);
+	padding-top:$column-gutter*3; 
+	padding-bottom:$column-gutter*3;
 	text-align:center;
 	.points-for-features-content { margin-bottom:$column-gutter*1.5; }
 	.points-for-features-content.last { margin-bottom:0; } 
+	.button { 
+		margin-top:$column-gutter; 
+	}
+}
+
+//Benefits
+.content-section.benefits { 
+	padding-top:$column-gutter*3; 
+	padding-bottom:$column-gutter*3;
+	text-align:center;
+	.points-for-benefits-content { margin-bottom:$column-gutter*1.5; }
+	.points-for-benefits-content.last { margin-bottom:0; } 
+	.button { 
+		margin-top:$column-gutter; 
+	}
+}
+
+//Architecture & Technology Overview 
+// .technologies .content-section.architecture .section-heading-container .subhead { 
+//   width: 90%;
+//   float: left;
+//   margin:0;
+//   text-align: left;
+// }
+
+.content-section.architecture { 
+	margin-top:$column-gutter*2; 	
+	.lead { color:tint($secondary-color,50%); }
+	.tabs-content { 
+		.article-heading { margin-bottom: 0; }
+		ul li { 
+			font-size:rem-calc(17);
+			line-height: 21px;
+			margin-bottom: 11px;
+		}
+	}
+}
+.architecture-points { 
+	.content-icon { display: none; }
+} 
+.points-for-architecture-content { 
+	.architecture-icons { 
+		text-align: center; 
+	}
+}
+
+
+//Success Stories 
+.points-for-success-stories { 
+
+}
+
+.success-story-thumbnail { 
+	margin-bottom: $column-gutter/2;
+}
+
+.success-story-category { 
+	display: block;
+	text-transform: uppercase; 
+	font-size:rem-calc(13);
+	color:$primary-color; 
+	&:hover { color:shade($primary-color,15%); }
+	&:active { color:shade($primary-color,30%); }
+}
+
+.success-story-container { 
+	padding:0 $column-gutter*1.5;  
+	margin-bottom:$column-gutter*1.5; 
+} 
+
+
+//Events
+.content-section.event { 
+	padding:$column-gutter*4 0; 
+	background-color:$primary-color;
+	color:#fff; 
+	text-align:center; 
+	@include headings() { color:#fff !important; }
+	.button { margin-bottom:0; }
+	.section-heading-container { margin-bottom:$column-gutter/2; }
+} 
+
+
+//Brands 
+.content-section.brands { 
+	margin-top:$column-gutter*2;
+	.section-heading-container { margin-bottom: $column-gutter/2; }
+}
+
+//Getting Started
+.content-section.cta-get-started { 
+	margin-top:$column-gutter*4; 
+	text-align:center; 
+	@include headings() { text-align:center; }
+	.section-heading-container { 
+		margin-bottom:$column-gutter/2;
+	}
 }
 
 

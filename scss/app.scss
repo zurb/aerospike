@@ -1,8 +1,14 @@
+//Bourbon Mixins
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+
+//Foundation 
 @import "settings";
 @import "foundation";
 
 //Aerospike Mixins
 @import "mixins/headings";
+@import "mixins/equal-width-containers";
+@import "mixins/link-animation";
 
 //Aerospike Components
 @import "components/buttons";

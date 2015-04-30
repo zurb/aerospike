@@ -1,15 +1,42 @@
+strong { font-weight:500; }
+blockquote { 
+	position: relative;
+	&:before { 
+		position: absolute; 
+	  top: -($column-gutter);
+		left:0;
+		content: "\201C"; 
+		font-size:rem-calc(72);
+		font-family: "Georgia", serif;
+	}
+}
+
 .hero-heading { 
-	font-size:rem-calc(60); 
-	color:#fff; 
-	line-height: 72px;
+  font-size: rem-calc(24);
+  line-height: rem-calc(32);
+	color:#fff;   
+	@media #{$medium-only} { 
+	  font-size: rem-calc(42);
+	  line-height: rem-calc(48);
+	}
+	@media #{$large-up} { 
+		font-size:rem-calc(60); 
+		line-height: rem-calc(72);
+	}
 }
 .section-heading { 
 	font-size:rem-calc(44); 
 	font-weight:500;
 	margin-bottom:0;
+	.metadata { 
+		display:block; 
+		font-size:rem-calc(14);
+		text-transform: uppercase; 
+	}
 }
 .article-heading { 
 	font-size:rem-calc(36); 
+	font-weight: 500;	
 }
 .subhead { 
 	font-size:20px;
@@ -17,8 +44,8 @@
 	font-weight: 300;
 	line-height:26px;
 }
-strong { font-weight:500; }
 .lead { 
 	font-size:rem-calc(16) !important; 
 	font-weight:300; 
+	&.large { font-size:rem-calc(19) !important; }
 } 

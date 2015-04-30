@@ -22,7 +22,7 @@
           </h1>
           <ul class="nav-products left">
             <li>
-              <a href="technologies.php" <?php if ($bodyClass == 'technologies-overview') { echo 'class="active"'; } ?>>Technologies</a>
+              <a href="technologies.php" <?php if ($bodyClass == 'technologies') { echo 'class="active"'; } ?>>Technologies</a>
             </li>
             <li>
               <a href="services-support.php" <?php if ($bodyClass == 'services-support') { echo 'class="active"'; } ?>>Services &amp; Support</a>
@@ -42,7 +42,7 @@
               <a href="company.php" <?php if ($bodyClass == 'company') { echo 'class="active"'; } ?>>Company</a>
             </li>    
             <li>
-              <a href="getting-started.php" class="getting-started-button button tiny">Getting Started</a>
+              <a href="getting-started.php" class="getting-started-button inverted-button button tiny">Getting Started</a>
             </li>        
           </ul>
         </div>
@@ -56,6 +56,6 @@
         <li><a href="docs.php">Docs</a></li>
         <li><a href="community.php">Community</a></li>
         <li><a href="company.php">Company</a></li>
-        <li><a href="getting-started.php" class="button">Get Started Today</a></li>
+        <li class="getting-started-offcanvas-cta"><a href="getting-started.php" class="button inverted-button">Get Started Today</a></li>
       </ul>
     </aside>    

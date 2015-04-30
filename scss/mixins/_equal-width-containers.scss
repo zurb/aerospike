@@ -1,0 +1,6 @@
+@mixin equal-width-containers($i) {
+	&:first-child:nth-last-child(#{$i}),
+	&:first-child:nth-last-child(#{$i}) ~ li {
+	    width: percentage(1/$i);
+	}
+}

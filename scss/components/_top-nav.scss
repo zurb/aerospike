@@ -4,13 +4,23 @@
 	margin-top:0;
 	float:left;
 	display:inline;
-	width:241px;
+	width:201px;
 	height:41px; 
 	background:url('../images/aerospike-logo.png') no-repeat;
+	background-size:100%;
 	a { 
 		width:241px;
+		display:block;
+		height:41px; 		
+	}
+	@media #{$large-up} { 
+		margin-top: 0;
+		width:241px;
 		height:41px; 
-		display:block;		
+		a { 
+			width:241px;
+			height:41px; 
+		}
 	}
 }
 
@@ -29,15 +39,24 @@
 		list-style:none;
 		margin-left:0;
 		a { 
+			position: relative;
 			font-weight:300;
-			color:tint($primary-color,90%);
+			color:tint($primary-color,90%);	
 			&:hover { 
 				color:tint($primary-color,70%);
 			}
 			&:active, &.active { 
 				color:tint($secondary-color,100%);
 			}
-		}
+			&.active { 
+			  border-bottom: 1px solid rgba(#fff,.5);
+			  padding-bottom: 3px;
+			}
+		}	
+
+		//link animation 
+		@include link-animation();
+
 		li { 
 			float:left;
 			display:inline;

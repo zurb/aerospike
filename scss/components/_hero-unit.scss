@@ -1,12 +1,63 @@
 .hero { 
 	width:100%;
-  position: relative;
-  margin-top: -76px;  
   height: 461px;
+  position: relative;
+  margin-top: -77px;  
   clear: both;
   @include clearfix();
-  z-index:1;
 	background:$primary-color url('../images/home-hero-unit-sm.jpg') no-repeat top center; 
+	// background-color:$primary-color; 
+	.hero-bg-image-container { 
+		text-align:center; 
+		z-index:3;
+	}
+	&.inner-pages { 
+		p,a { text-align:center; }
+		@include headings() { text-align:center; }
+		.hero-heading { 
+			margin-top: 137px;
+			@media #{$medium-only} { 
+				margin-top:198px !important;
+			}
+			@media #{$large-up} { 
+			  margin-top: 237px;
+			}
+		}
+		height:330px; 
+		background:$primary-color url('../images/technologies-hero-unit-sm.jpg') no-repeat top center; 
+	}
+	@media #{$medium-only} { 
+		.hero-heading { margin-top: 95px !important; }		
+		background: $primary-color url('../images/home-hero-unit-md.jpg') no-repeat top center;
+		height:737px; 
+		&.inner-pages { 
+			height:528px; 			
+			background:$primary-color url('../images/technologies-hero-unit-md.jpg') no-repeat top center; 
+		}		
+	}	
+	@media #{$large-up} { 
+		background: $primary-color url('../images/home-hero-unit-lg.jpg') no-repeat top center;
+		height:902px; 
+		&.inner-pages { 
+			height:646px; 
+			background:$primary-color url('../images/technologies-hero-unit-lg.jpg') no-repeat top center; 
+		}		
+	}	
+	.hero-mask { 
+		position: absolute;
+		bottom:-2px; //to adjust for browser resize nosense
+		width:100%;
+	  z-index: 1;
+	}
+	@media #{$small-only} { 
+		.hero-slash-line { display:none; }
+	}
+	.hero-slash-line { 
+	  position: absolute;
+	  left: 50%;
+	  z-index: -1;
+    margin-left: -86px;
+	}
 	.hero-heading { 
 	  margin-top: 155px;
 	}
@@ -16,9 +67,5 @@
 	  margin-top: 30px;
 	  font-size: 22px;
 	  line-height: 30px;		
-	}
-	@media #{$large-up} { 
-		background: $primary-color url('../images/home-hero-unit-lg.jpg') no-repeat top center;
-		height:902px; 
 	}
 }

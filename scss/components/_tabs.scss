@@ -10,13 +10,42 @@
 
 .tabs-content { 
   border: 2px solid tint($secondary-color,75%);
-  &.active:before { 
-  	
-  }
 	.content-container { padding:$column-gutter $column-gutter*1.5; } 
 }
 
+//Need to debug why this is not working
+.tabs-content .content.active { 
+	position: relative;
+}
+
+.tabs-content .content.active:before { 
+	@include triangle(12px, blue, down);
+	position: absolute;
+	top:0;
+	left:0;  
+	z-index:1000;
+}
+
 .tabs.architecture-points { 
+	.tab-title { 
+		text-align:center;
+		@include equal-width-containers(4); 
+	}
+	.tab-title { 
+		@include headings() { 
+			font-weight: 500;
+			margin-bottom:0; 
+		}
+		.lead { 
+			color:tint($secondary-color,50%);
+		}
+		a { 
+			// padding-left:0 !important; 
+		}
+	}
+	.tab-title a { 
+		
+	}
 	.tab-title.active,
 	.tab-title.active:hover { 
 		border-bottom: none;

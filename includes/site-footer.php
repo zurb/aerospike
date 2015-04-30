@@ -23,7 +23,7 @@
           <a href="company.php">Company</a>
         </li>             
         <li>
-          <a href="getting-started.php" class="getting-started-button button small">Get Started Today</a>
+          <a href="getting-started.php" class="getting-started-button inverted-button button small">Get Started Today</a>
         </li>                                    
       </ul>
       <ul class="nav-legal">
