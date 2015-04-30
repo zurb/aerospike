@@ -1,2 +1,12 @@
+#Ignore Bundler Config
+.DS_Store
+.bundle
+
+#Ignore Sass Cache
 .sass-cache
 *.css.map
+
+#Ignore Compiled Stylesheets
+stylesheets/*
+
+
