@@ -30,6 +30,15 @@
 }
 .link-button { 
 	color:$primary-color;
+	&.inverted { 
+		color:rgba(#fff,.8); 
+		&:hover { 
+			color:rgba(#fff,.9);
+		}
+		&:active { 
+			color:rgba(#fff,1);
+		}		
+	}
 	&.secondary { color:tint($secondary-color,50%);	}
 	&:after { 
 		content: "\2192"; 

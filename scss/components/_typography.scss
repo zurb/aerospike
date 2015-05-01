@@ -1,4 +1,4 @@
-strong { font-weight:500; }
+strong { font-weight:600; }
 blockquote { 
 	position: relative;
 	&:before { 
@@ -10,8 +10,8 @@ blockquote {
 		font-family: "Georgia", serif;
 	}
 }
-
 .hero-heading { 
+  @media #{$small-only} { padding:0 $column-gutter; } 	
   font-size: rem-calc(24);
   line-height: rem-calc(32);
 	color:#fff;   
@@ -21,8 +21,18 @@ blockquote {
 	}
 	@media #{$large-up} { 
 		font-size:rem-calc(60); 
-		line-height: rem-calc(72);
+		line-height: rem-calc(65);
 	}
+	.metadata { 
+		display: block; 
+		font-size: 13px;
+	  line-height: 30px;
+		text-transform: uppercase;
+		@media #{$medium-up} { 
+			font-size:rem-calc(20);		
+			line-height: $column-gutter*2;
+		} 
+	}	
 }
 .section-heading { 
 	font-size:rem-calc(44); 
@@ -49,3 +59,86 @@ blockquote {
 	font-weight:300; 
 	&.large { font-size:rem-calc(19) !important; }
 } 
+a.primary { 
+	position: relative; 
+	color:$primary-color; 
+	&:hover { 
+		color:scale-color($primary-color, $lightness: -30%);
+	}
+	&:active { 
+		color:scale-color($primary-color, $lightness: -40%);
+	}
+}
+
+
+
+
+//Apex New Font
+
+// @font-face {
+//   font-family: 'Apex New';
+//   src: url('../fonts/DINWeb-Light.eot'); 
+//   src: url('../fonts/DINWeb-Light.eot?#iefix') format('embedded-opentype'), 
+//        url('../fonts/DINWeb-Light.woff') format('woff'), 
+//        url('../fonts/DINComp-Light.ttf')  format('truetype');       
+//   font-style:   normal;
+//   font-weight:  300;
+// }
+
+// @font-face {
+//   font-family: 'Apex New';
+//   src: url('../fonts/DINWeb.eot'); 
+//   src: url('../fonts/DINWeb.eot?#iefix') format('embedded-opentype'), 
+//        url('../fonts/DINWeb.woff') format('woff'), 
+//        url('../fonts/DINComp.ttf')  format('truetype');      
+//   font-style:   normal;
+//   font-weight:  400;
+// }
+
+// @font-face {
+//   font-family: 'Apex New';
+//   src: url('../fonts/DINWeb-Medium.eot');
+//   src: url('../fonts/DINWeb-Medium.eot?#iefix') format('embedded-opentype'),
+//        url('../fonts/DINWeb-Medium.woff') format('woff'), 
+//        url('../fonts/DINComp-Medium.ttf')  format('truetype');     
+//   font-style:   normal;
+//   font-weight:  500;
+// }
+
+// @font-face {
+//   font-family: 'Apex New';
+//   src: url('../fonts/DINWeb-Bold.eot'); 
+//   src: url('../fonts/DINWeb-Bold.eot?#iefix') format('embedded-opentype'),
+//        url('../fonts/DINWeb-Bold.woff') format('woff'),
+//        url('../fonts/DINComp-Bold.ttf')  format('truetype');      
+//   font-style:   normal;
+//   font-weight:  600;
+// }
+
+// %apex-light { 
+//   font-family: 'Apex New';
+//   font-weight: 300;
+//   font-style: normal;
+// }
+
+// %apex-regular { 
+//   font-family: 'Apex New';
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// %apex-medium { 
+//   font-family: 'Apex New';
+//   font-weight: 500;
+//   font-style: normal;
+// }
+
+// %apex-medium { 
+//   font-family: 'Apex New';
+//   font-weight: 600;
+//   font-style: normal;
+// }
+
+
+
+

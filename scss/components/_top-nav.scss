@@ -39,6 +39,8 @@
 		list-style:none;
 		margin-left:0;
 		a { 
+			//link animation 
+			@include link-animation();			
 			position: relative;
 			font-weight:300;
 			color:tint($primary-color,90%);	
@@ -53,10 +55,6 @@
 			  padding-bottom: 3px;
 			}
 		}	
-
-		//link animation 
-		@include link-animation();
-
 		li { 
 			float:left;
 			display:inline;

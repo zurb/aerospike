@@ -1,6 +1,6 @@
 @mixin link-animation() { 
 	//link animation 
-	a:after { 
+	&:after { 
 		position: absolute;
 		bottom: -4px;
 		left: 0;
@@ -8,14 +8,16 @@
 		height: 1px;
 		content: '';
 		background: rgba(#fff,.5);
+		-webkit-transition: width 0.3s ease;
+		transition: width 0.3s ease;	
 	}
-	a:hover:after { 
+	&:hover:after { 
 		width:100%;
-		-webkit-transition: width 0.4s ease;
-		transition: width 0.4s ease;	
+		-webkit-transition: width 0.3s ease;
+		transition: width 0.3s ease;	
 	}
-	a.active:hover:after, 
-	a.getting-started-button:hover:after { 
+	&.active:hover:after, 
+	&.getting-started-button:hover:after { 
 		width:0%;
 	}
 }

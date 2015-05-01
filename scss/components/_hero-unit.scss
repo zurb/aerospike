@@ -15,12 +15,12 @@
 		p,a { text-align:center; }
 		@include headings() { text-align:center; }
 		.hero-heading { 
-			margin-top: 137px;
+		  margin-top: 119px;
 			@media #{$medium-only} { 
-				margin-top:198px !important;
+				margin-top:156px !important;
 			}
 			@media #{$large-up} { 
-			  margin-top: 237px;
+			  margin-top: 197px;
 			}
 		}
 		height:330px; 

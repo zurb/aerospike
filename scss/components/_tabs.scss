@@ -1,32 +1,12 @@
 .tabs { 
-	.tab-title.active,
-	.tab-title.active:hover { 
-		border-bottom: 2px solid $primary-color;
-	} 
-	.tab-title:hover { 
-		border-bottom: 2px solid tint($secondary-color, 75%);
+	&.aerospike-support { 
+	  width: 50%;
+	  margin: 0 auto;		
+		.tab-title { 
+			text-align:center;
+			@include equal-width-containers(2); 
+		}
 	}
-}
-
-.tabs-content { 
-  border: 2px solid tint($secondary-color,75%);
-	.content-container { padding:$column-gutter $column-gutter*1.5; } 
-}
-
-//Need to debug why this is not working
-.tabs-content .content.active { 
-	position: relative;
-}
-
-.tabs-content .content.active:before { 
-	@include triangle(12px, blue, down);
-	position: absolute;
-	top:0;
-	left:0;  
-	z-index:1000;
-}
-
-.tabs.architecture-points { 
 	.tab-title { 
 		text-align:center;
 		@include equal-width-containers(4); 
@@ -43,14 +23,57 @@
 			// padding-left:0 !important; 
 		}
 	}
-	.tab-title a { 
-		
-	}
+
 	.tab-title.active,
 	.tab-title.active:hover { 
 		border-bottom: none;
 	} 
 	.tab-title:hover { 
+		a { 
+			@include headings() { 
+				color:tint($secondary-color,50%);
+			}
+		}
 		border-bottom: none;
 	}
+	.tab-title:active { 
+		a { 
+			@include headings() { 
+				color:$primary-color;
+			}
+		}
+		border-bottom: none;
+	}
+	.tab-title.active a { 
+		@include headings() { 
+			color:$primary-color;
+		}
+	}
+}
+
+.tabs-content { 
+  border: 2px solid tint($secondary-color,75%);
+	.content-container { 
+		padding:$column-gutter $column-gutter*1.5; 
+	} 
+	.article-heading { 
+		margin-bottom:0; 
+		line-height: rem-calc(40);
+	}
+	p,li,.link-button { 
+		font-size:rem-calc(18);
+	}
+}
+
+//Need to debug why this is not working
+.tabs .tab-title { 
+	position: relative;
+}
+
+.tabs .tab-title.active::after { 
+	@include triangle(12px, blue, down);
+	position: absolute;
+	top:0;
+	left:0;  
+	z-index:1000;
 }

@@ -1,0 +1,10 @@
+.panel { 
+
+}
+
+.panel-content { 
+	padding: $column-gutter/3 $column-gutter $column-gutter/1.25 $column-gutter; 
+	.lead { 
+		margin-top:$column-gutter/3; 
+	}
+}

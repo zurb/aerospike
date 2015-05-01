@@ -89,7 +89,7 @@ $column-gutter: rem-calc(30);
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
-$font-family-sans-serif: "Apex New", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-sans-serif: "Titillium Web", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 // $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
@@ -259,7 +259,7 @@ $h6-font-size: rem-calc(16);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $anchor-font-color: $secondary-color;
-$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -30%);
+$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: 40%);
 
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
@@ -969,17 +969,17 @@ $off-canvas-overlay-background: rgba($secondary-color, 0.75);
 // $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
-// $panel-bg: scale-color($white, $lightness: -5%);
-// $panel-border-style: solid;
-// $panel-border-size: 1px;
+$panel-bg: #fff;
+$panel-border-style: solid;
+$panel-border-size: 1px;
 
 // We use this % to control how much we darken things on hover
-// $panel-function-factor: -11%;
-// $panel-border-color: scale-color($panel-bg, $lightness: $panel-function-factor);
+$panel-function-factor: -11%;
+$panel-border-color: scale-color($panel-bg, $lightness: $panel-function-factor);
 
 // We use these to set default inner padding and bottom margin
 // $panel-margin-bottom: rem-calc(20);
-// $panel-padding: rem-calc(20);
+$panel-padding: 0;
 
 // We use these to set default font colors
 // $panel-font-color: $oil;
