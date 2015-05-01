@@ -19,7 +19,23 @@
           </div>
         </div>
       </section>
-
+      <section class="content-section message-from-the-founders">
+        <div class="section-heading-container row">
+          <div class="small-12 columns">
+            <h2 class="section-heading">A message from the founders</h2>
+            <h5 class="subhead">Aerospike was established because we wanted to <strong>simplify scaling for all developers</strong>&emdash;not just the few who worked at companies with deep enough pockets to build their own database.</h5>      
+          </div>
+        </div>
+        <div class="points-for-message-from-the-founders">
+          <div class="points-for-message-from-the-founders-content row">
+            <div class="large-8 medium-10 small-12 large-centered medium-centered columns">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/d6NmCOZstjk" frameborder="0" allowfullscreen></iframe>
+              <p class="lead large">We've open sourced Aerospike to <strong>empower you to build a new class of applications that may not have before been easy or affordable. We welcome you to join our community so that together, we can continue pushing the boundaries of speed and scale."</p>
+              <a href="#" class="button">Read the Blog Post</a>
+            </div>
+          </div>  
+        </div>
+      </section>     
       <section class="content-section get-started">
         <div class="section-heading-container row">
           <div class="small-12 columns">
@@ -163,7 +179,72 @@
           </div>
         </div>
         <?php include("includes/cloud-product-offering.php"); ?>
-      </section>    
+        <div class="points-for-services-offering">
+          <div class="points-for-services-offering row">
+            <div class="services-offering-points large-3 medium-6 small-12 columns">
+              <div class="services-offering-container">
+                <h5 class="services-heading">
+                  Community Support
+                </h5>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut rhoncus est. Vestibulum tristique vestibulum purus, et rutrum urna fermentum in.</p>
+                <a href="#" class="link-button">Learn More</a>
+              </div>               
+            </div>
+            <div class="services-offering-points large-3 medium-6 small-12 columns">
+              <div class="services-offering-container">
+                <h5 class="services-heading">
+                  Enterprise Support
+                </h5>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut rhoncus est. Vestibulum tristique vestibulum purus, et rutrum urna fermentum in.</p>
+                <a href="#" class="link-button">Learn More</a>
+              </div>    
+            </div>
+            <div class="services-offering-points large-3 medium-6 small-12 columns">
+              <div class="services-offering-container">
+                <h5 class="services-heading">
+                  Professional Services
+                </h5>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut rhoncus est. Vestibulum tristique vestibulum purus, et rutrum urna fermentum in.</p>
+                <a href="#" class="link-button">Learn More</a>
+              </div>    
+            </div>    
+            <div class="services-offering-points large-3 medium-6 small-12 columns">
+              <div class="services-offering-container">
+                <h5 class="services-heading">
+                  Training
+                </h5>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut rhoncus est. Vestibulum tristique vestibulum purus, et rutrum urna fermentum in.</p>
+                <a href="#" class="link-button">Learn More</a>
+              </div>    
+            </div>                        
+          </div>
+        </div>
+      </section>   
+      <section class="content-section additional-resources">
+        <div class="section-heading-container row">
+          <div class="small-12 columns">
+            <h4>Additional Resources</h4>
+            <h5 class="subhead">Aerospike has Open Sourced its revolutionary in-memory NoSQL database and key-value store technology. Because Aerospike is flash-optimized with a hybrid RAM/SSD storage architecture, you can get 10x better performance while using 10x fewer servers. The Aerospike Community Edition is free and new builds are periodically made available.</h5>      
+          </div>
+        </div>
+        <div class="points-for-services-offering">
+          <div class="points-for-services-offering row">
+            <div class="services-offering-points medium-4 small-12 columns end">
+              <div class="services-offering-container">
+                <h5 class="services-heading">
+                  Community Support
+                </h5>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut rhoncus est. Vestibulum tristique vestibulum purus, et rutrum urna fermentum in.</p>
+                <a href="#" class="link-button">Learn More</a>
+              </div>               
+            </div>                  
+          </div>
+        </div>
+      </section>   
+
+      <?php include("includes/event.php"); ?>
+      <?php include("includes/brands.php"); ?>
+      <?php include("includes/get-started-cta.php"); ?>
       <?php include("includes/site-footer.php"); ?>
     </section>
     <a class="exit-off-canvas"></a>

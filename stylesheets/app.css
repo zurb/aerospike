@@ -9606,6 +9606,11 @@ th.hide-for-touch {
   padding: 0 1.875rem;
 }
 
+/* line 222, ../scss/components/_content-section.scss */
+.content-section.message-from-the-founders .points-for-message-from-the-founders-content {
+  text-align: center;
+}
+
 /* line 1, ../scss/components/_content-icon.scss */
 .content-icon {
   margin-bottom: 0.9375rem;
