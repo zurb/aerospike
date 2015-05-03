@@ -1,0 +1,9 @@
+// 6. Events
+.content-section.event { 
+	padding:$column-gutter*4 0; 
+	color:#fff; 
+	text-align:center; 
+	@include headings() { color:#fff !important; }
+	.button { margin-bottom:0; }
+	.section-heading-container { margin-bottom:$column-gutter/2; }
+} 

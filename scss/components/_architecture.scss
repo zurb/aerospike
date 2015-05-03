@@ -1,0 +1,17 @@
+// 4. Architecture & Technology Overview 
+
+.content-section.architecture { 
+	margin-top:$column-gutter*2; 	
+	.lead { color:tint($secondary-color,50%); }
+	.tabs-content { 
+		.article-heading { margin-bottom: 0; }
+		ul li { 
+			font-size:rem-calc(17);
+			line-height: 21px;
+			margin-bottom: 11px;
+		}
+	}
+}
+.architecture-points { 
+	.content-icon { display: none; }
+} 

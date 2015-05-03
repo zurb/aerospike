@@ -1,0 +1,16 @@
+
+// 12. Get Involved with the Community
+.content-section.community { 
+	margin-top:$column-gutter*2; 
+	margin-bottom:$column-gutter*3; 	
+	ul { 
+		margin-left:0; 
+		li { 
+			list-style:none; 
+			margin-bottom:$column-gutter/4;
+		}
+	}
+	.points-for-community-content { 
+		margin-bottom:$column-gutter; 
+	}
+}

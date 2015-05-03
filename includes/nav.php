@@ -52,7 +52,7 @@
       <ul class="off-canvas-list">
         <li><a href="index.php">Home</a></li>
         <li><a href="technologies.php">Technologies</a></li>
-        <li><a href="our-viewpoint.php">Services &amp; Support</a></li>
+        <li><a href="services-support.php">Services &amp; Support</a></li>
         <li><a href="docs.php">Docs</a></li>
         <li><a href="community.php">Community</a></li>
         <li><a href="company.php">Company</a></li>

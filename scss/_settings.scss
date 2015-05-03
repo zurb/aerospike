@@ -811,7 +811,7 @@ $button-disabled-cursor: $cursor-default-value;
 // $include-html-magellan-classes: $include-html-classes;
 
 $magellan-bg: $white;
-$magellan-padding: 10px 0;
+$magellan-padding: 10px 0 0 0;
 
 // 18. Off-canvas
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1159,7 +1159,7 @@ $side-nav-link-color-hover: $secondary-color;
 $side-nav-link-bg-hover: transparent;
 // $side-nav-link-margin: 0;
 // $side-nav-link-padding: rem-calc(7 14);
-$side-nav-font-size: rem-calc(16);
+$side-nav-font-size: rem-calc(21);
 // $side-nav-font-weight: $font-weight-normal;
 // $side-nav-font-weight-active: $side-nav-font-weight;
 // $side-nav-font-family: $body-font-family;

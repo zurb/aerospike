@@ -1,4 +1,4 @@
-<section class="content-section event">
+<section class="content-section event bold-callout">
   <div class="section-heading-container row">
     <div class="small-12 columns">
       <h2 class="section-heading">

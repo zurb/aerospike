@@ -1,0 +1,12 @@
+
+// 9. Product Offering on Services Page
+.content-section.product-offering { 
+	margin-bottom:$column-gutter*2; 
+	.section-heading-container { 
+		text-align:center; 
+		margin-bottom:$column-gutter*2;
+		.lead { 
+			padding:$column-gutter $column-gutter * 4 0; 
+		}
+	}
+}

@@ -1,5 +1,5 @@
 <?php
-  $pageTitle = "Aerospike | Community";
+  $pageTitle = "Aerospike | Getting Started";
   $bodyClass = "getting-started";
 ?>
 <?php include("includes/aerospike-server-downloads.php"); ?> 
@@ -13,7 +13,7 @@
       <section class="hero inner-pages short-hero">
         <img src="images/white-triangle-mask-xlarge.svg" alt="mask" class="hero-mask">    
       </section>
-      <div class="split-page row">
+      <div class="utility-page row">
         <div class="small-12 columns">
           <div data-magellan-expedition="fixed">
             <ul class="sub-nav three-tabs">
@@ -182,7 +182,6 @@
                 </div>                
               </div>
             </section>   
-
             <section class="content-section get-started community-page">
               <div class="section-heading-container row">
                 <div class="small-12 columns">
@@ -231,7 +230,6 @@
                 </div>  
               </div>
             </section>   
-            
             <section class="content-section product-offering">
               <div class="section-heading-container row">
                 <div class="small-12 columns">

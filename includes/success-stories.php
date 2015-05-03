@@ -9,7 +9,9 @@
     <div class="points-for-success-stories-content row">
       <div class="small-12 medium-6 columns">
         <div class="success-story-container">
-          <img src="images/success-story-appnexus.jpg" class="success-story-thumbnail" alt="AppNexus">
+          <a href="#">
+            <img src="images/success-story-appnexus.jpg" class="success-story-thumbnail" alt="AppNexus">
+          </a>
           <h4>
             <a href="#" class="success-story-category">AdTech</a>
             <span>AppNexus</span>
@@ -26,7 +28,9 @@
 
       <div class="small-12 medium-6 columns">
         <div class="success-story-container">
-          <img src="images/success-story-snapdeal.jpg" class="success-story-thumbnail" alt="SnapDeal">
+          <a href="#">
+            <img src="images/success-story-snapdeal.jpg" class="success-story-thumbnail" alt="SnapDeal">
+          </a>
           <h4>
             <a href="#" class="success-story-category">E-Commerce</a>
             <span>SnapDeal</span>
@@ -46,7 +50,9 @@
     <div class="points-for-success-stories-content row">
       <div class="small-12 medium-6 columns">
         <div class="success-story-container">
-          <img src="images/success-story-kayak.jpg" class="success-story-thumbnail" alt="AppNexus">
+          <a href="#">
+            <img src="images/success-story-kayak.jpg" class="success-story-thumbnail" alt="AppNexus">
+          </a>
           <h4>
             <a href="#" class="success-story-category">Travel</a>
             <span>Kayak</span>
@@ -62,7 +68,9 @@
       </div>
       <div class="small-12 medium-6 columns">
         <div class="success-story-container">
-          <img src="images/success-story-charles-schwab.jpg" class="success-story-thumbnail" alt="SnapDeal">
+          <a href="#">
+            <img src="images/success-story-charles-schwab.jpg" class="success-story-thumbnail" alt="SnapDeal">
+          </a>
           <h4>
             <a href="#" class="success-story-category">Financial</a>
             <span>Charles Schwab</span>

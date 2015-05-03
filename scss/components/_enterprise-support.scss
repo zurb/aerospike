@@ -1,0 +1,10 @@
+
+// 11. Support on Services Page Offering
+.enterprise-support-container { 
+	text-align:center; 
+	h2 { 
+		margin-bottom: 0;
+		line-height: rem-calc(44);
+		margin-top: $column-gutter;
+	}
+}

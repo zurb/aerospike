@@ -1,0 +1,12 @@
+// 2. Features 
+.content-section.features { 
+	margin-top:0; 
+	padding-top:$column-gutter*3; 
+	padding-bottom:$column-gutter*3;
+	text-align:center;
+	.points-for-features-content { margin-bottom:$column-gutter*1.5; }
+	.points-for-features-content.last { margin-bottom:0; } 
+	.button { 
+		margin-top:$column-gutter; 
+	}
+}

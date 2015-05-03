@@ -1,20 +1,5 @@
 .tabs { 
-	&.two-tabs { 
-	  width: 50%;
-	  margin: 0 auto;		
-		.tab-title { 
-			text-align:center;
-			@include equal-width-containers(2); 
-		}
-	}
-	&.two-tabs-aerospike-downloads { 
-	  width: 60%;
-	  margin: 0 auto;		
-		.tab-title { 
-			text-align:center;
-			@include equal-width-containers(2); 
-		}
-	}
+  margin: 0 auto;		
 	.tab-title { 
 		text-align:center;
 		@include equal-width-containers(4); 
@@ -56,6 +41,42 @@
 			color:$primary-color;
 		}
 	}
+	&.two-tabs { 
+	  width: 50%;
+		.tab-title { 
+			@include equal-width-containers(2); 
+		}
+	}
+	&.two-tabs-aerospike-downloads { 
+	  width: 60%;
+		.tab-title { 
+			@include equal-width-containers(2); 
+		}
+	}	
+	&.three-tabs { 
+	  width: 100%;
+		.tab-title { 
+			@include equal-width-containers(3); 
+		}
+	}	
+	&.four-tabs { 
+	  width: 100%;
+		.tab-title { 
+			@include equal-width-containers(4); 
+		}
+	}		
+	&.five-tabs { 
+	  width: 100%;
+		.tab-title { 
+			@include equal-width-containers(5); 
+		}
+	}		
+	&.six-tabs { 
+	  width: 100%;
+		.tab-title { 
+			@include equal-width-containers(6); 
+		}
+	}		
 }
 
 .tabs-content { 

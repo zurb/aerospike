@@ -4,10 +4,10 @@
 	margin-bottom: $column-gutter;
 	margin:0 auto;
 	li a,
-	dd a { 
+	dd a {
+		font-size:rem-calc(18); 
 	  display: inline-block;
 	  width: 100%;		
-		text-transform: uppercase;
 		font-weight:500;			
 	}
 	.active { 
@@ -17,6 +17,7 @@
 	dd.is-selected { 
 		border-bottom:$border-size solid $primary-color;
 		&:hover { 
+			a { color:$primary-color !important; } 
 			border-bottom:$border-size solid $primary-color;		
 		}		
 	}
@@ -36,7 +37,7 @@
 		li,dd { width:50%; } 
 	}
 	&.three-tabs { 
-		li,dd { width:33%; }
+		li,dd { width:33.33%; }
 	}
 	&.four-tabs { 
 		li,dd { width:25%; }

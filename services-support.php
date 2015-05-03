@@ -38,7 +38,6 @@
         </div>
         <?php include("includes/cloud-product-offering.php"); ?>
       </section>    
-
       <section class="content-section aerospike-services">
         <div class="section-heading-container row">
           <div class="small-12 columns">
@@ -184,7 +183,6 @@
           </div>
         </div>
       </section>   
-
       <section class="content-section aerospike-support">
         <div class="section-heading-container row">
           <div class="small-12 columns">

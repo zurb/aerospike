@@ -1,0 +1,9 @@
+// 8. Getting Started
+.content-section.cta-get-started { 
+	margin-top:$column-gutter*4; 
+	text-align:center; 
+	@include headings() { text-align:center; }
+	.section-heading-container { 
+		margin-bottom:$column-gutter/2;
+	}
+}

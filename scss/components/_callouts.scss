@@ -1,0 +1,7 @@
+.bold-callout { 
+	background-color:$primary-color;
+}
+
+.subtle-callout { 
+  background-color: tint($secondary-color,97%);
+}

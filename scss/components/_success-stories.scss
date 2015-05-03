@@ -1,0 +1,30 @@
+// 5. Success Stories 
+.points-for-success-stories { 
+
+}
+
+.success-story-thumbnail { 
+	border:1px solid tint($secondary-color,90%);
+	&:hover { 
+		border:1px solid tint($secondary-color,70%);
+	}
+	&:active { 
+		border:1px solid $primary-color;		
+	}	
+	padding:$column-gutter/6; 
+	margin-bottom: $column-gutter/2;
+}
+
+.success-story-category { 
+	display: block;
+	text-transform: uppercase; 
+	font-size:rem-calc(13);
+	color:$primary-color; 
+	&:hover { color:shade($primary-color,15%); }
+	&:active { color:shade($primary-color,30%); }
+}
+
+.success-story-container { 
+	padding:0 $column-gutter*1.5;  
+	margin-bottom:$column-gutter*1.5; 
+} 

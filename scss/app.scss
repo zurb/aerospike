@@ -14,27 +14,57 @@ $aerospike-burro: $primary-color;
 @import "mixins/equal-width-containers";
 @import "mixins/link-animation";
 
-//Aerospike Components
-@import "components/additional-resources-container";
+//Aerospike Site Components
 @import "components/buttons";
-@import "components/content-section";
+@import "components/callouts";
 @import "components/content-icon";
 @import "components/download-list";
-@import "components/download-container";
 @import "components/icons";
-@import "components/get-started-container";
 @import "components/hero-unit";
 @import "components/top-nav";
 @import "components/tab-bar";
 @import "components/tabs";
 @import "components/panels";
 @import "components/typography";
+@import "components/utility-page";
+@import "components/site-footer";
+@import "components/side-nav";
+@import "components/video-container";
+
+//Aerospike Content Section Components
+@import "components/content-section";
+@import "components/aerospike-services";
+@import "components/additional-resources-container";
+@import "components/architecture";
+@import "components/benefits";
+@import "components/brands";
+@import "components/download-container";
+@import "components/download-aerospike-options";
+@import "components/enterprise-support";
+@import "components/events";
+@import "components/features";
+@import "components/get-involved-with-community";
+@import "components/get-started-container";
+@import "components/get-started-resources";
+@import "components/getting-started-cta";
+@import "components/message-from-founders";
+@import "components/success-stories";
+@import "components/problem-solution";
+@import "components/product-offering";
 @import "components/product-offering-container";
 @import "components/services-offering-container";
-@import "components/split-page";
-@import "components/site-footer";
-@import "components/sidebar-nav";
-@import "components/video-container";
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Or selectively include components
