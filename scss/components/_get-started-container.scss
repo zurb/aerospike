@@ -1,0 +1,6 @@
+.get-started-container { 
+	@include panel; 
+	@include headings() { 
+		margin-top:0; 
+	}
+}

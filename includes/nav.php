@@ -42,7 +42,7 @@
               <a href="company.php" <?php if ($bodyClass == 'company') { echo 'class="active"'; } ?>>Company</a>
             </li>    
             <li>
-              <a href="getting-started.php" class="getting-started-button inverted-button button tiny">Getting Started</a>
+              <a href="getting-started.php" class="getting-started-button inverted-button button tiny <?php if ($bodyClass == 'getting-started') { echo 'active'; } ?>">Getting Started</a>
             </li>        
           </ul>
         </div>

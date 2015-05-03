@@ -6,6 +6,14 @@
 	h4 { margin-bottom:0; }
 }
 
+.page-content { 
+	padding-left:$column-gutter; 
+}
+
+.topic-point { 
+	padding:0 $column-gutter*1.5; 
+}
+
 .section-heading-container { 
 	@include headings() { text-align: center; }
 	.subhead { text-align: center; }	
@@ -17,16 +25,13 @@
 	}
 }
 
-.topic-point { 
-	padding:0 $column-gutter*1.5; 
-}
 
-//Problem-Solution
+// 1. Problem-Solution
 .content-section.problem-solution { 
 	margin:$column-gutter*3 0;
 }
 
-//Features 
+// 2. Features 
 .content-section.features { 
 	margin-top:0; 
   background-color: tint($secondary-color,97%);
@@ -40,7 +45,7 @@
 	}
 }
 
-//Benefits
+// 3. Benefits
 .content-section.benefits { 
 	padding-top:$column-gutter*3; 
 	padding-bottom:$column-gutter*3;
@@ -52,14 +57,7 @@
 	}
 }
 
-//Architecture & Technology Overview 
-
-// .technologies .content-section.architecture .section-heading-container .subhead { 
-//   width: 90%;
-//   float: left;
-//   margin:0;
-//   text-align: left;
-// }
+// 4. Architecture & Technology Overview 
 
 .content-section.architecture { 
 	margin-top:$column-gutter*2; 	
@@ -78,7 +76,7 @@
 } 
 
 
-//Success Stories 
+// 5. Success Stories 
 .points-for-success-stories { 
 
 }
@@ -102,7 +100,7 @@
 } 
 
 
-//Events
+// 6. Events
 .content-section.event { 
 	padding:$column-gutter*4 0; 
 	background-color:$primary-color;
@@ -114,13 +112,13 @@
 } 
 
 
-//Brands 
+// 7. Brands 
 .content-section.brands { 
 	margin-top:$column-gutter*2;
 	.section-heading-container { margin-bottom: $column-gutter/2; }
 }
 
-//Getting Started
+// 8. Getting Started
 .content-section.cta-get-started { 
 	margin-top:$column-gutter*4; 
 	text-align:center; 
@@ -130,7 +128,7 @@
 	}
 }
 
-//Product Offering on Services Page
+// 9. Product Offering on Services Page
 .content-section.product-offering { 
 	.section-heading-container { 
 		text-align:center; 
@@ -140,49 +138,17 @@
 	}
 }
 
-.product-offering-container { 
-	text-align:center; 
-	background-color:tint($secondary-color,90%);
-	padding:$column-gutter*1.25;
-	&.aerospike-burro { 
-		background-color:$aerospike-burro; 
-	}
-	&.aerospike-cloud { 
-		background-color:$aerospike-cloud;
-	}
-	.section-heading { 
-		line-height: $column-gutter*1.5; margin-top:rem-calc(10); margin-top:0; 
-		text-transform:uppercase; 
-		color:#fff;
-	  line-height: rem-calc(36);
-	  margin-bottom: rem-calc(20);		
-	}
-	.subhead { 
-		font-size:rem-calc(17); 
-		margin-bottom:$column-gutter; 
-		color:#fff;
-	}
-	.link-button { 
-		display: block;
-	}
-	.lead { 
-		font-size:rem-calc(15);
-		padding:0 $column-gutter*2;
-		margin-bottom:$column-gutter; 
-		margin-top:$column-gutter; 
-		color:#fff;
-	}
-}
 
 
-//Services offerings on Services Page
+
+// 10. Services Offerings on Services Page
 
 .content-section.aerospike-services { 
 	margin-top:$column-gutter*3; 
 }
 
 
-//Support on Services Page Offering
+// 11. Support on Services Page Offering
 .enterprise-support-container { 
 	text-align:center; 
 	h2 { 
@@ -193,7 +159,7 @@
 }
 
 
-//Get Involved with the Community
+// 12. Get Involved with the Community
 .content-section.community { 
 	margin-top:$column-gutter*2; 
 	margin-bottom:$column-gutter*3; 	
@@ -210,16 +176,36 @@
 }
 
 
-//Get Started Blocks 
+// 13. Get Started Blocks 
 .content-section.get-started { 
+	margin-bottom:$column-gutter*2;	
 	.topic-point { 
 		padding:0 $column-gutter;
 	}
 }
 
-//Message from the Founders
+// 14. Message from the Founders
 .content-section.message-from-the-founders { 
+	margin-bottom:$column-gutter*2;
 	.points-for-message-from-the-founders-content { text-align:center; }
+	.lead { 
+		margin-top:$column-gutter;
+		font-size:rem-calc(24) !important;
+	}
+	.button { 
+		margin-top:$column-gutter; 
+	}
+}
+
+// 15. Aerospike Donwloads - Get Started Page
+.what-comes-with-client-downloads { 
+	list-style:none;
+}
+
+// 16. Download Aerospike 
+
+.content-section.download-aerospike { 
+	margin-top:0; 
 }
 
 

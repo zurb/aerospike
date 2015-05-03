@@ -1,6 +1,14 @@
 .tabs { 
-	&.aerospike-support { 
+	&.two-tabs { 
 	  width: 50%;
+	  margin: 0 auto;		
+		.tab-title { 
+			text-align:center;
+			@include equal-width-containers(2); 
+		}
+	}
+	&.two-tabs-aerospike-downloads { 
+	  width: 60%;
 	  margin: 0 auto;		
 		.tab-title { 
 			text-align:center;
@@ -19,17 +27,14 @@
 		.lead { 
 			color:tint($secondary-color,50%);
 		}
-		a { 
-			// padding-left:0 !important; 
-		}
 	}
-
 	.tab-title.active,
 	.tab-title.active:hover { 
 		border-bottom: none;
 	} 
 	.tab-title:hover { 
 		a { 
+			color:tint($secondary-color,50%);
 			@include headings() { 
 				color:tint($secondary-color,50%);
 			}
@@ -38,6 +43,7 @@
 	}
 	.tab-title:active { 
 		a { 
+			color:$primary-color;
 			@include headings() { 
 				color:$primary-color;
 			}
@@ -45,6 +51,7 @@
 		border-bottom: none;
 	}
 	.tab-title.active a { 
+		color:$primary-color;
 		@include headings() { 
 			color:$primary-color;
 		}

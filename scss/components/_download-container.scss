@@ -1,0 +1,4 @@
+.download-container { 
+	&.container-left { padding-right: $column-gutter; }
+	&.container-right { padding-left: $column-gutter; }
+}

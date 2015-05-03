@@ -1,0 +1,11 @@
+.content-section.additional-resources { 
+	margin-top:$column-gutter*3; 
+	margin-bottom:$column-gutter*3;
+}
+
+.additional-resources-container { 
+	@include panel; 
+	.lead { 
+		margin-bottom:0; 
+	}
+}

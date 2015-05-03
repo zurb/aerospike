@@ -1,0 +1,33 @@
+.product-offering-container { 
+	text-align:center; 
+	background-color:tint($secondary-color,90%);
+	padding:$column-gutter*1.25;
+	&.aerospike-burro { 
+		background-color:$aerospike-burro; 
+	}
+	&.aerospike-cloud { 
+		background-color:$aerospike-cloud;
+	}
+	.section-heading { 
+		line-height: $column-gutter*1.5; margin-top:rem-calc(10); margin-top:0; 
+		text-transform:uppercase; 
+		color:#fff;
+	  line-height: rem-calc(36);
+	  margin-bottom: rem-calc(20);		
+	}
+	.subhead { 
+		font-size:rem-calc(17); 
+		margin-bottom:$column-gutter; 
+		color:#fff;
+	}
+	.link-button { 
+		display: block;
+	}
+	.lead { 
+		font-size:rem-calc(15);
+		padding:0 $column-gutter*2;
+		margin-bottom:$column-gutter; 
+		margin-top:$column-gutter; 
+		color:#fff;
+	}
+}

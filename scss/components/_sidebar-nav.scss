@@ -1,0 +1,73 @@
+.sub-nav { 
+	$border-size:2px;
+	margin-left:0;
+	margin-bottom: $column-gutter;
+	margin:0 auto;
+	li a,
+	dd a { 
+	  display: inline-block;
+	  width: 100%;		
+		text-transform: uppercase;
+		font-weight:500;			
+	}
+	.active { 
+		color:$primary-color;
+	}
+	li.is-selected, 
+	dd.is-selected { 
+		border-bottom:$border-size solid $primary-color;
+		&:hover { 
+			border-bottom:$border-size solid $primary-color;		
+		}		
+	}
+	li,
+	dd { 
+		border-bottom:$border-size solid tint($secondary-color,75%);		
+		text-align:center; 
+		list-style:none; 
+		line-height: 36px;
+		margin-left:0; 
+		width:100%;
+		&:hover { 
+			border-bottom:$border-size solid tint($secondary-color,50%);		
+		}
+	}  
+	&.two-tabs { 
+		li,dd { width:50%; } 
+	}
+	&.three-tabs { 
+		li,dd { width:33%; }
+	}
+	&.four-tabs { 
+		li,dd { width:25%; }
+	}		
+	&.five-tabs { 
+		li,dd { width:20%; }
+	}		
+	&.six-tabs { 
+		li,dd { width:16.66%; }
+	}		
+	&.seven-tabs { 
+		li,dd { width:14.28%; }
+	}		
+	&.eight-tabs { 
+		li,dd { width:12.5%; }
+	}		
+	&.nine-tabs { 
+		li,dd { width:11.11%; }
+	}		
+	&.ten-tabs { 
+		li,dd { width:10%; } 
+	}		
+}
+
+.sticky-product-nav { 
+	@media #{$medium-up} {
+		background:#fff; 
+		position:fixed;
+		top:0px;
+		padding-top:50px;
+		width: 250px !important;
+		min-width:250px !important; 
+	}
+}

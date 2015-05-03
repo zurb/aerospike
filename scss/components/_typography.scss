@@ -48,6 +48,13 @@ blockquote {
 	font-size:rem-calc(36); 
 	font-weight: 500;	
 }
+.sidebar-nav-heading { 
+	text-transform: uppercase;
+	font-size:rem-calc(14);
+	width:100%;
+	padding-bottom:$column-gutter/3;
+	border-bottom:1px solid tint($secondary-color,75%); 
+}
 .subhead { 
 	font-size:20px;
 	color:#777777; 
@@ -73,7 +80,7 @@ a.primary {
 
 
 
-//Apex New Font
+//Apex New Font - Disabled becuase we're temporarily using Titllium New 
 
 // @font-face {
 //   font-family: 'Apex New';

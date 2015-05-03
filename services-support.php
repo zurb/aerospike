@@ -56,7 +56,7 @@
               <div class="tab-icons">
                 <img src="images/architecture-icons.png" alt="Aerospike Services icons"> 
               </div>
-              <ul class="tabs aerospike-custom-tabs" data-tab>
+              <ul class="tabs" data-tab>
                 <li class="tab-title even-3">
                   <a href="#services-free-sizing-consultation">
                     <h5>
@@ -199,7 +199,7 @@
         <div class="points-for-aerospike-support">
           <div class="points-for-aerospike-support-content row">
             <div class="small-12 columns">
-              <ul class="tabs aerospike-support" data-tab>
+              <ul class="tabs two-tabs" data-tab>
                 <li class="tab-title">
                   <a href="#support-community">
                     <h5>

@@ -1,6 +1,7 @@
 .hero { 
 	width:100%;
   height: 461px;
+	$inner-page-hero-height:330px;
   position: relative;
   margin-top: -77px;  
   clear: both;
@@ -11,9 +12,16 @@
 		text-align:center; 
 		z-index:3;
 	}
+	&.short-hero { 
+		@media #{$large-up} { 
+			height:$inner-page-hero-height/1.5 !important; 
+		}
+	}
 	&.inner-pages { 
 		p,a { text-align:center; }
 		@include headings() { text-align:center; }
+		height:$inner-page-hero-height; 
+		background:$primary-color url('../images/technologies-hero-unit-sm.jpg') no-repeat top center; 
 		.hero-heading { 
 		  margin-top: 119px;
 			@media #{$medium-only} { 
@@ -23,8 +31,6 @@
 			  margin-top: 197px;
 			}
 		}
-		height:330px; 
-		background:$primary-color url('../images/technologies-hero-unit-sm.jpg') no-repeat top center; 
 	}
 	@media #{$medium-only} { 
 		.hero-heading { margin-top: 95px !important; }		

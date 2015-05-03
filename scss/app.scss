@@ -15,17 +15,26 @@ $aerospike-burro: $primary-color;
 @import "mixins/link-animation";
 
 //Aerospike Components
+@import "components/additional-resources-container";
 @import "components/buttons";
 @import "components/content-section";
 @import "components/content-icon";
+@import "components/download-list";
+@import "components/download-container";
 @import "components/icons";
+@import "components/get-started-container";
 @import "components/hero-unit";
 @import "components/top-nav";
 @import "components/tab-bar";
 @import "components/tabs";
 @import "components/panels";
 @import "components/typography";
+@import "components/product-offering-container";
+@import "components/services-offering-container";
+@import "components/split-page";
 @import "components/site-footer";
+@import "components/sidebar-nav";
+@import "components/video-container";
 
 
 // Or selectively include components
