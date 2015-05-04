@@ -106,13 +106,8 @@
                       </div>
                       <div class="medium-7 small-12 columns">
                         <h3 class="article-heading">Free Sizing Consultation</h3>
-                        <p class="lead large">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <ul class="tab-content-copy">
-                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu egestas justo. Suspendisse potenti. Nunc ut mauris facilisis, ultricies tellus sed, sodales purus.</li>
-                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu egestas justo. Suspendisse potenti. Nunc ut mauris facilisis, ultricies tellus sed, sodales purus.</li>
-                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu egestas justo.</li>
-                        </ul>
-                        <a href="#" class="link-button">Learn More About Data Management</a>
+                        <p class="lead large">Not sure about how many servers or much capacity you will need? <a href="#">Contact us</a> for a free 30 minute Sizing Consult and let our architects help you size your cluster.</p>
+                        <a href="#" class="link-button">Contact us</a>
                       </div>
                     </div>
                   </div>
@@ -131,11 +126,11 @@
                           NoSQL? Want to confirm your plan for migrating from a
                           relational model to a Key Value Store approach?
                           <br><br>
-                          Contact us for a free 30 minute Data Modeling Consult
+                          <a href="#" class="primary">Contact us</a> for a free 30 minute Data Modeling Consult
                           and let our architects review your use case and data
                           model to ensure high performance access patterns.
                         </p>
-                        <a href="#" class="link-button">Learn More About Data Management</a>
+                        <a href="#" class="link-button">Contact us</a>
                       </div>
                     </div>
                   </div>
@@ -148,13 +143,10 @@
                       </div>
                       <div class="medium-7 small-12 columns">
                         <h3 class="article-heading">Developer &amp; Deployment Training</h3>
-                        <p class="lead large">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <ul class="tab-content-copy">
-                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu egestas justo. Suspendisse potenti. Nunc ut mauris facilisis, ultricies tellus sed, sodales purus.</li>
-                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu egestas justo. Suspendisse potenti. Nunc ut mauris facilisis, ultricies tellus sed, sodales purus.</li>
-                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu egestas justo.</li>
-                        </ul>
-                        <a href="#" class="link-button">Learn More About Data Management</a>
+                        <p class="lead large">
+                          Aerospike delivers training for developers and operators. Developer training includes an architecture overview, data modeling, high performance application development and an overview of Aerospike Client APIs. Step by step, hands on labs walk developers through quick installs and writing code, using key-value operations, UDFs, queries and aggregations. Deployment training covers installation, configuration, monitoring and troubleshooting so you can easily monitor your cluster, manage upgrades and add capacity.                          
+                        </p>
+                        <a href="#" class="link-button">Register for your training class today</a>
                       </div>
                     </div>
                   </div>
@@ -167,13 +159,9 @@
                       </div>
                       <div class="medium-7 small-12 columns">
                         <h3 class="article-heading">Professional Services</h3>
-                        <p class="lead large">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <ul class="tab-content-copy">
-                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu egestas justo. Suspendisse potenti. Nunc ut mauris facilisis, ultricies tellus sed, sodales purus.</li>
-                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu egestas justo. Suspendisse potenti. Nunc ut mauris facilisis, ultricies tellus sed, sodales purus.</li>
-                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu egestas justo.</li>
-                        </ul>
-                        <a href="#" class="link-button">Learn More About Data Management</a>
+                        <p class="lead large">
+                          Professional Services projects can include an assessment of your business objectives and technology environment, measurement of traffic patterns, identification of bottlenecks and hardware / software recommendations, simulations and proof of concept testing or evaluations with live loads and setup of production Aerospike clusters. In addition, these projects can provide guidance on data modeling, re-factoring and optimizing your application for low latency and high throughput as well as assistance with application development. Professional Services are available through Aerospike certified partners.                          
+                        </p>
                       </div>
                     </div>
                   </div>

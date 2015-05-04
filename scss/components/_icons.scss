@@ -1,3 +1,6 @@
 .tab-icons { 
 	text-align: center; 
+	@media #{$small-only} { 
+		display: none; 
+	}
 }

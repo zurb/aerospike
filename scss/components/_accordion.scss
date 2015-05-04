@@ -1,0 +1,35 @@
+.accordion { 
+	margin-left:0; 
+	padding:0 1px;
+	border: 1px solid tint($secondary-color,90%);	
+}
+
+.accordion-navigation.active > a:hover { 
+	background:$primary-color !important;
+}
+.accordion-navigation { 
+	> a { 
+		border-bottom:1px solid tint($secondary-color,90%);
+		border-bottom:1px solid tint($secondary-color,90%);
+	}
+	&:last-child { 
+		> a { 
+			border-bottom:none;
+			border-bottom:none;
+		}
+	}
+	> h5 { 
+		margin-bottom: 0; 
+	}
+	&.active {
+		a > h5 { 
+			color:#fff; 
+		} 
+		a > .lead { 
+			color:#fff !important; 
+		}
+	}
+	a > .lead { 
+		margin-bottom:0; 
+	}
+}

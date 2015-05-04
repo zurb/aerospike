@@ -1,9 +1,13 @@
 .content-section { 
-	margin-top:$column-gutter*2; 
-	margin-bottom:$column-gutter*2; 
 	clear:both;
 	@include clearfix();
 	h4 { margin-bottom:0; }
+	margin-top:$column-gutter; 
+	margin-bottom:$column-gutter; 
+	@media #{$large-up} { 
+		margin-top:$column-gutter*2; 
+		margin-bottom:$column-gutter*2; 
+	}
 }
 
 .page-content { 
@@ -12,15 +16,25 @@
 
 .topic-point { 
 	padding:0 $column-gutter*1.5; 
+	@media #{$small-only} { 
+		margin-bottom: $column-gutter;
+	}
 }
 
 .section-heading-container { 
-	@include headings() { text-align: center; }
-	.subhead { text-align: center; }	
+	@include headings() { text-align: center; }	
 	margin-bottom:$column-gutter*2;
 	.subhead { 
-		width:70%; 
+		text-align: center;
 		float:none;
 		margin:0 auto;
+		width:100%;
+		@media #{$medium-only} { 
+			width:90%;
+			font-size:rem-calc(18) !important;
+		} 
+		@media #{$large-up} { 
+			width:70%;
+		} 
 	}
 }

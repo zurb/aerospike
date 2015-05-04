@@ -74,7 +74,8 @@
         <h4><a href="#">Always On Architecture</a></h4>
         <p class="lead">…</p>
       </div> 
-    </div>      
+    </div> 
+    <!--  Need to reduce to 9 for this page
     <div class="points-for-benefits-content row">
       <div class="topic-point medium-4 small-12 columns">
         <a href="#">
@@ -120,6 +121,7 @@
         <h4><a href="#">Role Based Security*</a></h4>
         <p class="lead">Easy to manage role-based authorization ensures users and applications will only be able to access permitted data and operations.</p>
       </div> 
+      -->
     </div>                  
     <div class="call-to-action row">
       <div class="small-12 columns">

@@ -7,7 +7,10 @@
   clear: both;
   @include clearfix();
 	background:$primary-color url('../images/home-hero-unit-sm.jpg') no-repeat top center; 
-	// background-color:$primary-color; 
+	p,a { text-align:center; }
+	@include headings() { 
+		text-align:center; 
+	}
 	.hero-bg-image-container { 
 		text-align:center; 
 		z-index:3;
@@ -19,7 +22,9 @@
 	}
 	&.inner-pages { 
 		p,a { text-align:center; }
-		@include headings() { text-align:center; }
+		@include headings() { 
+			text-align:center; 
+		}
 		height:$inner-page-hero-height; 
 		background:$primary-color url('../images/technologies-hero-unit-sm.jpg') no-repeat top center; 
 		.hero-heading { 
@@ -32,7 +37,33 @@
 			}
 		}
 	}
+	@media #{$small-only} { 
+		text-align:center; 
+		.hero-slash-line { display:none; }
+		.hero-heading.hero-unit { 
+			margin-top:95px; 
+			font-size: 28px !important;
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.lead.hero-unit { 
+		  font-size: rem-calc(14) !important;
+		  line-height: rem-calc(18);
+		  width: 90%;
+		  margin: 0 auto;
+		  margin-top: $column-gutter/1.33;
+		} 
+		.button { 
+		  margin-bottom: $column-gutter/3;
+		  margin-top: $column-gutter/1.5;
+		  font-size: rem-calc(15);
+		}
+	}	
 	@media #{$medium-only} { 
+		p,a { text-align:left; }
+		@include headings() { 
+			text-align:left; 
+		}		
 		.hero-heading { margin-top: 95px !important; }		
 		background: $primary-color url('../images/home-hero-unit-md.jpg') no-repeat top center;
 		height:737px; 
@@ -42,6 +73,10 @@
 		}		
 	}	
 	@media #{$large-up} { 
+		p,a { text-align:left; }
+		@include headings() { 
+			text-align:left; 
+		}				
 		background: $primary-color url('../images/home-hero-unit-lg.jpg') no-repeat top center;
 		height:902px; 
 		&.inner-pages { 
@@ -54,9 +89,7 @@
 		bottom:-2px; //to adjust for browser resize nosense
 		width:100%;
 	  z-index: 1;
-	}
-	@media #{$small-only} { 
-		.hero-slash-line { display:none; }
+	  left:0;
 	}
 	.hero-slash-line { 
 	  position: absolute;

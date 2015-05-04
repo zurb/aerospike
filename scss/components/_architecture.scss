@@ -1,5 +1,4 @@
 // 4. Architecture & Technology Overview 
-
 .content-section.architecture { 
 	margin-top:$column-gutter*2; 	
 	.lead { color:tint($secondary-color,50%); }
@@ -15,3 +14,18 @@
 .architecture-points { 
 	.content-icon { display: none; }
 } 
+
+@media #{$small-only} { 
+	.content-section.architecture { 
+		.link-button { 
+			clear:both;
+			display:block;
+			margin-top:$column-gutter/2;
+			margin-bottom:$column-gutter/2;
+		}
+	}
+	.content-diagram { 
+		margin-top:$column-gutter;
+		margin-bottom:$column-gutter;
+	}
+}

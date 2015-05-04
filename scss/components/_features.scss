@@ -1,11 +1,27 @@
 // 2. Features 
 .content-section.features { 
 	margin-top:0; 
-	padding-top:$column-gutter*3; 
-	padding-bottom:$column-gutter*3;
+	padding-top:$column-gutter*1.5; 
+	padding-bottom:$column-gutter*1.5;
+	@media #{$medium-only} { 
+		padding-top:$column-gutter*2; 
+		padding-bottom:$column-gutter*2;
+	}
+	@media #{$large-up} { 
+		padding-top:$column-gutter*3; 
+		padding-bottom:$column-gutter*3;
+	}
+
 	text-align:center;
-	.points-for-features-content { margin-bottom:$column-gutter*1.5; }
-	.points-for-features-content.last { margin-bottom:0; } 
+	.points-for-features-content { 
+		margin-bottom:$column-gutter*1.5; 
+		@media #{$small-only} { 
+			margin-bottom:0;
+		}
+	}
+	.points-for-features-content.last { 
+		margin-bottom:0; 
+	} 
 	.button { 
 		margin-top:$column-gutter; 
 	}

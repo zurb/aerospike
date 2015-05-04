@@ -15,6 +15,7 @@ $aerospike-burro: $primary-color;
 @import "mixins/link-animation";
 
 //Aerospike Site Components
+@import "components/accordion";
 @import "components/buttons";
 @import "components/callouts";
 @import "components/content-icon";
