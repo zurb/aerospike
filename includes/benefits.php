@@ -49,7 +49,7 @@
           <img src="http://placehold.it/100x100" class="content-icon" alt="Large Data Types">        
         </a>
         <h4><a href="#">Easy to Get Started</a></h4>
-        <p class="lead">Developers can quickly get up and running with client libraries in over 11 programming languages using intuitive APIs. A schemaless data model allows you to store data with any structure without defining a schema, which allows you to easily evolve your data overtime. Immediate consistency...</p>
+        <p class="lead">Developers can quickly get up and running with client libraries in over 11 programming languages using intuitive APIs. A schemaless data model allows you to store data with any structure without defining a schema, which allows you to easily evolve your data overtime.</p>
       </div> 
     </div>
     <div class="points-for-benefits-content row">

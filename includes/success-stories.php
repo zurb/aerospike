@@ -14,7 +14,7 @@
           </a>
           <h4>
             <a href="#" class="success-story-category">AdTech</a>
-            <span>AppNexus</span>
+            <span><a href="#">AppNexus</a></span>
           </h4>
           <p class="lead">AppNexus is the world’s largest, independent, real-time ad technology platform powering the most innovative trading solutions and marketplaces for Internet advertising.</p>
           <p class="lead"><strong>Why AppNexus chose Aerospike over other databases</strong></p>
@@ -33,7 +33,7 @@
           </a>
           <h4>
             <a href="#" class="success-story-category">E-Commerce</a>
-            <span>SnapDeal</span>
+            <span><a href="#">SnapDeal</a></span>
           </h4>
           <p class="lead">With 500% growth in 2013 and revenue projected to exceed $1 billion by 2015, Snapdeal is what many people would consider an overnight success story.</p>
           <p class="lead"><strong>Why SnapDeal choose Aerospike over other databases</strong></p>
@@ -55,7 +55,7 @@
           </a>
           <h4>
             <a href="#" class="success-story-category">Travel</a>
-            <span>Kayak</span>
+            <span><a href="#">Kayak</a></span>
           </h4>
           <p class="lead">Operating in 34 countries and 18 languages, KAYAK enables travelers to easily compare hundreds of travel sites with one search and processes over one billion queries a year.</p>
           <p class="lead"><strong>Why Kayak chose Aerospike over other databases</strong></p>
@@ -73,7 +73,7 @@
           </a>
           <h4>
             <a href="#" class="success-story-category">Financial</a>
-            <span>Charles Schwab</span>
+            <span><a href="#">Charles Schwab</a></span>
           </h4>
           <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum massa at erat egestas, ut laoreet orci blandit. Donec venenatis in sapien in lobortis.</p>
           <p class="lead"><strong>Why Charles Schwab choose Aerospike over other databases</strong></p>

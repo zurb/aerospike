@@ -28,7 +28,9 @@
 		height:$inner-page-hero-height; 
 		background:$primary-color url('../images/technologies-hero-unit-sm.jpg') no-repeat top center; 
 		.hero-heading { 
-		  margin-top: 119px;
+		  @media #{$small-only} { 
+		  	margin-top: 119px !important;
+		  }
 			@media #{$medium-only} { 
 				margin-top:156px !important;
 			}
@@ -94,8 +96,18 @@
 	.hero-slash-line { 
 	  position: absolute;
 	  left: 50%;
+	  top:0;
 	  z-index: -1;
     margin-left: -86px;
+    @media #{$small-only} { 
+    	display: none;
+    }
+    @media screen and (min-width:640px) and (max-width:740px) { 
+		  display: none;
+    }
+    @media #{$medium-only} { 
+		  top: -90px;
+    }
 	}
 	.hero-heading { 
 	  margin-top: 155px;

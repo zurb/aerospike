@@ -9537,9 +9537,11 @@ th.hide-for-touch {
 .hero.inner-pages h6 {
   text-align: center;
 }
-/* line 30, ../scss/components/_hero-unit.scss */
-.hero.inner-pages .hero-heading {
-  margin-top: 119px;
+@media only screen and (max-width: 40em) {
+  /* line 30, ../scss/components/_hero-unit.scss */
+  .hero.inner-pages .hero-heading {
+    margin-top: 119px !important;
+  }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 30, ../scss/components/_hero-unit.scss */
@@ -9558,18 +9560,18 @@ th.hide-for-touch {
   .hero {
     text-align: center;
   }
-  /* line 42, ../scss/components/_hero-unit.scss */
+  /* line 44, ../scss/components/_hero-unit.scss */
   .hero .hero-slash-line {
     display: none;
   }
-  /* line 43, ../scss/components/_hero-unit.scss */
+  /* line 45, ../scss/components/_hero-unit.scss */
   .hero .hero-heading.hero-unit {
     margin-top: 95px;
     font-size: 28px !important;
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 49, ../scss/components/_hero-unit.scss */
+  /* line 51, ../scss/components/_hero-unit.scss */
   .hero .lead.hero-unit {
     font-size: 0.875rem !important;
     line-height: 1.125rem;
@@ -9577,7 +9579,7 @@ th.hide-for-touch {
     margin: 0 auto;
     margin-top: 1.40977rem;
   }
-  /* line 56, ../scss/components/_hero-unit.scss */
+  /* line 58, ../scss/components/_hero-unit.scss */
   .hero .button {
     margin-bottom: 0.625rem;
     margin-top: 1.25rem;
@@ -9590,7 +9592,7 @@ th.hide-for-touch {
     background: #c31618 url("../images/home-hero-unit-md.jpg") no-repeat top center;
     height: 737px;
   }
-  /* line 63, ../scss/components/_hero-unit.scss */
+  /* line 65, ../scss/components/_hero-unit.scss */
   .hero p, .hero a {
     text-align: left;
   }
@@ -9618,11 +9620,11 @@ th.hide-for-touch {
   .hero h6 {
     text-align: left;
   }
-  /* line 67, ../scss/components/_hero-unit.scss */
+  /* line 69, ../scss/components/_hero-unit.scss */
   .hero .hero-heading {
     margin-top: 95px !important;
   }
-  /* line 70, ../scss/components/_hero-unit.scss */
+  /* line 72, ../scss/components/_hero-unit.scss */
   .hero.inner-pages {
     height: 528px;
     background: #c31618 url("../images/technologies-hero-unit-md.jpg") no-repeat top center;
@@ -9634,7 +9636,7 @@ th.hide-for-touch {
     background: #c31618 url("../images/home-hero-unit-lg.jpg") no-repeat top center;
     height: 902px;
   }
-  /* line 76, ../scss/components/_hero-unit.scss */
+  /* line 78, ../scss/components/_hero-unit.scss */
   .hero p, .hero a {
     text-align: left;
   }
@@ -9662,13 +9664,13 @@ th.hide-for-touch {
   .hero h6 {
     text-align: left;
   }
-  /* line 82, ../scss/components/_hero-unit.scss */
+  /* line 84, ../scss/components/_hero-unit.scss */
   .hero.inner-pages {
     height: 646px;
     background: #c31618 url("../images/technologies-hero-unit-lg.jpg") no-repeat top center;
   }
 }
-/* line 87, ../scss/components/_hero-unit.scss */
+/* line 89, ../scss/components/_hero-unit.scss */
 .hero .hero-mask {
   position: absolute;
   bottom: -2px;
@@ -9676,22 +9678,41 @@ th.hide-for-touch {
   z-index: 1;
   left: 0;
 }
-/* line 94, ../scss/components/_hero-unit.scss */
+/* line 96, ../scss/components/_hero-unit.scss */
 .hero .hero-slash-line {
   position: absolute;
   left: 50%;
+  top: 0;
   z-index: -1;
   margin-left: -86px;
 }
-/* line 100, ../scss/components/_hero-unit.scss */
+@media only screen and (max-width: 40em) {
+  /* line 96, ../scss/components/_hero-unit.scss */
+  .hero .hero-slash-line {
+    display: none;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 740px) {
+  /* line 96, ../scss/components/_hero-unit.scss */
+  .hero .hero-slash-line {
+    display: none;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 96, ../scss/components/_hero-unit.scss */
+  .hero .hero-slash-line {
+    top: -90px;
+  }
+}
+/* line 112, ../scss/components/_hero-unit.scss */
 .hero .hero-heading {
   margin-top: 155px;
 }
-/* line 103, ../scss/components/_hero-unit.scss */
+/* line 115, ../scss/components/_hero-unit.scss */
 .hero p {
   color: #fff;
 }
-/* line 104, ../scss/components/_hero-unit.scss */
+/* line 116, ../scss/components/_hero-unit.scss */
 .hero .lead {
   color: #fff;
   margin-top: 30px;
@@ -10149,49 +10170,48 @@ blockquote:before {
 /* line 40, ../scss/components/_typography.scss */
 .section-heading {
   font-weight: 500;
-  margin-bottom: 0;
 }
 @media only screen and (max-width: 40em) {
   /* line 40, ../scss/components/_typography.scss */
   .section-heading {
     font-size: 1.75rem;
-    line-height: 2.25rem;
+    line-height: 1.75rem;
   }
 }
 @media only screen and (min-width: 40.063em) {
   /* line 40, ../scss/components/_typography.scss */
   .section-heading {
     font-size: 2.75rem;
-    line-height: 4.0625rem;
+    line-height: 2.3125rem;
   }
 }
-/* line 51, ../scss/components/_typography.scss */
+/* line 50, ../scss/components/_typography.scss */
 .section-heading .metadata {
   display: block;
   font-size: 0.875rem;
   text-transform: uppercase;
 }
 
-/* line 57, ../scss/components/_typography.scss */
+/* line 56, ../scss/components/_typography.scss */
 .article-heading {
   font-weight: 500;
 }
 @media only screen and (max-width: 40em) {
-  /* line 57, ../scss/components/_typography.scss */
+  /* line 56, ../scss/components/_typography.scss */
   .article-heading {
     font-size: 1.3125rem;
     line-height: 1.75rem;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 57, ../scss/components/_typography.scss */
+  /* line 56, ../scss/components/_typography.scss */
   .article-heading {
     font-size: 2.25rem;
     line-height: 4.0625rem;
   }
 }
 
-/* line 68, ../scss/components/_typography.scss */
+/* line 67, ../scss/components/_typography.scss */
 .sidebar-nav-heading {
   text-transform: uppercase;
   font-size: 0.875rem;
@@ -10200,56 +10220,56 @@ blockquote:before {
   border-bottom: 1px solid #c7c7c7;
 }
 
-/* line 75, ../scss/components/_typography.scss */
+/* line 74, ../scss/components/_typography.scss */
 .subhead {
-  clear: both;
-  margin-top: 1.875rem;
   color: #6f6f6f;
   font-weight: 300;
   font-size: 1.0625rem;
   line-height: 1.3125rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 75, ../scss/components/_typography.scss */
+  /* line 74, ../scss/components/_typography.scss */
   .subhead {
     font-size: 1.25rem !important;
     line-height: 1.625rem !important;
   }
 }
 
-/* line 87, ../scss/components/_typography.scss */
+/* line 84, ../scss/components/_typography.scss */
 .lead {
   font-size: 1rem !important;
   font-weight: 300;
 }
-/* line 90, ../scss/components/_typography.scss */
+/* line 87, ../scss/components/_typography.scss */
 .lead.large {
   font-size: 1rem !important;
   line-height: 1.3125rem;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 90, ../scss/components/_typography.scss */
+  /* line 87, ../scss/components/_typography.scss */
   .lead.large {
     font-size: 1.125rem !important;
+    line-height: 1.8125rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 90, ../scss/components/_typography.scss */
+  /* line 87, ../scss/components/_typography.scss */
   .lead.large {
     font-size: 1.1875rem !important;
+    line-height: 2rem;
   }
 }
 
-/* line 102, ../scss/components/_typography.scss */
+/* line 100, ../scss/components/_typography.scss */
 a.primary {
   position: relative;
   color: #c31618;
 }
-/* line 105, ../scss/components/_typography.scss */
+/* line 103, ../scss/components/_typography.scss */
 a.primary:hover {
   color: #880f11;
 }
-/* line 108, ../scss/components/_typography.scss */
+/* line 106, ../scss/components/_typography.scss */
 a.primary:active {
   color: #750d0e;
 }
@@ -10348,12 +10368,8 @@ a.primary:active {
 }
 /* line 43, ../scss/components/_site-footer.scss */
 .aerospike-footer .nav-core {
-  margin-bottom: 0.46875rem;
   margin-left: 0 !important;
-}
-/* line 45, ../scss/components/_site-footer.scss */
-.aerospike-footer .nav-core.right a {
-  font-size: 0.875rem;
+  margin-bottom: 0.46875rem;
 }
 /* line 46, ../scss/components/_site-footer.scss */
 .aerospike-footer .nav-core a {
@@ -10367,10 +10383,24 @@ a.primary:active {
 .aerospike-footer .nav-core a:active {
   color: #eeeeee;
 }
+/* line 55, ../scss/components/_site-footer.scss */
+.aerospike-footer .nav-core.nav-left {
+  float: left;
+}
+/* line 56, ../scss/components/_site-footer.scss */
+.aerospike-footer .nav-core.nav-right {
+  float: left;
+}
+/* line 57, ../scss/components/_site-footer.scss */
+.aerospike-footer .nav-core.nav-right a {
+  font-size: 0.875rem;
+}
 @media only screen and (max-width: 40em) {
   /* line 43, ../scss/components/_site-footer.scss */
   .aerospike-footer .nav-core {
     clear: both;
+    width: 100%;
+    text-align: center;
   }
   /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
   .aerospike-footer .nav-core:before, .aerospike-footer .nav-core:after {
@@ -10380,14 +10410,18 @@ a.primary:active {
   /* line 173, ../bower_components/foundation/scss/foundation/components/_global.scss */
   .aerospike-footer .nav-core:after {
     clear: both;
+  }
+  /* line 63, ../scss/components/_site-footer.scss */
+  .aerospike-footer .nav-core .getting-started-button {
+    margin-top: 0.9375rem;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 43, ../scss/components/_site-footer.scss */
   .aerospike-footer .nav-core {
     clear: both;
-    width: 33%;
-    float: left;
+    width: 100%;
+    text-align: center;
   }
   /* line 172, ../bower_components/foundation/scss/foundation/components/_global.scss */
   .aerospike-footer .nav-core:before, .aerospike-footer .nav-core:after {
@@ -10398,8 +10432,27 @@ a.primary:active {
   .aerospike-footer .nav-core:after {
     clear: both;
   }
+  /* line 72, ../scss/components/_site-footer.scss */
+  .aerospike-footer .nav-core .getting-started-button {
+    margin-top: 0.9375rem;
+  }
 }
-/* line 66, ../scss/components/_site-footer.scss */
+@media only screen and (min-width: 64.063em) {
+  /* line 43, ../scss/components/_site-footer.scss */
+  .aerospike-footer .nav-core {
+    width: auto;
+    float: left;
+  }
+  /* line 79, ../scss/components/_site-footer.scss */
+  .aerospike-footer .nav-core.nav-left {
+    float: left;
+  }
+  /* line 82, ../scss/components/_site-footer.scss */
+  .aerospike-footer .nav-core.nav-right {
+    float: right;
+  }
+}
+/* line 86, ../scss/components/_site-footer.scss */
 .aerospike-footer .nav-core a {
   font-size: 1.0625rem;
 }
@@ -10410,39 +10463,55 @@ a.primary:active {
     float: left;
   }
 }
-/* line 72, ../scss/components/_site-footer.scss */
+/* line 92, ../scss/components/_site-footer.scss */
 .aerospike-footer .nav-legal {
   float: left;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 72, ../scss/components/_site-footer.scss */
+@media only screen and (max-width: 40em) {
+  /* line 92, ../scss/components/_site-footer.scss */
   .aerospike-footer .nav-legal {
-    width: 33%;
+    text-align: center;
+    margin-top: 0.625rem;
+    padding-top: 0.625rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    clear: both;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 92, ../scss/components/_site-footer.scss */
+  .aerospike-footer .nav-legal {
+    text-align: center;
+    margin-top: 0.625rem;
+    padding-top: 0.625rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    clear: both;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 72, ../scss/components/_site-footer.scss */
+  /* line 92, ../scss/components/_site-footer.scss */
   .aerospike-footer .nav-legal {
     float: left;
     clear: both;
   }
-  /* line 81, ../scss/components/_site-footer.scss */
+  /* line 114, ../scss/components/_site-footer.scss */
   .aerospike-footer .nav-legal li:first-child {
     margin-left: 0;
   }
-  /* line 82, ../scss/components/_site-footer.scss */
+  /* line 115, ../scss/components/_site-footer.scss */
   .aerospike-footer .nav-legal li {
     margin-left: 0.3125rem;
     margin-right: 0.3125rem;
   }
 }
-/* line 87, ../scss/components/_site-footer.scss */
+/* line 120, ../scss/components/_site-footer.scss */
 .aerospike-footer .nav-legal strong {
   font-size: 0.875rem;
   color: #fff;
 }
-/* line 88, ../scss/components/_site-footer.scss */
+/* line 121, ../scss/components/_site-footer.scss */
 .aerospike-footer .nav-legal a {
   font-size: 0.875rem;
   text-transform: none;
@@ -10731,21 +10800,39 @@ a.primary:active {
     margin-bottom: 1.875rem;
   }
 }
-/* line 3, ../scss/components/_benefits.scss */
+/* line 2, ../scss/components/_benefits.scss */
 .content-section.benefits {
-  padding-top: 5.625rem;
-  padding-bottom: 5.625rem;
   text-align: center;
 }
-/* line 7, ../scss/components/_benefits.scss */
+@media only screen and (max-width: 40em) {
+  /* line 2, ../scss/components/_benefits.scss */
+  .content-section.benefits {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 2, ../scss/components/_benefits.scss */
+  .content-section.benefits {
+    padding-top: 2.8125rem;
+    padding-bottom: 2.8125rem;
+  }
+}
+/* line 12, ../scss/components/_benefits.scss */
 .content-section.benefits .points-for-benefits-content {
   margin-bottom: 2.8125rem;
 }
-/* line 8, ../scss/components/_benefits.scss */
+@media only screen and (max-width: 40em) {
+  /* line 12, ../scss/components/_benefits.scss */
+  .content-section.benefits .points-for-benefits-content {
+    margin-bottom: 0;
+  }
+}
+/* line 18, ../scss/components/_benefits.scss */
 .content-section.benefits .points-for-benefits-content.last {
   margin-bottom: 0;
 }
-/* line 9, ../scss/components/_benefits.scss */
+/* line 21, ../scss/components/_benefits.scss */
 .content-section.benefits .button {
   margin-top: 1.875rem;
 }
@@ -10759,6 +10846,17 @@ a.primary:active {
   margin-bottom: 0.9375rem;
 }
 
+/* line 7, ../scss/components/_brands.scss */
+.brands-container {
+  text-align: center;
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 14, ../scss/components/_brands.scss */
+  .brands-container img {
+    padding: 0.3125rem;
+  }
+}
 /* line 2, ../scss/components/_download-container.scss */
 .download-container.container-left {
   padding-right: 1.875rem;
@@ -10796,9 +10894,15 @@ a.primary:active {
 
 /* line 2, ../scss/components/_events.scss */
 .content-section.event {
-  padding: 7.5rem 0;
+  padding: 3.75rem 0;
   color: #fff;
   text-align: center;
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 2, ../scss/components/_events.scss */
+  .content-section.event {
+    padding: 7.5rem 0;
+  }
 }
 /* line 3, ../scss/mixins/_headings.scss */
 .content-section.event h1 {
@@ -10824,12 +10928,16 @@ a.primary:active {
 .content-section.event h6 {
   color: #fff !important;
 }
-/* line 7, ../scss/components/_events.scss */
+/* line 10, ../scss/components/_events.scss */
 .content-section.event .button {
   margin-bottom: 0;
 }
-/* line 8, ../scss/components/_events.scss */
+/* line 11, ../scss/components/_events.scss */
 .content-section.event .section-heading-container {
+  margin-bottom: 0.9375rem;
+}
+/* line 12, ../scss/components/_events.scss */
+.content-section.event .section-heading-container .section-heading {
   margin-bottom: 0.9375rem;
 }
 
@@ -10871,6 +10979,7 @@ a.primary:active {
 /* line 25, ../scss/components/_features.scss */
 .content-section.features .button {
   margin-top: 1.875rem;
+  margin-bottom: 0;
 }
 
 /* line 3, ../scss/components/_get-involved-with-community.scss */
@@ -10996,78 +11105,164 @@ a.primary:active {
   margin-bottom: 0.9375rem;
 }
 
-/* line 3, ../scss/components/_message-from-founders.scss */
+/* line 2, ../scss/components/_message-from-founders.scss */
 .content-section.message-from-the-founders {
   margin-bottom: 3.75rem;
 }
-/* line 5, ../scss/components/_message-from-founders.scss */
+/* line 4, ../scss/components/_message-from-founders.scss */
 .content-section.message-from-the-founders .points-for-message-from-the-founders-content {
   text-align: center;
 }
-/* line 6, ../scss/components/_message-from-founders.scss */
+/* line 7, ../scss/components/_message-from-founders.scss */
+.content-section.message-from-the-founders .section-heading-container {
+  margin-bottom: 1.875rem;
+}
+/* line 10, ../scss/components/_message-from-founders.scss */
 .content-section.message-from-the-founders .lead {
   margin-top: 1.875rem;
   font-size: 1.5rem !important;
 }
-/* line 10, ../scss/components/_message-from-founders.scss */
+/* line 14, ../scss/components/_message-from-founders.scss */
 .content-section.message-from-the-founders .button {
   margin-top: 1.875rem;
 }
 
-/* line 6, ../scss/components/_success-stories.scss */
+@media only screen and (max-width: 40em) {
+  /* line 2, ../scss/components/_success-stories.scss */
+  .content-section.case-studies {
+    margin-top: 3.75rem;
+  }
+  /* line 5, ../scss/components/_success-stories.scss */
+  .content-section.case-studies .section-heading-container .link-button {
+    display: block;
+    margin-top: 0.9375rem;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 12, ../scss/components/_success-stories.scss */
+  .points-for-success-stories {
+    text-align: center;
+  }
+  /* line 15, ../scss/components/_success-stories.scss */
+  .points-for-success-stories .link-button {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+}
+
+/* line 23, ../scss/components/_success-stories.scss */
 .success-story-thumbnail {
   border: 1px solid #e8e8e8;
   padding: 0.3125rem;
   margin-bottom: 0.9375rem;
 }
-/* line 8, ../scss/components/_success-stories.scss */
+/* line 25, ../scss/components/_success-stories.scss */
 .success-story-thumbnail:hover {
   border: 1px solid #bcbcbc;
 }
-/* line 11, ../scss/components/_success-stories.scss */
+/* line 28, ../scss/components/_success-stories.scss */
 .success-story-thumbnail:active {
   border: 1px solid #c31618;
 }
 
-/* line 18, ../scss/components/_success-stories.scss */
+/* line 35, ../scss/components/_success-stories.scss */
 .success-story-category {
   display: block;
   text-transform: uppercase;
   font-size: 0.8125rem;
   color: #c31618;
 }
-/* line 23, ../scss/components/_success-stories.scss */
+/* line 40, ../scss/components/_success-stories.scss */
 .success-story-category:hover {
   color: #a51214;
 }
-/* line 24, ../scss/components/_success-stories.scss */
+/* line 41, ../scss/components/_success-stories.scss */
 .success-story-category:active {
   color: #880f10;
 }
 
-/* line 27, ../scss/components/_success-stories.scss */
+/* line 44, ../scss/components/_success-stories.scss */
 .success-story-container {
-  padding: 0 2.8125rem;
+  padding: 0 0.9375rem;
   margin-bottom: 2.8125rem;
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 44, ../scss/components/_success-stories.scss */
+  .success-story-container {
+    padding: 0 1.875rem;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 44, ../scss/components/_success-stories.scss */
+  .success-story-container {
+    padding: 0 2.8125rem;
+  }
+}
 
-/* line 3, ../scss/components/_problem-solution.scss */
+/* line 2, ../scss/components/_problem-solution.scss */
 .content-section.problem-solution {
   margin: 5.625rem 0;
 }
+@media only screen and (max-width: 40em) {
+  /* line 2, ../scss/components/_problem-solution.scss */
+  .content-section.problem-solution {
+    margin: 3.75rem 0;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0 0.9375rem;
+  }
+  /* line 9, ../scss/components/_problem-solution.scss */
+  .content-section.problem-solution .the-solution {
+    margin-top: 1.875rem;
+  }
+}
 
-/* line 3, ../scss/components/_product-offering.scss */
+/* line 2, ../scss/components/_product-offering.scss */
 .content-section.product-offering {
   margin-bottom: 3.75rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 2, ../scss/components/_product-offering.scss */
+  .content-section.product-offering {
+    margin-top: 3.75rem;
+  }
 }
 /* line 5, ../scss/components/_product-offering.scss */
 .content-section.product-offering .section-heading-container {
   text-align: center;
-  margin-bottom: 3.75rem;
+  margin-bottom: 1.875rem;
 }
-/* line 8, ../scss/components/_product-offering.scss */
-.content-section.product-offering .section-heading-container .lead {
-  padding: 1.875rem 7.5rem 0;
+@media only screen and (min-width: 40.063em) {
+  /* line 5, ../scss/components/_product-offering.scss */
+  .content-section.product-offering .section-heading-container {
+    margin-bottom: 3.75rem;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 9, ../scss/components/_product-offering.scss */
+  .content-section.product-offering .section-heading-container .lead {
+    padding: 0.46875rem 0.46875rem 0;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 9, ../scss/components/_product-offering.scss */
+  .content-section.product-offering .section-heading-container .lead {
+    padding: 1.875rem 3.75rem 0;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 9, ../scss/components/_product-offering.scss */
+  .content-section.product-offering .section-heading-container .lead {
+    padding: 1.875rem 7.5rem 0;
+  }
+}
+@media only screen and (max-width: 40em) {
+  /* line 16, ../scss/components/_product-offering.scss */
+  .content-section.product-offering .aerospike-cloud {
+    margin-top: 1.875rem;
+  }
 }
 
 /* line 1, ../scss/components/_product-offering-container.scss */
@@ -11107,10 +11302,22 @@ a.primary:active {
 /* line 26, ../scss/components/_product-offering-container.scss */
 .product-offering-container .lead {
   font-size: 0.9375rem;
-  padding: 0 3.75rem;
+  padding: 0 0.9375rem;
   margin-bottom: 1.875rem;
   margin-top: 1.875rem;
   color: #fff;
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 26, ../scss/components/_product-offering-container.scss */
+  .product-offering-container .lead {
+    padding: 0 1.875rem;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 26, ../scss/components/_product-offering-container.scss */
+  .product-offering-container .lead {
+    padding: 0 3.75rem;
+  }
 }
 
 /* line 1, ../scss/components/_services-offering-container.scss */

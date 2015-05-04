@@ -1,7 +1,7 @@
 <footer class="aerospike-footer">
   <div class="row">
     <div class="small-12 columns">
-      <ul class="nav-core left">
+      <ul class="nav-core nav-left">
         <li>
           <a href="technologies.php">Technologies</a>
         </li>
@@ -12,7 +12,7 @@
           <a href="success-stories.php">Success Stories</a>
         </li>
       </ul>
-      <ul class="nav-core right">    
+      <ul class="nav-core nav-right">    
         <li>
           <a href="docs.php">Docs</a>
         </li>    

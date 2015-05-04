@@ -3,3 +3,16 @@
 	margin-top:$column-gutter*2;
 	.section-heading-container { margin-bottom: $column-gutter/2; }
 }
+
+.brands-container { 
+	text-align:center;
+}
+
+
+@media #{$small-only} { 
+	.brands-container { 
+		img { 
+			padding:$column-gutter/6;
+		}
+	}
+}

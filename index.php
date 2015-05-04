@@ -8,8 +8,7 @@
     <?php include("includes/nav.php"); ?>
     <section class="main-section">
       <section class="hero">
-        <img data-interchange="[images/gray-triangle-mask.svg, (default)], [images/gray-triangle-mask-xlarge.svg, (xlarge)]" alt="mask" class="hero-mask">
-        <noscript><img src="images/gray-triangle-mask.svg" alt="mask" class="hero-mask"></noscript>      
+        <?php include("includes/image-mask.php"); ?>    
         <div class="row">
           <div class="small-12 medium-7 large-6 medium-offset-5 large-offset-6 columns">
             <h1 class="hero-heading hero-unit">Aerospike is the <strong>distributed key-value store</strong> that delivers speed at scale.</h1>

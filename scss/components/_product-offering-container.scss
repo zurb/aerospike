@@ -25,7 +25,9 @@
 	}
 	.lead { 
 		font-size:rem-calc(15);
-		padding:0 $column-gutter*2;
+		padding:0 $column-gutter/2;
+		@media #{$medium-only} { padding:0 $column-gutter; }
+		@media #{$large-up} { padding:0 $column-gutter*2; } 
 		margin-bottom:$column-gutter; 
 		margin-top:$column-gutter; 
 		color:#fff;

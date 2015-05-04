@@ -1,5 +1,13 @@
-
 // 1. Problem-Solution
 .content-section.problem-solution { 
 	margin:$column-gutter*3 0;
+	@media #{$small-only} { 
+		margin:$column-gutter*2 0;
+		text-align:center;
+		margin-bottom:0;
+		padding:0 $column-gutter/2;
+		.the-solution { 
+			margin-top:$column-gutter;
+		}		
+	}
 }

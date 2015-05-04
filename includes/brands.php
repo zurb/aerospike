@@ -6,7 +6,7 @@
       </h4>
     </div>
   </div>
-  <div class="row">
+  <div class="row brands-container">
     <div class="small-6 medium-2 columns">
       <a href="#">
         <img src="images/brands-adform.png" alt="AdForm">

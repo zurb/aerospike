@@ -39,14 +39,13 @@ blockquote {
 }
 .section-heading { 
 	font-weight:500;
-	margin-bottom:0;
   @media #{$small-only} { 
 	  font-size: rem-calc(28);
-	  line-height: rem-calc(36);
+	  line-height: rem-calc(28);
   } 	
 	@media #{$medium-up} { 
 		font-size:rem-calc(44); 
-		line-height: rem-calc(65);
+		line-height: rem-calc(37);
 	}
 	.metadata { 
 		display:block; 
@@ -73,8 +72,6 @@ blockquote {
 	border-bottom:1px solid tint($secondary-color,75%); 
 }
 .subhead { 
-	clear:both;
-	margin-top:$column-gutter;
 	color:tint($secondary-color,35%); 
 	font-weight: 300;
 	font-size:rem-calc(17);
@@ -92,11 +89,12 @@ blockquote {
 		line-height: rem-calc(21);
 		@media #{$medium-only} { 
 			font-size:rem-calc(18) !important;
+			line-height: rem-calc(29);
 		}		
 		@media #{$large-up} { 
 			font-size:rem-calc(19) !important;
+			line-height: rem-calc(32);
 		}
-		 
 	}
 } 
 a.primary { 

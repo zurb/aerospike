@@ -1,12 +1,20 @@
-
 // 9. Product Offering on Services Page
 .content-section.product-offering { 
+	@media #{$small-only} { margin-top:$column-gutter*2; }  
 	margin-bottom:$column-gutter*2; 
 	.section-heading-container { 
 		text-align:center; 
-		margin-bottom:$column-gutter*2;
+		margin-bottom:$column-gutter;
+		@media #{$medium-up} { margin-bottom:$column-gutter*2; } 
 		.lead { 
-			padding:$column-gutter $column-gutter * 4 0; 
+			@media #{$small-only} { padding:$column-gutter/4 $column-gutter/4 0; } 
+			@media #{$medium-only} { padding:$column-gutter $column-gutter * 2 0; } 
+			@media #{$large-up} { padding:$column-gutter $column-gutter * 4 0; }  
+		}
+	}
+	@media #{$small-only} { 
+		.aerospike-cloud { 
+			margin-top:$column-gutter;
 		}
 	}
 }

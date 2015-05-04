@@ -1,6 +1,23 @@
 // 5. Success Stories 
-.points-for-success-stories { 
+.content-section.case-studies { 
+	@media #{$small-only} { 
+		margin-top:$column-gutter*2;
+		.section-heading-container .link-button { 
+			display:block; 
+			margin-top:$column-gutter/2;
+		}
+	}
+}
 
+.points-for-success-stories { 
+	@media #{$small-only} { 
+		text-align: center;
+		.link-button {
+			text-align:center;
+			width: 100%;
+			display: block;			
+		}
+	}
 }
 
 .success-story-thumbnail { 
@@ -25,6 +42,12 @@
 }
 
 .success-story-container { 
-	padding:0 $column-gutter*1.5;  
+	padding:0 $column-gutter/2;
+	@media #{$medium-only} { 
+		padding:0 $column-gutter;  
+	}
+	@media #{$large-up} { 
+		padding:0 $column-gutter*1.5;  
+	}
 	margin-bottom:$column-gutter*1.5; 
 } 

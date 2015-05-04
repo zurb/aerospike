@@ -101,25 +101,6 @@
               </div>
             </div>
           </div>        
-          <div class="content" id="technology-udf">
-            <div class="content-container">
-              <div class="row">
-                <div class="medium-5 small-12 columns">
-                  <img src="images/architecture-diagram.png" class="content-diagram" alt="User Defined Functions">
-                </div>
-                <div class="medium-7 small-12 columns">
-                  <h3 class="article-heading">User Defined Functions</h3>
-                  <p class="lead large">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu egestas justo. Suspendisse potenti. Nunc ut mauris facilisis, ultricies tellus sed, sodales purus.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu egestas justo. Suspendisse potenti. Nunc ut mauris facilisis, ultricies tellus sed, sodales purus.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu egestas justo.</li>
-                  </ul>
-                  <a href="#" class="link-button">Learn More About Data Management</a>
-                </div>
-              </div>
-            </div>
-          </div>   
           <div class="content" id="technology-hybrid-memory-system">
             <div class="content-container">
               <div class="row">

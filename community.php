@@ -8,8 +8,7 @@
     <?php include("includes/nav.php"); ?>
     <section class="main-section">
       <section class="hero inner-pages">
-        <img data-interchange="[images/white-triangle-mask.svg, (default)], [images/white-triangle-mask-xlarge.svg, (xlarge)]" alt="mask" class="hero-mask">
-        <noscript><img src="images/white-triangle-mask.svg" alt="mask" class="hero-mask"></noscript>         
+        <?php include("includes/image-mask.php"); ?>       
         <div class="row">
           <div class="small-12 medium-10 large-9 medium-centered large-centered columns">
             <h1 class="hero-heading hero-unit">
