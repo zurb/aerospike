@@ -1,4 +1,28 @@
-.download-container { 
-	&.container-left { padding-right: $column-gutter; }
-	&.container-right { padding-left: $column-gutter; }
+@media #{$small-only} { 
+	.download-container { 
+		&.container-right { 
+			border-top:1px solid tint($secondary-color,80%);
+			margin-top:$column-gutter;
+			padding-top:$column-gutter/1.5;
+		}
+	}
+}
+@media #{$medium-only} { 
+	.download-container { 
+		&.container-right { 
+			border-top:1px solid tint($secondary-color,80%);
+			margin-top:$column-gutter;
+			padding-top:$column-gutter/1.5;
+		}
+	}
+}
+@media #{$large-up} { 
+	.download-container { 
+		&.container-left { 
+			padding-right: $column-gutter; 
+		}
+		&.container-right { 
+			padding-left: $column-gutter; 
+		}
+	}
 }

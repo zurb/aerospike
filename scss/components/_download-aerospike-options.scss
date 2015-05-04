@@ -7,10 +7,19 @@
 
 .content-section.download-aerospike { 
 	margin-top:0; 
-	.section-heading-container { 
-		margin-top: $column-gutter*2;
-		margin-bottom: $column-gutter*2;
+	@media #{$small-only} { 
+		.section-heading-container { 
+			margin-top: $column-gutter*1.5;
+			margin-bottom: $column-gutter;
+		}
 	}
+	@media #{$medium-up} { 
+		.section-heading-container { 
+			margin-top: $column-gutter*2;
+			margin-bottom: $column-gutter*2;
+		}
+	}
+
 }
 
 

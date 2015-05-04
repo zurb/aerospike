@@ -85,8 +85,10 @@ blockquote {
 	font-size:rem-calc(16) !important; 
 	font-weight:300; 
 	&.large { 
-		font-size:rem-calc(16) !important;
-		line-height: rem-calc(21);
+		@media #{$small-only} { 
+			font-size:16px !important;
+			line-height: rem-calc(21);
+		}
 		@media #{$medium-only} { 
 			font-size:rem-calc(18) !important;
 			line-height: rem-calc(29);

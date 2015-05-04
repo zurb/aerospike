@@ -48,7 +48,19 @@
 		}
 	}
 	&.two-tabs-aerospike-downloads { 
-	  width: 60%;
+	  @media #{$small-only} { 
+	  	width:100%;
+	  	.tab-title a { 
+	  		padding-left:5px;
+	  		padding-right:5px; 
+	  	}
+	  	.tab-title a h5 { 
+	  		font-size:rem-calc(15);
+	  	} 
+	  }
+	  @media #{$medium-up} { 
+	  	width: 60%;
+	  }
 		.tab-title { 
 			@include equal-width-containers(2); 
 		}
@@ -81,9 +93,16 @@
 
 .tabs-content { 
   border: 2px solid tint($secondary-color,75%);
-	.content-container { 
-		padding:$column-gutter $column-gutter*1.5; 
-	} 
+  @media #{$small-only} { 
+		.content-container { 
+			padding:$column-gutter/1.5 $column-gutter; 
+		} 
+  }
+  @media #{$medium-up} { 
+		.content-container { 
+			padding:$column-gutter $column-gutter*1.5; 
+		} 
+  }
 	.article-heading { 
 		margin-bottom:0; 
 		line-height: rem-calc(40);

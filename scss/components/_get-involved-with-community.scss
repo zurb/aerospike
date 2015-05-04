@@ -1,8 +1,12 @@
 
 // 12. Get Involved with the Community
 .content-section.community { 
-	margin-top:$column-gutter*2; 
-	margin-bottom:$column-gutter*3; 	
+	margin-top:0; 
+	margin-bottom:$column-gutter; 	
+	@media #{$medium-up} { 
+		margin-top:$column-gutter*2; 
+		margin-bottom:$column-gutter*2; 	
+	}
 	ul { 
 		margin-left:0; 
 		li { 
@@ -12,5 +16,8 @@
 	}
 	.points-for-community-content { 
 		margin-bottom:$column-gutter; 
+		@media #{$small-only} { 
+			text-align:center; 
+		}
 	}
 }

@@ -11,6 +11,12 @@
     <?php include("includes/nav.php"); ?>
     <section class="main-section">
       <section class="hero inner-pages short-hero">
+        <div class="show-for-medium-down small-12 medium-10 large-9 medium-centered large-centered columns">
+          <h1 class="hero-heading hero-unit">
+            <span class="metadata">Getting Started</span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </h1>
+        </div>      
         <img src="images/white-triangle-mask-xlarge.svg" alt="mask" class="hero-mask">    
       </section>
       <div class="utility-page row">
@@ -18,7 +24,7 @@
           <div data-magellan-expedition="fixed">
             <ul class="sub-nav three-tabs">
               <li><a href="#">Overview</a></li>
-              <li><a href="#">Try Aerospike Burro</a></li>
+              <li><a href="#">Try Burro</a></li>
               <li class="is-selected"><a href="#" class="active">Download Aerospike</a></li>              
             </ul>
           </div>
@@ -194,7 +200,7 @@
                   <div class="medium-4 small-12 columns">
                     <div class="get-started-container">
                       <a href="#">
-                        <img src="http://placehold.it/400x300" class="get-started-thumbnail" alt="Examples">        
+                        <img src="http://placehold.it/400x200" class="get-started-thumbnail" alt="Examples">        
                       </a>
                       <div class="panel-content">
                         <h5><a href="#">Getting Started Guide</a></h5>
@@ -206,7 +212,7 @@
                   <div class="medium-4 small-12 columns">
                     <div class="get-started-container">
                       <a href="#">
-                        <img src="http://placehold.it/400x300" class="get-started-thumbnail" alt="Examples">        
+                        <img src="http://placehold.it/400x200" class="get-started-thumbnail" alt="Examples">        
                       </a>
                       <div class="panel-content">
                         <h5><a href="#">Feature Guides</a></h5>
@@ -218,7 +224,7 @@
                   <div class="medium-4 small-12 columns">
                     <div class="get-started-container">
                       <a href="#">
-                        <img src="http://placehold.it/400x300" class="get-started-thumbnail" alt="Examples">        
+                        <img src="http://placehold.it/400x200" class="get-started-thumbnail" alt="Examples">        
                       </a>
                       <div class="panel-content">
                         <h5><a href="#">Aerospike Architecture</a></h5>

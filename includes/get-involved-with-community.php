@@ -39,7 +39,7 @@
         <a href="#" class="link-button">Learn about contributing to the docs</a>
       </div> 
     </div>
-    <div class="points-for-benefits-content last row">
+    <div class="points-for-community-content last row">
       <div class="topic-point medium-4 small-12 columns">
         <a href="#">
           <img src="http://placehold.it/100x100" class="content-icon" alt="Contribute">        

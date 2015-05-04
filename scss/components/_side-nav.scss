@@ -5,7 +5,13 @@
 	margin:0 auto;
 	li a,
 	dd a {
-		font-size:rem-calc(18); 
+		@media #{$small-only} {
+			font-size:rem-calc(13);
+			font-weight:600;
+		}
+		@media #{$medium-up} {
+			font-size:rem-calc(18);
+		} 
 	  display: inline-block;
 	  width: 100%;		
 		font-weight:500;			

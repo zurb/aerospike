@@ -5,4 +5,10 @@
 .services-offering-container { 
 	padding:$column-gutter;
 	border:1px solid tint($secondary-color,80%);
+	@media #{$medium-only} { 
+		margin-bottom:$column-gutter;
+	}
+	@media #{$small-only} { 
+		margin-bottom:$column-gutter;
+	}
 }

@@ -1,5 +1,8 @@
 // 14. Message from the Founders
 .content-section.message-from-the-founders { 
+	@media #{$small-only} { 
+		margin-top:$column-gutter*2;
+	}
 	margin-bottom:$column-gutter*2;
 	.points-for-message-from-the-founders-content { 
 		text-align:center; 
@@ -9,7 +12,13 @@
 	}
 	.lead { 
 		margin-top:$column-gutter;
-		font-size:rem-calc(24) !important;
+		@media #{$small-only} { 
+			font-size:rem-calc(18) !important; 
+			margin-bottom:0;
+		} 
+		@media #{$medium-up} { 
+			font-size:rem-calc(24) !important; 
+		} 
 	}
 	.button { 
 		margin-top:$column-gutter; 

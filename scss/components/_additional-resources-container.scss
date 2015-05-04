@@ -1,6 +1,16 @@
 .content-section.additional-resources { 
-	margin-top:$column-gutter*3; 
-	margin-bottom:$column-gutter*3;
+	@media #{$medium-only} { 
+		margin-top:0; 
+		margin-bottom:$column-gutter;
+	}
+	@media #{$small-only} { 
+		margin-top:0; 
+		margin-bottom:$column-gutter;
+	}	
+	@media #{$large-up} { 
+		margin-top:$column-gutter*3; 
+		margin-bottom:$column-gutter*3;
+	}
 }
 .additional-resources-container { 
 	@include panel; 
