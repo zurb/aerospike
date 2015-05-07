@@ -36,7 +36,7 @@
                   <h5 class="subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae pharetra est, id egestas felis. Sed tincidunt ut mi in lobortis. In faucibus imperdiet diam.</h5>      
                 </div>
               </div>
-              <ul class="tabs two-tabs-aerospike-downloads" data-tab>
+              <ul class="tabs two-tabs-aerospike-downloads traditional-tab" data-tab>
                 <li class="tab-title active">
                   <a href="#aerospike-server-client">
                     <h5>Server &amp; Clients</h5>
@@ -200,7 +200,7 @@
                   <div class="medium-4 small-12 columns">
                     <div class="get-started-container">
                       <a href="#">
-                        <img src="http://placehold.it/400x200" class="get-started-thumbnail" alt="Examples">        
+                        <img src="images/icon-examples.png" class="get-started-thumbnail" alt="Examples">        
                       </a>
                       <div class="panel-content">
                         <h5><a href="#">Getting Started Guide</a></h5>
@@ -212,7 +212,7 @@
                   <div class="medium-4 small-12 columns">
                     <div class="get-started-container">
                       <a href="#">
-                        <img src="http://placehold.it/400x200" class="get-started-thumbnail" alt="Examples">        
+                        <img src="images/icon-feature-guides.png" class="get-started-thumbnail" alt="Feature Guides">        
                       </a>
                       <div class="panel-content">
                         <h5><a href="#">Feature Guides</a></h5>
@@ -224,7 +224,7 @@
                   <div class="medium-4 small-12 columns">
                     <div class="get-started-container">
                       <a href="#">
-                        <img src="http://placehold.it/400x200" class="get-started-thumbnail" alt="Examples">        
+                        <img src="images/icon-architecture.png" class="get-started-thumbnail" alt="Aerospike Architecture">        
                       </a>
                       <div class="panel-content">
                         <h5><a href="#">Aerospike Architecture</a></h5>

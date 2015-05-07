@@ -2,12 +2,14 @@
 .content-section.benefits { 
 	text-align:center;
 	@media #{$small-only} { 
-		padding-top:$column-gutter; 
-		padding-bottom:$column-gutter;
+		margin-top:$column-gutter*2;
+		padding-top:$column-gutter*2; 
+		padding-bottom:$column-gutter*2;
 	}	
-	@media #{$medium-only} { 
-		padding-top:$column-gutter*1.5; 
-		padding-bottom:$column-gutter*1.5;
+	@media #{$medium-up} { 
+		margin-top:$column-gutter*4;
+		padding-top:$column-gutter*4; 
+		padding-bottom:$column-gutter*4;
 	}
 	.points-for-benefits-content { 
 		margin-bottom:$column-gutter*1.5; 
@@ -19,6 +21,7 @@
 		margin-bottom:0; 
 	} 
 	.button { 
-		margin-top:$column-gutter; 
+		margin-top:$column-gutter;
+		margin-bottom:0; 
 	}
 }

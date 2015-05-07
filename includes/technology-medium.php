@@ -13,7 +13,7 @@
     <div class="points-for-technology-content row">
       <div class="small-12 columns">
         <div class="tab-icons">
-          <img src="images/architecture-icons.png" alt="Architecture icons"> 
+          <img src="images/technology-icons.png" alt="Technology icons"> 
         </div>
         <ul class="tabs" data-tab>
           <li class="tab-title active">
@@ -62,7 +62,7 @@
             <div class="content-container">
               <div class="row">
                 <div class="medium-5 small-12 columns">
-                  <img src="images/architecture-diagram.png" class="content-diagram" alt="Overview">
+                  <img src="images/technology-diagram-smart-cluster.png" class="content-diagram" alt="Smart Cluster">
                 </div>
                 <div class="medium-7 small-12 columns">
                   <h3 class="article-heading">Smart Cluster&#8482;</h3>
@@ -76,7 +76,7 @@
             <div class="content-container">
               <div class="row">
                 <div class="medium-5 small-12 columns">
-                  <img src="images/architecture-diagram.png" class="content-diagram" alt="Data Management">
+                  <img src="images/smart-client.png" class="content-diagram" alt="Data Management">
                 </div>
                 <div class="medium-7 small-12 columns">
                   <h3 class="article-heading">Smart Client&#8482;</h3>
@@ -90,7 +90,7 @@
             <div class="content-container">
               <div class="row">
                 <div class="medium-5 small-12 columns">
-                  <img src="images/architecture-diagram.png" class="content-diagram" alt="Distribution">
+                  <img src="images/technology-diagram-xdr.png" class="content-diagram" alt="Cross Datacenter Replication">
                 </div>
                 <div class="medium-7 small-12 columns">
                   <h3 class="article-heading">Cross Datacenter Replication</h3>
@@ -105,7 +105,7 @@
             <div class="content-container">
               <div class="row">
                 <div class="medium-5 small-12 columns">
-                  <img src="images/architecture-diagram.png" class="content-diagram" alt="Hybrid Memory System">
+                  <img src="images/hybrid-memory-system.png" class="content-diagram" alt="Hybrid Memory System">
                 </div>
                 <div class="medium-7 small-12 columns">
                   <h3 class="article-heading">Hybrid Memory System</h3>

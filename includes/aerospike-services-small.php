@@ -29,7 +29,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="http://placehold.it/600x600" class="content-diagram" alt="Overview">
+                    <img src="images/icon-free-sizing-consultation.png" class="content-diagram" alt="Free Sizing Consultation">
                   </div>
                   <div class="medium-7 small-12 columns">
                     <h3 class="article-heading">Free Sizing Consultation</h3>
@@ -53,7 +53,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="images/architecture-diagram.png" class="content-diagram" alt="Data Management">
+                    <img src="images/icon-free-modeling-consultation.png" class="content-diagram" alt="Free Modeling Consultation">
                   </div>
                   <div class="medium-7 small-12 columns">
                     <h3 class="article-heading">Free Modeling Consultation</h3>
@@ -86,7 +86,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="images/architecture-diagram.png" class="content-diagram" alt="Distribution">
+                    <img src="images/icon-training.png" class="content-diagram" alt="Developer and Deployment Training">
                   </div>
                   <div class="medium-7 small-12 columns">
                     <h3 class="article-heading">Developer &amp; Deployment Training</h3>
@@ -112,7 +112,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="images/architecture-diagram.png" class="content-diagram" alt="User Defined Functions">
+                    <img src="images/icon-services.png" class="content-diagram" alt="Professional Services">
                   </div>
                   <div class="medium-7 small-12 columns">
                     <h3 class="article-heading">Professional Services</h3>

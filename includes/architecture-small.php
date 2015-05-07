@@ -1,4 +1,4 @@
-<section class="content-section architecture">
+<section class="content-section architecture subtle-callout">
   <div class="section-heading-container row">
     <div class="small-12 columns">
       <h2 class="section-heading">
@@ -28,10 +28,13 @@
             <div class="content" id="architecture-data-management">
               <div class="content-container">
                 <div class="row">
+                  <!--
+                  No diagram found for Data Management found on Aerospike.com
                   <div class="medium-5 small-12 columns">
                     <img src="images/architecture-diagram.png" class="content-diagram" alt="Data Management">
                   </div>
-                  <div class="medium-7 small-12 columns">
+                  -->
+                  <div class="small-12 columns">
                     <h3 class="article-heading">Data Management</h3>
                     <p class="lead large">Aerospike supports enhanced key-value operations</p>
                     <ul>
@@ -47,7 +50,7 @@
               </div>
             </div>            
           </li>
-          <li class="accordion-navigation active">
+          <li class="accordion-navigation">
             <a href="#architecture-data-distribution">
               <h5>
                 Data Distribution
@@ -56,7 +59,7 @@
                 Lorem ipsum dolor sit amet                   
               </p>    
             </a> 
-            <div class="content active" id="architecture-data-distribution">
+            <div class="content" id="architecture-data-distribution">
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
@@ -91,7 +94,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="images/architecture-diagram.png" class="content-diagram" alt="Client Layer">
+                    <img src="images/architecture-diagram-client-architecture.png" class="content-diagram" alt="Client Layer">
                   </div>
                   <div class="medium-7 small-12 columns">
                     <h3 class="article-heading">Client Layer</h3>
@@ -119,9 +122,12 @@
             <div class="content" id="architecture-udf">
               <div class="content-container">
                 <div class="row">
+                  <!--
+                  No diagram for user defined functions found on Aerospike.com
                   <div class="medium-5 small-12 columns">
                     <img src="images/architecture-diagram.png" class="content-diagram" alt="User Defined Functions">
                   </div>
+                  -->
                   <div class="medium-7 small-12 columns">
                     <h3 class="article-heading">User Defined Functions</h3>
                     <p class="lead large">UDFs extend functionality of the Aerospike database, allowing developers to move some processing and compute logic to the same node where data resides, saving network round trips.</p>

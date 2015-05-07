@@ -1,5 +1,17 @@
 .tabs { 
   margin: 0 auto;		
+  &.traditional-tab { 
+  	.tab-title { 
+			position: relative;
+			top: 4px;
+  	}
+  	.tab-title.active, 
+  	.tab-title.active:hover { 
+			top: 4px;  		
+  		border: 2px solid tint($secondary-color,75%);
+  		border-bottom:4px solid #fff; 
+  	}
+  }
 	.tab-title { 
 		text-align:center;
 		@include equal-width-containers(4); 
@@ -11,6 +23,7 @@
 		}
 		.lead { 
 			color:tint($secondary-color,50%);
+			margin-bottom: 0;
 		}
 	}
 	.tab-title.active,
@@ -92,6 +105,7 @@
 }
 
 .tabs-content { 
+	margin-bottom: 0;
   border: 2px solid tint($secondary-color,75%);
   @media #{$small-only} { 
 		.content-container { 

@@ -7,6 +7,9 @@
 			margin-top:$column-gutter/2;
 		}
 	}
+	@media #{$medium-up} { 
+		margin-top:$column-gutter*3;
+	}
 }
 
 .points-for-success-stories { 

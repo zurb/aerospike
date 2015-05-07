@@ -1,6 +1,15 @@
 .get-started-container { 
+	> a { 
+		display:block;
+		width:100%; 
+		text-align: center;
+	}
 	@include panel; 
 	@include headings() { 
 		margin-top:0; 
+	}
+	.get-started-thumbnail { 
+		margin: 0 auto;
+		float: none;
 	}
 }

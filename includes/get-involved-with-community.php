@@ -9,7 +9,7 @@
     <div class="points-for-community-content row">
       <div class="topic-point medium-4 small-12 columns">
         <a href="#">
-          <img src="http://placehold.it/100x100" class="content-icon" alt="Discuss">        
+          <img src="images/icon-discuss.png" class="content-icon" alt="Discuss">        
         </a>
         <h4><a href="#">Discuss</a></h4>
         <p class="lead">You’ll find active conversations around Aerospike online. If you’re looking to learn best practices and share ideas with your global peers, here’s where you can get started:</p>
@@ -21,7 +21,7 @@
       </div>
       <div class="topic-point medium-4 small-12 columns">
         <a href="#">
-          <img src="http://placehold.it/100x100" class="content-icon" alt="Share">        
+          <img src="images/icon-share.png" class="content-icon" alt="Share">        
         </a>
         <h4><a href="#">Share</a></h4>
         <p class="lead">Need brief description here...</p>
@@ -32,7 +32,7 @@
       </div>
       <div class="topic-point medium-4 small-12 columns">
         <a href="#">            
-          <img src="http://placehold.it/100x100" class="content-icon" alt="Write">        
+          <img src="images/icon-write.png" class="content-icon" alt="Write">        
         </a>
         <h4><a href="#">Write</a></h4>
         <p class="lead">The Aerospike manual is maintained in a public repository on Github. As with other open source projects, you can submit changes by making a pull request. We encourage you to make improvements, write tutorials, or expand sections.</p>
@@ -42,7 +42,7 @@
     <div class="points-for-community-content last row">
       <div class="topic-point medium-4 small-12 columns">
         <a href="#">
-          <img src="http://placehold.it/100x100" class="content-icon" alt="Contribute">        
+          <img src="images/icon-contribute.png" class="content-icon" alt="Contribute">        
         </a>
         <h4><a href="#">Contribute</a></h4>
         <p class="lead">Open source projects benefit from community contributions and feedback. You can help contribute to Aerospike by:</p>
@@ -54,7 +54,7 @@
       </div>
       <div class="topic-point medium-4 small-12 columns">
         <a href="#">
-          <img src="http://placehold.it/100x100" class="content-icon" alt="Attend">        
+          <img src="images/icon-attend.png" class="content-icon" alt="Attend">        
         </a>
         <h4><a href="#">Attend</a></h4>
         <p class="lead">Our team regularly presents at, attends, and sponsors industry events. Introduce yourself to us and let us know how we can help.</p>
@@ -62,7 +62,7 @@
       </div>
       <div class="topic-point medium-4 small-12 columns">
         <a href="#">
-          <img src="http://placehold.it/100x100" class="content-icon" alt="Connect">        
+          <img src="images/icon-suggestions.png" class="content-icon" alt="Connect">        
         </a>
         <h4><a href="#">Suggestions</a></h4>
         <p class="lead">If there's some other way you'd like to contribute, feel free to contact us! Thank you for your interest in Aerospike.</p>

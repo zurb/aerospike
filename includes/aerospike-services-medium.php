@@ -12,11 +12,8 @@
   <div class="points-for-aerospike-services">
     <div class="points-for-aerospike-services-content row">
       <div class="small-12 columns">
-        <div class="tab-icons">
-          <img src="images/architecture-icons.png" alt="Aerospike Services icons"> 
-        </div>
-        <ul class="tabs" data-tab>
-          <li class="tab-title even-3">
+        <ul class="tabs traditional-tab" data-tab>
+          <li class="tab-title">
             <a href="#services-free-sizing-consultation">
               <h5>
                 Free Sizing Consultation              
@@ -26,7 +23,7 @@
               </p>
             </a>
           </li>
-          <li class="tab-title active even-3">
+          <li class="tab-title active">
             <a href="#services-free-modeling-consultation">
               <h5>
                 Free Modeling Consultation  
@@ -36,17 +33,17 @@
               </p>    
             </a>                
           </li>
-          <li class="tab-title even-3">
+          <li class="tab-title">
             <a href="#services-developer-deployment-training">
               <h5>
-                Developer &amp; Deployment Training              
+                Dev &amp; Deployment Training              
               </h5>
               <p class="lead small">
                 Lorem ipsum dolor sit amet                           
               </p>      
             </a>              
           </li>
-          <li class="tab-title even-3">
+          <li class="tab-title">
             <a href="#services-professional-services">
               <h5>
                 Professional Services                
@@ -62,7 +59,7 @@
             <div class="content-container">
               <div class="row">
                 <div class="medium-5 small-12 columns">
-                  <img src="http://placehold.it/600x600" class="content-diagram" alt="Overview">
+                  <img src="images/icon-free-sizing-consultation.png" class="content-diagram" alt="Free Sizing Consultation">
                 </div>
                 <div class="medium-7 small-12 columns">
                   <h3 class="article-heading">Free Sizing Consultation</h3>
@@ -76,7 +73,7 @@
             <div class="content-container">
               <div class="row">
                 <div class="medium-5 small-12 columns">
-                  <img src="images/architecture-diagram.png" class="content-diagram" alt="Data Management">
+                  <img src="images/icon-free-modeling-consultation.png" class="content-diagram" alt="Free Modeling Consultation">
                 </div>
                 <div class="medium-7 small-12 columns">
                   <h3 class="article-heading">Free Modeling Consultation</h3>
@@ -99,7 +96,7 @@
             <div class="content-container">
               <div class="row">
                 <div class="medium-5 small-12 columns">
-                  <img src="images/architecture-diagram.png" class="content-diagram" alt="Distribution">
+                  <img src="images/icon-training.png" class="content-diagram" alt="Developer and Deployment Training">
                 </div>
                 <div class="medium-7 small-12 columns">
                   <h3 class="article-heading">Developer &amp; Deployment Training</h3>
@@ -115,7 +112,7 @@
             <div class="content-container">
               <div class="row">
                 <div class="medium-5 small-12 columns">
-                  <img src="images/architecture-diagram.png" class="content-diagram" alt="User Defined Functions">
+                  <img src="images/icon-services.png" class="content-diagram" alt="Professional Services">
                 </div>
                 <div class="medium-7 small-12 columns">
                   <h3 class="article-heading">Professional Services</h3>

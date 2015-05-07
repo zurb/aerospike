@@ -1,4 +1,4 @@
-<section class="content-section architecture">
+<section class="content-section architecture subtle-callout">
   <div class="section-heading-container row">
     <div class="small-12 columns">
       <h2 class="section-heading">
@@ -61,10 +61,10 @@
           <div class="content" id="architecture-data-management">
             <div class="content-container">
               <div class="row">
-                <div class="medium-5 small-12 columns">
-                  <img src="images/architecture-diagram.png" class="content-diagram" alt="Data Management">
+                <div class="medium-6 small-12 columns">
+                  <img src="images/architecture-diagram-data-management.png" class="content-diagram" alt="Data Management">
                 </div>
-                <div class="medium-7 small-12 columns">
+                <div class="medium-6 small-12 columns">
                   <h3 class="article-heading">Data Management</h3>
                   <p class="lead large">Aerospike supports enhanced key-value operations</p>
                   <ul>
@@ -82,10 +82,10 @@
           <div class="content active" id="architecture-data-distribution">
             <div class="content-container">
               <div class="row">
-                <div class="medium-5 small-12 columns">
-                  <img src="images/architecture-diagram.png" class="content-diagram" alt="Data Distribution">
+                <div class="medium-6 small-12 columns">
+                  <img src="images/architecture-diagram-data-distribution.png" class="content-diagram" alt="Data Distribution">
                 </div>
-                <div class="medium-7 small-12 columns">
+                <div class="medium-6 small-12 columns">
                   <h3 class="article-heading">Data Distribution</h3>
                   <p class="lead large">Aerospike has a shared-nothing architecture, every node is identical, and there is no single point of failure. </p>
                   <ul>
@@ -103,10 +103,10 @@
           <div class="content" id="architecture-client-layer">
             <div class="content-container">
               <div class="row">
-                <div class="medium-5 small-12 columns">
-                  <img src="images/architecture-diagram.png" class="content-diagram" alt="Client Layer">
+                <div class="medium-6 small-12 columns">
+                  <img src="images/architecture-diagram-client-architecture.png" class="content-diagram" alt="Client Layer">
                 </div>
-                <div class="medium-7 small-12 columns">
+                <div class="medium-6 small-12 columns">
                   <h3 class="article-heading">Client Layer</h3>
                   <p class="lead large">Aerospike’s client drivers sit on your web application server&mdash;completely cluster aware, tracking where data is stored and when nodes are added or removed.</p>
                   <ul>
@@ -122,10 +122,13 @@
           <div class="content" id="architecture-udf">
             <div class="content-container">
               <div class="row">
+                <!--
+                No diagram for user defined functions found on Aerospike.com
                 <div class="medium-5 small-12 columns">
                   <img src="images/architecture-diagram.png" class="content-diagram" alt="User Defined Functions">
                 </div>
-                <div class="medium-7 small-12 columns">
+                -->
+                <div class="small-12 columns">
                   <h3 class="article-heading">User Defined Functions</h3>
                   <p class="lead large">UDFs extend functionality of the Aerospike database, allowing developers to move some processing and compute logic to the same node where data resides, saving network round trips.</p>
                   <ul>

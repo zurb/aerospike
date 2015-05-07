@@ -9874,7 +9874,19 @@ th.hide-for-touch {
 .tabs {
   margin: 0 auto;
 }
-/* line 3, ../scss/components/_tabs.scss */
+/* line 4, ../scss/components/_tabs.scss */
+.tabs.traditional-tab .tab-title {
+  position: relative;
+  top: 4px;
+}
+/* line 8, ../scss/components/_tabs.scss */
+.tabs.traditional-tab .tab-title.active,
+.tabs.traditional-tab .tab-title.active:hover {
+  top: 4px;
+  border: 2px solid #c7c7c7;
+  border-bottom: 4px solid #fff;
+}
+/* line 15, ../scss/components/_tabs.scss */
 .tabs .tab-title {
   text-align: center;
 }
@@ -9912,20 +9924,21 @@ th.hide-for-touch {
   font-weight: 500;
   margin-bottom: 0;
 }
-/* line 12, ../scss/components/_tabs.scss */
+/* line 24, ../scss/components/_tabs.scss */
 .tabs .tab-title .lead {
   color: #909090;
+  margin-bottom: 0;
 }
-/* line 16, ../scss/components/_tabs.scss */
+/* line 29, ../scss/components/_tabs.scss */
 .tabs .tab-title.active,
 .tabs .tab-title.active:hover {
   border-bottom: none;
 }
-/* line 20, ../scss/components/_tabs.scss */
+/* line 33, ../scss/components/_tabs.scss */
 .tabs .tab-title:hover {
   border-bottom: none;
 }
-/* line 21, ../scss/components/_tabs.scss */
+/* line 34, ../scss/components/_tabs.scss */
 .tabs .tab-title:hover a {
   color: #909090;
 }
@@ -9953,11 +9966,11 @@ th.hide-for-touch {
 .tabs .tab-title:hover a h6 {
   color: #909090;
 }
-/* line 29, ../scss/components/_tabs.scss */
+/* line 42, ../scss/components/_tabs.scss */
 .tabs .tab-title:active {
   border-bottom: none;
 }
-/* line 30, ../scss/components/_tabs.scss */
+/* line 43, ../scss/components/_tabs.scss */
 .tabs .tab-title:active a {
   color: #c31618;
 }
@@ -9985,7 +9998,7 @@ th.hide-for-touch {
 .tabs .tab-title:active a h6 {
   color: #c31618;
 }
-/* line 38, ../scss/components/_tabs.scss */
+/* line 51, ../scss/components/_tabs.scss */
 .tabs .tab-title.active a {
   color: #c31618;
 }
@@ -10013,7 +10026,7 @@ th.hide-for-touch {
 .tabs .tab-title.active a h6 {
   color: #c31618;
 }
-/* line 44, ../scss/components/_tabs.scss */
+/* line 57, ../scss/components/_tabs.scss */
 .tabs.two-tabs {
   width: 50%;
 }
@@ -10022,22 +10035,22 @@ th.hide-for-touch {
   width: 50%;
 }
 @media only screen and (max-width: 40em) {
-  /* line 50, ../scss/components/_tabs.scss */
+  /* line 63, ../scss/components/_tabs.scss */
   .tabs.two-tabs-aerospike-downloads {
     width: 100%;
   }
-  /* line 53, ../scss/components/_tabs.scss */
+  /* line 66, ../scss/components/_tabs.scss */
   .tabs.two-tabs-aerospike-downloads .tab-title a {
     padding-left: 5px;
     padding-right: 5px;
   }
-  /* line 57, ../scss/components/_tabs.scss */
+  /* line 70, ../scss/components/_tabs.scss */
   .tabs.two-tabs-aerospike-downloads .tab-title a h5 {
     font-size: 0.9375rem;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 50, ../scss/components/_tabs.scss */
+  /* line 63, ../scss/components/_tabs.scss */
   .tabs.two-tabs-aerospike-downloads {
     width: 60%;
   }
@@ -10046,7 +10059,7 @@ th.hide-for-touch {
 .tabs.two-tabs-aerospike-downloads .tab-title:first-child:nth-last-child(2), .tabs.two-tabs-aerospike-downloads .tab-title:first-child:nth-last-child(2) ~ li {
   width: 50%;
 }
-/* line 68, ../scss/components/_tabs.scss */
+/* line 81, ../scss/components/_tabs.scss */
 .tabs.three-tabs {
   width: 100%;
 }
@@ -10054,7 +10067,7 @@ th.hide-for-touch {
 .tabs.three-tabs .tab-title:first-child:nth-last-child(3), .tabs.three-tabs .tab-title:first-child:nth-last-child(3) ~ li {
   width: 33.33333%;
 }
-/* line 74, ../scss/components/_tabs.scss */
+/* line 87, ../scss/components/_tabs.scss */
 .tabs.four-tabs {
   width: 100%;
 }
@@ -10062,7 +10075,7 @@ th.hide-for-touch {
 .tabs.four-tabs .tab-title:first-child:nth-last-child(4), .tabs.four-tabs .tab-title:first-child:nth-last-child(4) ~ li {
   width: 25%;
 }
-/* line 80, ../scss/components/_tabs.scss */
+/* line 93, ../scss/components/_tabs.scss */
 .tabs.five-tabs {
   width: 100%;
 }
@@ -10070,7 +10083,7 @@ th.hide-for-touch {
 .tabs.five-tabs .tab-title:first-child:nth-last-child(5), .tabs.five-tabs .tab-title:first-child:nth-last-child(5) ~ li {
   width: 20%;
 }
-/* line 86, ../scss/components/_tabs.scss */
+/* line 99, ../scss/components/_tabs.scss */
 .tabs.six-tabs {
   width: 100%;
 }
@@ -10079,38 +10092,39 @@ th.hide-for-touch {
   width: 16.66667%;
 }
 
-/* line 94, ../scss/components/_tabs.scss */
+/* line 107, ../scss/components/_tabs.scss */
 .tabs-content {
+  margin-bottom: 0;
   border: 2px solid #c7c7c7;
 }
 @media only screen and (max-width: 40em) {
-  /* line 97, ../scss/components/_tabs.scss */
+  /* line 111, ../scss/components/_tabs.scss */
   .tabs-content .content-container {
     padding: 1.25rem 1.875rem;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 102, ../scss/components/_tabs.scss */
+  /* line 116, ../scss/components/_tabs.scss */
   .tabs-content .content-container {
     padding: 1.875rem 2.8125rem;
   }
 }
-/* line 106, ../scss/components/_tabs.scss */
+/* line 120, ../scss/components/_tabs.scss */
 .tabs-content .article-heading {
   margin-bottom: 0;
   line-height: 2.5rem;
 }
-/* line 110, ../scss/components/_tabs.scss */
+/* line 124, ../scss/components/_tabs.scss */
 .tabs-content p, .tabs-content li, .tabs-content .link-button {
   font-size: 1.125rem;
 }
 
-/* line 116, ../scss/components/_tabs.scss */
+/* line 130, ../scss/components/_tabs.scss */
 .tabs .tab-title {
   position: relative;
 }
 
-/* line 120, ../scss/components/_tabs.scss */
+/* line 134, ../scss/components/_tabs.scss */
 .tabs .tab-title.active::after {
   height: 0;
   width: 0;
@@ -10829,28 +10843,49 @@ a.primary:active {
 .content-section.architecture {
   margin-top: 3.75rem;
 }
-/* line 4, ../scss/components/_architecture.scss */
+@media only screen and (max-width: 40em) {
+  /* line 2, ../scss/components/_architecture.scss */
+  .content-section.architecture {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 2, ../scss/components/_architecture.scss */
+  .content-section.architecture {
+    padding-top: 5.625rem;
+    padding-bottom: 5.625rem;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 2, ../scss/components/_architecture.scss */
+  .content-section.architecture {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+  }
+}
+/* line 16, ../scss/components/_architecture.scss */
 .content-section.architecture .lead {
   color: #909090;
 }
-/* line 6, ../scss/components/_architecture.scss */
+/* line 20, ../scss/components/_architecture.scss */
 .content-section.architecture .tabs-content .article-heading {
   margin-bottom: 0;
 }
-/* line 7, ../scss/components/_architecture.scss */
+/* line 23, ../scss/components/_architecture.scss */
 .content-section.architecture .tabs-content ul li {
   font-size: 1.0625rem;
   line-height: 21px;
   margin-bottom: 11px;
 }
 
-/* line 15, ../scss/components/_architecture.scss */
+/* line 31, ../scss/components/_architecture.scss */
 .architecture-points .content-icon {
   display: none;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 20, ../scss/components/_architecture.scss */
+  /* line 35, ../scss/components/_architecture.scss */
   .content-section.architecture .link-button {
     clear: both;
     display: block;
@@ -10858,7 +10893,7 @@ a.primary:active {
     margin-bottom: 0.9375rem;
   }
 
-  /* line 27, ../scss/components/_architecture.scss */
+  /* line 42, ../scss/components/_architecture.scss */
   .content-diagram {
     margin-top: 1.875rem;
     margin-bottom: 1.875rem;
@@ -10871,34 +10906,37 @@ a.primary:active {
 @media only screen and (max-width: 40em) {
   /* line 2, ../scss/components/_benefits.scss */
   .content-section.benefits {
-    padding-top: 1.875rem;
-    padding-bottom: 1.875rem;
+    margin-top: 3.75rem;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
   }
 }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+@media only screen and (min-width: 40.063em) {
   /* line 2, ../scss/components/_benefits.scss */
   .content-section.benefits {
-    padding-top: 2.8125rem;
-    padding-bottom: 2.8125rem;
+    margin-top: 7.5rem;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
   }
 }
-/* line 12, ../scss/components/_benefits.scss */
+/* line 14, ../scss/components/_benefits.scss */
 .content-section.benefits .points-for-benefits-content {
   margin-bottom: 2.8125rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 12, ../scss/components/_benefits.scss */
+  /* line 14, ../scss/components/_benefits.scss */
   .content-section.benefits .points-for-benefits-content {
     margin-bottom: 0;
   }
 }
-/* line 18, ../scss/components/_benefits.scss */
+/* line 20, ../scss/components/_benefits.scss */
 .content-section.benefits .points-for-benefits-content.last {
   margin-bottom: 0;
 }
-/* line 21, ../scss/components/_benefits.scss */
+/* line 23, ../scss/components/_benefits.scss */
 .content-section.benefits .button {
   margin-top: 1.875rem;
+  margin-bottom: 0;
 }
 
 /* line 2, ../scss/components/_brands.scss */
@@ -11035,38 +11073,36 @@ a.primary:active {
 .content-section.features {
   margin-top: 0;
   padding-top: 2.8125rem;
-  padding-bottom: 2.8125rem;
+  padding-bottom: 1.875rem;
   text-align: center;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 2, ../scss/components/_features.scss */
   .content-section.features {
-    padding-top: 3.75rem;
-    padding-bottom: 3.75rem;
+    padding-bottom: 1.875rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
   /* line 2, ../scss/components/_features.scss */
   .content-section.features {
-    padding-top: 5.625rem;
-    padding-bottom: 5.625rem;
+    padding-bottom: 1.875rem;
   }
 }
-/* line 16, ../scss/components/_features.scss */
+/* line 15, ../scss/components/_features.scss */
 .content-section.features .points-for-features-content {
   margin-bottom: 2.8125rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 16, ../scss/components/_features.scss */
+  /* line 15, ../scss/components/_features.scss */
   .content-section.features .points-for-features-content {
     margin-bottom: 0;
   }
 }
-/* line 22, ../scss/components/_features.scss */
+/* line 21, ../scss/components/_features.scss */
 .content-section.features .points-for-features-content.last {
   margin-bottom: 0;
 }
-/* line 25, ../scss/components/_features.scss */
+/* line 24, ../scss/components/_features.scss */
 .content-section.features .button {
   margin-top: 1.875rem;
   margin-bottom: 0;
@@ -11114,6 +11150,12 @@ a.primary:active {
   background: #fff;
   color: #333333;
 }
+/* line 2, ../scss/components/_get-started-container.scss */
+.get-started-container > a {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
 /* line 55, ../bower_components/foundation/scss/foundation/components/_panels.scss */
 .get-started-container > :first-child {
   margin-top: 0;
@@ -11158,6 +11200,11 @@ a.primary:active {
 /* line 3, ../scss/mixins/_headings.scss */
 .get-started-container h6 {
   margin-top: 0;
+}
+/* line 11, ../scss/components/_get-started-container.scss */
+.get-started-container .get-started-thumbnail {
+  margin: 0 auto;
+  float: none;
 }
 
 /* line 2, ../scss/components/_get-started-resources.scss */
@@ -11259,13 +11306,19 @@ a.primary:active {
     margin-top: 0.9375rem;
   }
 }
+@media only screen and (min-width: 40.063em) {
+  /* line 2, ../scss/components/_success-stories.scss */
+  .content-section.case-studies {
+    margin-top: 5.625rem;
+  }
+}
 
 @media only screen and (max-width: 40em) {
-  /* line 12, ../scss/components/_success-stories.scss */
+  /* line 15, ../scss/components/_success-stories.scss */
   .points-for-success-stories {
     text-align: center;
   }
-  /* line 15, ../scss/components/_success-stories.scss */
+  /* line 18, ../scss/components/_success-stories.scss */
   .points-for-success-stories .link-button {
     text-align: center;
     width: 100%;
@@ -11273,50 +11326,50 @@ a.primary:active {
   }
 }
 
-/* line 23, ../scss/components/_success-stories.scss */
+/* line 26, ../scss/components/_success-stories.scss */
 .success-story-thumbnail {
   border: 1px solid #e8e8e8;
   padding: 0.3125rem;
   margin-bottom: 0.9375rem;
 }
-/* line 25, ../scss/components/_success-stories.scss */
+/* line 28, ../scss/components/_success-stories.scss */
 .success-story-thumbnail:hover {
   border: 1px solid #bcbcbc;
 }
-/* line 28, ../scss/components/_success-stories.scss */
+/* line 31, ../scss/components/_success-stories.scss */
 .success-story-thumbnail:active {
   border: 1px solid #c31618;
 }
 
-/* line 35, ../scss/components/_success-stories.scss */
+/* line 38, ../scss/components/_success-stories.scss */
 .success-story-category {
   display: block;
   text-transform: uppercase;
   font-size: 0.8125rem;
   color: #c31618;
 }
-/* line 40, ../scss/components/_success-stories.scss */
+/* line 43, ../scss/components/_success-stories.scss */
 .success-story-category:hover {
   color: #a51214;
 }
-/* line 41, ../scss/components/_success-stories.scss */
+/* line 44, ../scss/components/_success-stories.scss */
 .success-story-category:active {
   color: #880f10;
 }
 
-/* line 44, ../scss/components/_success-stories.scss */
+/* line 47, ../scss/components/_success-stories.scss */
 .success-story-container {
   padding: 0 0.9375rem;
   margin-bottom: 2.8125rem;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 44, ../scss/components/_success-stories.scss */
+  /* line 47, ../scss/components/_success-stories.scss */
   .success-story-container {
     padding: 0 1.875rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 44, ../scss/components/_success-stories.scss */
+  /* line 47, ../scss/components/_success-stories.scss */
   .success-story-container {
     padding: 0 2.8125rem;
   }

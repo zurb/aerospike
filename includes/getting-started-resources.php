@@ -10,7 +10,7 @@
       <div class="topic-point medium-4 small-12 columns">
         <div class="get-started-container">
           <a href="#">
-            <img src="http://placehold.it/400x300" class="get-started-thumbnail" alt="Examples">        
+            <img src="images/icon-examples.png" class="get-started-thumbnail" alt="Examples">        
           </a>
           <div class="panel-content">
             <h4><a href="#">Examples</a></h4>
@@ -22,7 +22,7 @@
       <div class="topic-point medium-4 small-12 columns">
         <div class="get-started-container">
           <a href="#">
-            <img src="http://placehold.it/400x300" class="get-started-thumbnail" alt="Examples">        
+            <img src="images/icon-ecosystem.png" class="get-started-thumbnail" alt="Ecosystem">        
           </a>
           <div class="panel-content">
             <h4><a href="#">Ecosystem</a></h4>
@@ -34,7 +34,7 @@
       <div class="topic-point medium-4 small-12 columns">
         <div class="get-started-container">
           <a href="#">
-            <img src="http://placehold.it/400x300" class="get-started-thumbnail" alt="Examples">        
+            <img src="images/icon-connectors.png" class="get-started-thumbnail" alt="Connectors">        
           </a>
           <div class="panel-content">
             <h4><a href="#">Connectors</a></h4>

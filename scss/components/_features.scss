@@ -2,16 +2,15 @@
 .content-section.features { 
 	margin-top:0; 
 	padding-top:$column-gutter*1.5; 
-	padding-bottom:$column-gutter*1.5;
+	padding-bottom:$column-gutter;
 	@media #{$medium-only} { 
-		padding-top:$column-gutter*2; 
-		padding-bottom:$column-gutter*2;
+		// padding-top:$column-gutter*2; 
+		padding-bottom:$column-gutter;
 	}
 	@media #{$large-up} { 
-		padding-top:$column-gutter*3; 
-		padding-bottom:$column-gutter*3;
+		// padding-top:$column-gutter*3; 
+		padding-bottom:$column-gutter;
 	}
-
 	text-align:center;
 	.points-for-features-content { 
 		margin-bottom:$column-gutter*1.5; 

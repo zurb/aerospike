@@ -1,9 +1,25 @@
 // 4. Architecture & Technology Overview 
 .content-section.architecture { 
-	margin-top:$column-gutter*2; 	
-	.lead { color:tint($secondary-color,50%); }
+	margin-top:$column-gutter*2;
+	@media #{$small-only} { 
+		padding-top:$column-gutter*2; 	
+		padding-bottom:$column-gutter*2;
+	}
+	@media #{$medium-only} { 
+		padding-top:$column-gutter*3; 	
+		padding-bottom:$column-gutter*3;
+	}
+	@media #{$large-up} { 
+		padding-top:$column-gutter*4; 	
+		padding-bottom:$column-gutter*4;
+	}
+	.lead { 
+		color:tint($secondary-color,50%); 
+	}
 	.tabs-content { 
-		.article-heading { margin-bottom: 0; }
+		.article-heading { 
+			margin-bottom: 0; 
+		}
 		ul li { 
 			font-size:rem-calc(17);
 			line-height: 21px;
@@ -14,7 +30,6 @@
 .architecture-points { 
 	.content-icon { display: none; }
 } 
-
 @media #{$small-only} { 
 	.content-section.architecture { 
 		.link-button { 
