@@ -21,13 +21,14 @@
 }
 
 .docs-sidebar { 
+	padding-right:$column-gutter/2;
+	border-right:1px solid tint($secondary-color, 85%);
 	hr { 
 		margin-top:$column-gutter/6;
-	}
-	padding:$column-gutter/2 !important;
-	@include panel;
+	} 
 	.try-burro-button,
 	.download-aerospike-button { 
+	  font-size: 16px;
 		width:100%; 
 	} 
 	.try-burro-button { 

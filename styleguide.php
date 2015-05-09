@@ -734,7 +734,141 @@
             <h5>Code</h5>
             <pre>
               <code class="language-markup">
+&lt;div class="row">
+  &lt;div class="large-4 medium-6 columns end">
+    &lt;div class="docs-sidebar">
+      &lt;div class="searchable-input">
+        &lt;i class="fa fa-search">&lt;/i>
+        &lt;input type="search" name="search" placeholder="Search Docs...">
+      &lt;/div>
+      &lt;div class="filter-container">
+        &lt;label for="docs-filter">Filter By:&lt;/label>
+        &lt;a href="#" data-dropdown="drop">All&lt;/a>
+        &lt;ul id="drop" class="small f-dropdown" data-dropdown-content>
+          &lt;li>&lt;a href="#">Architecture&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#">Feature Guides&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#">Lorem Ipsum&lt;/a>&lt;/li>
+        &lt;/ul>
+      &lt;/div>
+      &lt;a href="#" class="download-aerospike-button small primary button">Download Aerospike&lt;/a>
+      &lt;a href="#" class="try-burro-button small secondary button">Try Burro&lt;/a>
+      &lt;h4 class="docs-section-heading">Technology&lt;/h4>
+      &lt;hr> 
+      &lt;h6 class="docs-facet-heading">Architecture - How it works&lt;/h6>
+      &lt;div class="listContainer">
+        &lt;ul class="docs-list expList">
+          &lt;li>&lt;a href="#" class="primary">Overview&lt;/a>&lt;/li>
+          &lt;li>
+            &lt;a href="#" class="primary">Data Management&lt;/a>
+            &lt;ul>
+              &lt;li>&lt;a href="#" class="primary">Data Model&lt;/a>&lt;/li>
+              &lt;li>&lt;a href="#" class="primary">Primary Index&lt;/a>&lt;/li>
+              &lt;li>&lt;a href="#" class="primary">Secondary Index&lt;/a>&lt;/li>
+              &lt;li>&lt;a href="#" class="primary">Hybrid Storage&lt;/a>&lt;/li>
+              &lt;li>&lt;a href="#" class="primary">Large Data Types&lt;/a>&lt;/li>
+            &lt;/ul>
+          &lt;/li>
+          &lt;li>
+            &lt;a href="#" class="primary">Distribution&lt;/a>
+            &lt;ul>
+              &lt;li>&lt;a href="#" class="primary">Data Distribution&lt;/a>&lt;/li>
+              &lt;li>&lt;a href="#" class="primary">Clustering&lt;/a>&lt;/li>
+              &lt;li>&lt;a href="#" class="primary">Cross Data-Center Replication&lt;/a>&lt;/li>
+              &lt;li>&lt;a href="#" class="primary">Rack Awareness&lt;/a>&lt;/li>             
+            &lt;/ul>
+          &lt;/li>
+          &lt;li>&lt;a href="#" class="primary">User-Defined Functions&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Clients&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#" class="primary">ACID&lt;/a>&lt;/li>
+        &lt;/ul>
 
+        &lt;h6 class="docs-facet-heading">Feature Guides - What it is&lt;/h6>
+        &lt;ul class="docs-list expList">
+          &lt;li>
+            &lt;a href="#" class="primary">Key-Value Store&lt;/a>
+            &lt;ul>
+              &lt;li>&lt;a href="#" class="primary">Single Key&lt;/a>&lt;/li>
+              &lt;li>&lt;a href="#" class="primary">Batch&lt;/a>&lt;/li>
+              &lt;li>&lt;a href="#" class="primary">Scan&lt;/a>&lt;/li>          
+            &lt;/ul>
+          &lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Query&lt;/a>&lt;/li>
+          &lt;li>
+            &lt;a href="#" class="primary">User-Defined Functions&lt;/a>
+            &lt;ul>
+              &lt;li>&lt;a href="#" class="primary">Record UDF&lt;/a>&lt;/li>
+              &lt;li>&lt;a href="#" class="primary">Stream UDF&lt;/a>&lt;/li>
+            &lt;/ul>
+          &lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Aggregations&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Data Types&lt;/a>&lt;/li>
+          &lt;li>
+            &lt;a href="#" class="primary">Large Data Types&lt;/a>
+            &lt;ul>
+              &lt;li>&lt;a href="#" class="primary">Large List&lt;/a>&lt;/li>
+              &lt;li>&lt;a href="#" class="primary">Advanced Topics&lt;/a>&lt;/li>       
+            &lt;/ul>
+          &lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Security&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#" class="primary">FAQ&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Glossary&lt;/a>&lt;/li>
+        &lt;/ul>
+      &lt;/div>
+      &lt;h4 class="docs-section-heading">Deployment&lt;/h4>
+      &lt;hr> 
+      &lt;h6 class="docs-facet-heading">Cloud Deployment Guides&lt;/h6>
+      &lt;div class="listContainer">
+        &lt;ul class="docs-list expList">
+          &lt;li>&lt;a href="#" class="primary">Amazon EC2&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Google Compute Engine&lt;/a>&lt;/li>
+        &lt;/ul>
+
+        &lt;h6 class="docs-facet-heading">Operations Manual&lt;/h6>
+        &lt;ul class="docs-list expList">
+          &lt;li>&lt;a href="#" class="primary">Introduction&lt;/a>&lt;/li>
+          &lt;li>
+            &lt;a href="#" class="primary">Plan&lt;/a>
+            &lt;ul>
+              &lt;li>&lt;a href="#" class="primary">Linux Capacity Planning&lt;/a>&lt;/li>
+              &lt;li>&lt;a href="#" class="primary">Server Hardware&lt;/a>&lt;/li>
+              &lt;li>
+                &lt;a href="#" class="primary">Flash Storage&lt;/a>
+                &lt;ul>
+                  &lt;li>&lt;a href="#" class="primary">Setup&lt;/a>&lt;/li>
+                  &lt;li>&lt;a href="#" class="primary">Initialization&lt;/a>&lt;/li>
+                  &lt;li>&lt;a href="#" class="primary">Certification&lt;/a>&lt;/li>
+                  &lt;li>&lt;a href="#" class="primary">LSI MegaCli&lt;/a>&lt;/li>
+                  &lt;li>
+                    &lt;a href="#" class="primary">Bcache&lt;/a>
+                    &lt;ul>
+                      &lt;li>&lt;a href="#" class="primary">Recommendations&lt;/a>&lt;/li>
+                      &lt;li>
+                        &lt;a href="#" class="primary">Setup&lt;/a>
+                        &lt;ul>
+                          &lt;li>&lt;a href="#" class="primary">Explanation of asbcache.sh script&lt;/a>&lt;/li>
+                        &lt;/ul>
+                      &lt;/li>
+                      &lt;li>&lt;a href="#" class="primary">Configure Aerospike&lt;/a>&lt;/li>
+                    &lt;/ul>
+
+                  &lt;/li>
+                &lt;/ul>
+              &lt;/li>
+              &lt;li>&lt;a href="#" class="primary">Network&lt;/a>&lt;/li>          
+            &lt;/ul>
+          &lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Install&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Configure&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Manage&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Upgrade&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Monitor&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Tune&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#" class="primary">Troubleshoot&lt;/a>&lt;/li>
+        &lt;/ul>
+      &lt;/div>      
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
               </code>
             </pre>
           </div>
@@ -795,7 +929,49 @@
             <h5>Code</h5>
             <pre>
               <code class="language-markup">
-
+&lt;div class="forum-post row">
+  &lt;div class="medium-12 columns">
+    &lt;ul class="post-container">
+      &lt;li class="post-count-container">
+        &lt;a href="#">
+          &lt;div class="post-count new">
+            &lt;div class="post-count-wrapper new">
+              &lt;span class="reply-count new">7&lt;/span>
+            &lt;/div>
+            &lt;div class="total-post-count total-replies new">Replies&lt;/div>
+          &lt;/div>
+        &lt;/a> 
+      &lt;/li>
+      &lt;li class="post-description-container">
+        &lt;div class="post-description">
+          &lt;h5 class="post-title">
+            &lt;a href="#">How to Wrap Adsense Around Text&lt;/a>
+          &lt;/h5>
+          &lt;p class="author-name">
+            &lt;span class="when">
+              By 
+              &lt;span class="author">
+                &lt;strong>&lt;a href="#">Gary Kirwan&lt;/a>&lt;/strong>
+              &lt;/span>
+              about 2 hours ago
+            &lt;/span>
+          &lt;/p>
+          &lt;div class="post-description copy">
+            &lt;p>
+              I want to place a new responsive adsense ad in the body of the content floating left or right of the text.
+              How would I code into a html site where I want the ad to be and if I wanted the space for the ad to fill be a maximum of 336px wide? One suggesti... (continued)
+            &lt;/p>
+            &lt;p class="tags">
+              &lt;a class="tag-container" href="#">Tag Description&lt;/a>
+              &lt;a class="tag-container" href="#">Tag Description&lt;/a>
+              &lt;a class="tag-container" href="#">Tag Description&lt;/a>
+            &lt;/p>
+          &lt;/div>
+        &lt;/div>
+      &lt;/li>
+    &lt;/ul>
+  &lt;/div>
+&lt;/div>
               </code>
             </pre>
           </div>
@@ -830,7 +1006,23 @@
             <h5>Code</h5>
             <pre>
               <code class="language-markup">
-
+&lt;div class="row">
+  &lt;div class="medium-4 column end">
+    &lt;div class="about-bio-placard">
+      &lt;a href="#">
+        &lt;img src="http://placehold.it/400x300" alt="Person Name" class="about-bio-thumb">
+      &lt;/a>
+      &lt;div class="about-bio-content">
+        &lt;h6 class="about-bio-name-container">
+          &lt;a href="#" class="about-bio-name">Person Name&lt;/a>
+          &lt;span class="about-bio-title">Title&lt;/span>
+        &lt;/h6>
+        &lt;p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut rhoncus est. Vestibulum tristique vestibulum purus, et rutrum urna fermentum in.&lt;/p>
+        &lt;a href="#" class="link-button">Read Full Bio&lt;/a>        
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
               </code>
             </pre>
           </div>
@@ -851,7 +1043,11 @@
             <h5>Code</h5>
             <pre>
               <code class="language-markup">
-
+&lt;ul class="tabs underlined-tab" data-tab>
+  &lt;li class="tab-title active">&lt;a href="#company-engg-team">Engineering Team&lt;/a>&lt;/li>
+  &lt;li class="tab-title">&lt;a href="#company-executes">Executive Team&lt;/a>&lt;/li>
+  &lt;li class="tab-title">&lt;a href="#company-board">Board &amp; Advisors&lt;/a>&lt;/li>
+&lt;/ul> 
               </code>
             </pre>
           </div>
@@ -882,7 +1078,7 @@
           </div>
         </section>
         <hr>
-        <section id="componentName" class="component-name style-component">
+        <section id="successStoryPlacardComponent" class="success-story-placard-component style-component">
           <div class="content">
             <h2>Success Story Placard</h2>
             <p class="lead">Use the success story placard to highlight success stories on the success stories page.</p>
@@ -911,17 +1107,33 @@
             <h5>Code</h5>
             <pre>
               <code class="language-markup">
-
+&lt;div class="row">
+  &lt;div class="medium-4 column end">
+    &lt;div class="success-story-placard">
+      &lt;a href="#">
+        &lt;img src="http://placehold.it/400x300" alt="Person Name" class="success-story-thumb">
+      &lt;/a>
+      &lt;div class="success-story-content">
+        &lt;h6 class="success-story-name-container">
+          &lt;span class="success-story-industry">&lt;a href="#" class="primary">Industry&lt;/a>&lt;/span>
+          &lt;a href="#" class="success-story-name">AppNexus&lt;/a>
+        &lt;/h6>
+        &lt;p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut rhoncus est. Vestibulum tristique vestibulum purus, et rutrum urna fermentum in.&lt;/p>
+        &lt;a href="#" class="link-button">How AppNexus scaled from a small startup to a billion dollar company.&lt;/a>        
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
               </code>
             </pre>
           </div>
         </section>
         <hr>
-        <section id="componentName" class="component-name style-component">
+        <section id="featuredSuccessStoryComponent" class="featured-success-story-component style-component">
           <div class="content">
-            <h2>Component Name</h2>
-            <p class="lead">Blah blah</p>
-            <h4>Component Name Example</h4>
+            <h2>Featured Success Story</h2>
+            <p class="lead">Use this component to highlight a featured success story on the success stories page.</p>
+            <h4>Featured Success Story Example</h4>
             <div class="rendered-example">
 
 <section class="success-story-featured-entry-container subtle-callout">  
@@ -957,7 +1169,34 @@
             <h5>Code</h5>
             <pre>
               <code class="language-markup">
-
+&lt;section class="success-story-featured-entry-container subtle-callout">  
+  &lt;div class="success-story-featured-entry row">
+    &lt;div class="small-12 columns">
+      &lt;div class="row success-story-featured-entry">
+        &lt;div class="medium-5 large-4 medium-push-7 large-push-8 columns">
+          &lt;a href="#">
+            &lt;img src="http://placehold.it/600x600" alt="screenshot of customer's app">
+          &lt;/a>
+        &lt;/div>   
+        &lt;div class="medium-pull-5 medium-7 large-pull-4 large-8 columns">
+          &lt;div class="success-story-container">
+            &lt;h4>
+              &lt;a href="#" class="success-story-category">AdTech&lt;/a>
+              &lt;span>&lt;a href="#">AppNexus&lt;/a>&lt;/span>
+            &lt;/h4>
+            &lt;p class="lead">AppNexus is the world’s largest, independent, real-time ad technology platform powering the most innovative trading solutions and marketplaces for Internet advertising.&lt;/p>
+            &lt;p class="lead">&lt;strong>Why AppNexus chose Aerospike over other databases&lt;/strong>&lt;/p>
+            &lt;blockquote>
+              We run Aerospike heavily, peaking at &lt;strong>3 million reads per second&lt;/strong> and well &lt;strong>over 1 1/2 million writes a second&lt;/strong> in a &lt;strong>very cost effective way&lt;/strong>. I don’t think there’s any technology we’ve run into that even comes close. 
+              &lt;cite>Geir Magnusson, CTO of AppNexus.&lt;/cite>
+            &lt;/blockquote>
+            &lt;a href="#" class="link-button">See AppNexus customer success story&lt;/a>
+          &lt;/div>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/section>
               </code>
             </pre>
           </div>
