@@ -24,33 +24,33 @@
       <div class="row">
         <div class="small-12 columns">
           <h1 class="logo">
-            <a href="index.php">
+            <a href="https://notable.zurb.com/dashboard/projects/ccf6925dc9bdfef536432e0b66eabd07fe0c0bcc">
               <span>Aerospike</span>
             </a>
           </h1>
           <ul class="nav-products left">
             <li>
-              <a href="#">Wireframes</a>
+              <a href="https://influence.zurb.com/pages/548?t=5fe145c4bfde64ca">Wireframes</a>
             </li>
             <li>
-              <a href="#">Creative Direction</a>
+              <a href="https://influence.zurb.com/pages/568?t=08f5b07ac4f8442d">Creative Direction</a>
             </li>  
             <li>
-              <a href="#">Front-End Code</a>
+              <a href="https://influence.zurb.com/pages/675?t=5948bff61dec806a">Front-End Code</a>
             </li>                
           </ul>
           <ul class="nav-auxiliary right hide-for-small">
             <li>
-              <a href="#" class="active">Styleguide</a>
+              <a href="https://influence.zurb.com/pages/700?t=03324df48cbd6b9a" class="active">Styleguide</a>
             </li>
             <li>
-              <a href="#">Opportunities</a>
+              <a href="https://influence.zurb.com/pages/438?t=8866668a9f432bce">Opportunities</a>
             </li>
             <li>
-              <a href="#">Low-Fi Sketches</a>
+              <a href="https://influence.zurb.com/pages/529?t=9fa3cb880df4a23f">Low-Fi Sketches</a>
             </li>    
             <li>
-              <a href="#" class="getting-started-button inverted-button button tiny">Finished Project</a>
+              <a href="https://influence.zurb.com/pages/713?t=e734d4ed7ac3a2c4" class="getting-started-button inverted-button button tiny">Finished Project</a>
             </li>        
           </ul>
         </div>
@@ -58,13 +58,14 @@
     </nav>
     <aside class="right-off-canvas-menu">
       <ul class="off-canvas-list">
-        <li><a href="index.php">Home</a></li>
-        <li><a href="technologies.php">Technologies</a></li>
-        <li><a href="services-support.php">Services &amp; Support</a></li>
-        <li><a href="docs.php">Docs</a></li>
-        <li><a href="community.php">Community</a></li>
-        <li><a href="company.php">Company</a></li>
-        <li class="getting-started-offcanvas-cta"><a href="getting-started.php" class="button inverted-button">Get Started Today</a></li>
+        <li><a href="https://notable.zurb.com/dashboard/projects/ccf6925dc9bdfef536432e0b66eabd07fe0c0bcc">Project Home</a></li>
+        <li><a href="https://influence.zurb.com/pages/548?t=5fe145c4bfde64ca">Wireframes</a></li>
+        <li><a href="https://influence.zurb.com/pages/568?t=08f5b07ac4f8442d">Creative Direction</a></li>
+        <li><a href="https://influence.zurb.com/pages/675?t=5948bff61dec806a">Front-End Code</a></li>
+        <li><a href="https://influence.zurb.com/pages/700?t=03324df48cbd6b9a">Styleguide</a></li>
+        <li><a href="https://influence.zurb.com/pages/438?t=8866668a9f432bce">Opportunities</a></li>
+        <li><a href="https://influence.zurb.com/pages/529?t=9fa3cb880df4a23f">Low-Fi Sketches</a></li>
+        <li class="getting-started-offcanvas-cta"><a href="https://influence.zurb.com/pages/713?t=e734d4ed7ac3a2c4" class="button inverted-button">Finished Project</a></li>
       </ul>
     </aside>    
 
@@ -77,7 +78,7 @@
               <span class="metadata">&nbsp;</span>
               Aerospike Styleguide
             </h1>
-            <p>This website was built with Foundation 5. For more information on how to use it, check out the the <a href="http://foundation.zurb.com/docs/">Foundation Docs &raquo;</a></p>
+            <p>This website was built with Foundation 5. For more information on how to use it, check out the the <a href="http://foundation.zurb.com/docs/" style="color:#fff;">Foundation Docs &raquo;</a></p>
           </div>
         </div>
       </section>
@@ -94,11 +95,17 @@
             <li><a href="#buttonsComponent">Buttons</a></li>
             <li><a href="#formsComponent">Forms</a></li>
           </ul>
-          <h4>Aerospike Mobile Components</h4>
+          <h4>Aerospike Components</h4>
           <p class="sidenote">These components we didn't code in our 5 page coded prototype, but were in the top-level wireframes we developed. You'll need these for developing the Aerospike website.</p>        
           <ul class="link-list">
-            <li><a href="#componentName">Component Name</a></li>
-            <li><a href="#componentName">Component Name</a></li>
+            <li><a href="#docsSidebarComponent">Docs Sidebar</a></li>
+            <li><a href="#forumPostComponent">Forum Post</a></li>
+            <li><a href="#aboutBioPlacardComponents">Bio Placard</a></li>
+            <li><a href="#underlinedTabComponent">Underlined Tab</a></li>
+            <li><a href="#borderedTabComponent">Bordered Tab</a></li>
+            <li><a href="#successStoryPlacardComponent">Success Story Placard</a></li>
+            <li><a href="#featuredSuccessStoryComponent">Featured Success Story</a></li>                                
+            <li><a href="#eventStubComponent">Event Stub</a></li>                                
           </ul>          
         </div>
       </div>
@@ -897,7 +904,7 @@
       <li class="post-description-container">
         <div class="post-description">
           <h5 class="post-title">
-            <a href="#">How to Wrap Adsense Around Text</a>
+            <a href="#" class="primary">How to Wrap Adsense Around Text</a>
           </h5>
           <p class="author-name">
             <span class="when">
@@ -945,7 +952,7 @@
       &lt;li class="post-description-container">
         &lt;div class="post-description">
           &lt;h5 class="post-title">
-            &lt;a href="#">How to Wrap Adsense Around Text&lt;/a>
+            &lt;a href="#" class="primary">How to Wrap Adsense Around Text&lt;/a>
           &lt;/h5>
           &lt;p class="author-name">
             &lt;span class="when">
@@ -1201,7 +1208,120 @@
             </pre>
           </div>
         </section>
+        <hr>
+        <section id="eventStubComponent" class="event-stub-component style-component">
+          <div class="content">
+            <h2>Event Stub</h2>
+            <p class="lead">Use the event stub to link a details view for the event.</p>
+            <h4>Event Stub Example</h4>
+            <div class="rendered-example">
 
+<div class="event-post row">
+  <div class="medium-12 columns">
+    <ul class="event-container">
+      <li class="event-date-container">
+        <a href="#">
+          <div class="event-date-wrapper">
+            <div class="event-date-holder">
+              <span class="event-date">07</span>
+            </div>
+            <div class="event-date-month-year">Nov 2014</div>
+          </div>
+        </a> 
+      </li>
+      <li class="event-description-container">
+        <div class="event-description">
+          <h5 class="event-title">
+            <a href="#">Event Name</a>
+          </h5>
+          <p class="event-metadata">
+            <span class="event-location">
+              <strong>Mountain View</strong>
+            </span>
+            &bull; 
+            <span class="event-cost">
+              <strong>Free</strong>
+            </span>            
+          </p>
+          <div class="event-description copy">
+            <p>
+              Description... (continued)
+            </p>
+            <a href="#" class="primary">Register</a> &bull; <a href="#" class="primary">Learn More</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            </div>
+            <h5>Code</h5>
+            <pre>
+              <code class="language-markup">
+&lt;div class="event-post row">
+  &lt;div class="medium-12 columns">
+    &lt;ul class="event-container">
+      &lt;li class="event-date-container">
+        &lt;a href="#">
+          &lt;div class="event-date-wrapper">
+            &lt;div class="event-date-holder">
+              &lt;span class="event-date">07&lt;/span>
+            &lt;/div>
+            &lt;div class="event-date-month-year">Nov 2014&lt;/div>
+          &lt;/div>
+        &lt;/a> 
+      &lt;/li>
+      &lt;li class="event-description-container">
+        &lt;div class="event-description">
+          &lt;h5 class="event-title">
+            &lt;a href="#">Event Name&lt;/a>
+          &lt;/h5>
+          &lt;p class="event-metadata">
+            &lt;span class="event-location">
+              &lt;strong>Mountain View&lt;/strong>
+            &lt;/span>
+            &bull; 
+            &lt;span class="event-cost">
+              &lt;strong>Free&lt;/strong>
+            &lt;/span>            
+          &lt;/p>
+          &lt;div class="event-description copy">
+            &lt;p>
+              Description... (continued)
+            &lt;/p>
+            &lt;a href="#" class="primary">Register&lt;/a> &bull; &lt;a href="#" class="primary">Learn More&lt;/a>
+          &lt;/div>
+        &lt;/div>
+      &lt;/li>
+    &lt;/ul>
+  &lt;/div>
+&lt;/div>
+              </code>
+            </pre>
+          </div>
+        </section>
+
+<!-- 
+        <section id="componentName" class="component-name style-component">
+          <div class="content">
+            <h2>Component Name</h2>
+            <p class="lead">Description.</p>
+            <h4>Component Name Example</h4>
+            <div class="rendered-example">
+
+
+            </div>
+            <h5>Code</h5>
+            <pre>
+              <code class="language-markup">
+
+              </code>
+            </pre>
+          </div>
+        </section>
+
+ -->
       </div>
     </div>
 

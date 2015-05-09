@@ -12508,6 +12508,143 @@ th.hide-for-touch {
   font-weight: normal;
 }
 
+/* line 2, ../scss/components/_event-post.scss */
+.event-container {
+  margin-left: 0;
+}
+/* line 4, ../scss/components/_event-post.scss */
+.event-container .event-title {
+  margin-top: 0 !important;
+}
+@media only screen and (max-width: 40em) {
+  /* line 7, ../scss/components/_event-post.scss */
+  .event-container .event-description {
+    margin-top: 0 !important;
+  }
+}
+/* line 12, ../scss/components/_event-post.scss */
+.event-container .event-metadata {
+  margin-top: 5px;
+  line-height: 13px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 0.6875rem;
+}
+/* line 19, ../scss/components/_event-post.scss */
+.event-container h5 {
+  line-height: 1em;
+  margin-bottom: 5px;
+  margin-top: -4px;
+  font-size: 1.125rem;
+}
+@media only screen and (max-width: 40em) {
+  /* line 19, ../scss/components/_event-post.scss */
+  .event-container h5 {
+    font-size: 1.3125rem;
+    margin-top: -2px;
+  }
+}
+/* line 29, ../scss/components/_event-post.scss */
+.event-container p {
+  margin-bottom: 0;
+}
+
+/* line 35, ../scss/components/_event-post.scss */
+.event-date-container {
+  display: inline-block;
+  float: left;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+  width: 95px;
+}
+
+/* line 43, ../scss/components/_event-post.scss */
+.event-description-container {
+  display: inline-block;
+  float: left;
+  padding-bottom: 0;
+  line-height: 1.3125rem;
+  width: 65%;
+}
+/* line 49, ../scss/components/_event-post.scss */
+.event-description-container p {
+  font-size: 0.9375rem;
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 43, ../scss/components/_event-post.scss */
+  .event-description-container {
+    margin-left: 1.25rem;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 767px) {
+  /* line 43, ../scss/components/_event-post.scss */
+  .event-description-container {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 850px) {
+  /* line 43, ../scss/components/_event-post.scss */
+  .event-description-container {
+    width: 73%;
+  }
+}
+@media screen and (min-width: 851px) {
+  /* line 43, ../scss/components/_event-post.scss */
+  .event-description-container {
+    width: 75%;
+  }
+}
+
+/* line 67, ../scss/components/_event-post.scss */
+.event-date-container {
+  width: 80px;
+  height: 80px;
+  border: none !important;
+  background-color: #eeeeee;
+  text-align: center;
+}
+@media only screen and (max-width: 40em) {
+  /* line 67, ../scss/components/_event-post.scss */
+  .event-date-container {
+    width: 95px;
+  }
+}
+/* line 76, ../scss/components/_event-post.scss */
+.event-date-container .event-date-wrapper {
+  height: 50px;
+  background-color: #dddddd;
+}
+/* line 79, ../scss/components/_event-post.scss */
+.event-date-container .event-date-wrapper > a {
+  display: block;
+}
+/* line 82, ../scss/components/_event-post.scss */
+.event-date-container .event-date-wrapper .event-date {
+  position: relative;
+  top: 4px !important;
+  color: #222222;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+/* line 89, ../scss/components/_event-post.scss */
+.event-date-container .event-date-wrapper .label {
+  display: block;
+  background-color: transparent !important;
+  text-transform: uppercase;
+  color: #fbdddd;
+  position: relative;
+  top: -0.9375rem;
+}
+/* line 98, ../scss/components/_event-post.scss */
+.event-date-container .event-date-month-year {
+  height: 30px;
+  color: #595959;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  padding: 19px 3px 3px 3px;
+  font-weight: 700;
+}
+
 /* line 2, ../scss/components/_filter-container.scss */
 .filter-container > label[for='docs-filter'] {
   float: left;
