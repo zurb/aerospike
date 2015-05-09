@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?php echo $pageTitle; ?></title>
     <link rel="stylesheet" href="stylesheets/app.css" />
+    <?php if($bodyClass==="styleguide") { ?>
+			<link rel="stylesheet" href="stylesheets/styleguide.css" />
+    <?php } ?> 
 		<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700,900' rel='stylesheet' type='text/css'>    
     <script src="bower_components/modernizr/modernizr.js"></script>    
   </head>

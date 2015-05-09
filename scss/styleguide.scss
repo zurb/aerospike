@@ -1,0 +1,267 @@
+//Bourbon Mixins
+@import "settings";
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "components/aerospike-brand-colors";
+
+//Custom Styleguide Styles 
+.link-list { 
+  list-style: none;
+  margin-left:0;
+  li { 
+    margin-bottom:1px; 
+    width:100%;
+  }
+  li a { 
+    width:100%;
+    display: block;
+    text-transform: uppercase;
+    font-size:13px;
+    color:tint($secondary-color,50%); 
+    background-color:tint($secondary-color,95%);
+    padding:10px;
+    &:hover { 
+      background-color:tint($secondary-color,87%);
+    }
+  }
+}
+.sidenote { 
+  font-size:rem-calc(12);
+  color:$secondary-color;
+}
+.style-component .content .row { 
+  margin-bottom: 20px; 
+}
+.styleguide-readable-area { 
+  margin-top:50px;
+  p { margin-bottom:($column-gutter/2); }
+  blockquote { margin-bottom:($column-gutter/2); }
+} 
+.styleguide-readable-area h4 { 
+  margin-top:20px;
+}
+.styleguide-readable-area h5 { 
+  margin-top:10px;
+}
+.component-library-list h4 { 
+  text-transform: uppercase; 
+  font-size:15px;
+}
+.icon-bar .item .icon { 
+  font-size: 19px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  color:$secondary-color;
+}
+.icon-bar .item.active { 
+  .icon { color:$primary-color; }
+}
+
+
+//Styleguide Rendered Examples
+.rendered-example {
+  margin-top:20px;  
+  @include clearfix;
+  position:relative;
+  .sticky-reply-button {
+    position: absolute;
+  }
+}
+.mobile-rendered-example {
+  position:relative;  
+  width:340px;
+  padding:10px;
+  border:1px solid tint($secondary-color,30%);
+
+}
+
+
+
+//Default Styleguide Styles
+.row.display {
+  background: #eee;
+  font-size: 11px;
+  margin-bottom: 10px;
+  margin: 5px auto;
+}
+.row.display .columns, .row.display .column {
+  background: #e7e7e7;
+  border: 1px solid #dddddd;
+  font-size: 13px;
+  font-weight: bold;
+  text-indent: 3px;
+  padding-top: 8px;
+  color: #444;
+  padding-bottom: 8px;
+}
+.colors {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.colors li {
+  display: inline;
+  float: left;
+  margin: 0 0 0 15px;
+  font-weight: bold;
+  font-size: 12px;
+  width: 20%;
+}
+.colors span {
+  display: block;
+  height: 80px;
+  margin: 0;
+  border: solid 1px #ddd;
+}
+.colors small {
+  display: block;
+  text-transform: lowercase;
+  margin: 0;
+  font-size: 11px;
+  line-height: 15px;
+  color: #777;
+}
+.disc {
+  margin-left: 18px;
+}
+
+@media only screen and (max-width: 767px) {
+  .styleguide.hero {
+    padding-top: 70px;
+  }
+  .section-container.vertical-tabs section.active .content {
+    padding: 0;
+  }
+  .section-container.vertical-tabs section p.title {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+  .section-container.vertical-tabs section.active p.title {
+    margin-bottom: 20px;
+  }
+  .section-container.vertical-tabs section.active p.title a {
+    color: #ccc;
+  }
+}
+
+// Syntax Highlighting
+
+/* http://prismjs.com/download.html?themes=prism&languages=markup+css+scss */
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+pre[class*="language-"] { 
+  background-color:#f5f2f0 !important;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: black;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-weight: 300;
+  font-size: rem-calc(14);
+  line-height: 1.5;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  border-radius:3px;
+  border:none;
+  background:none;
+}
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+@media print {
+  code[class*="language-"],
+  pre[class*="language-"] {
+    text-shadow: none;
+  }
+}
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 0 1em 0;
+  margin: .5em 0;
+  overflow: auto;
+}
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: #f5f2f0;
+}
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+}
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: slategray;
+}
+.token.punctuation {
+  color: #999;
+}
+.namespace {
+  opacity: .7;
+}
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol {
+  color: #905;
+}
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.builtin {
+  color: #690;
+}
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  color: #a67f59;
+  background: hsla(0,0%,100%,.5);
+}
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #07a;
+}
+.token.regex,
+.token.important {
+  color: #e90;
+}
+.token.important {
+  font-weight: bold;
+}
+.token.entity {
+  cursor: help;
+}

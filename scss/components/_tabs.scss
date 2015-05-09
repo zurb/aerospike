@@ -12,6 +12,20 @@
   		border-bottom:4px solid #fff; 
   	}
   }
+  &.underlined-tab { 
+  	$underlined-tab-border-size:2px;
+  	.tab-title { 
+  		margin-right: $column-gutter/3;
+  	}
+  	.tab-title:hover { 
+  		border-bottom:$underlined-tab-border-size solid tint($secondary-color,80%);
+  	}
+  	.tab-title.active, 
+  	.tab-title.active:hover { 
+  		a { font-weight: 600; }
+  		border-bottom:$underlined-tab-border-size solid $primary-color;
+  	}
+  }  
 	.tab-title { 
 		text-align:center;
 		@include equal-width-containers(4); 

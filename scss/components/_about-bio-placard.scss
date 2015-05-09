@@ -1,0 +1,35 @@
+.about-bio-placard { 
+	@include panel; 
+	@include headings() { 
+		margin-top:0; 
+	}
+	> a { 
+		display:block;
+		width:100%; 
+		text-align: center;
+	}
+	.about-bio-thumbnail { 
+		margin: 0 auto;
+		float: none;
+	}
+	.about-bio-content { 
+		padding:$column-gutter/1.5; 
+		.lead { 
+		  line-height: 21px;
+		  font-size: 15px !important;	
+		}
+	}
+	.about-bio-name-container { 
+		.about-bio-name { 
+			font-size: rem-calc(20);
+			font-weight:600;
+			display: block;
+		}
+		.about-bio-title { 
+			color: tint($secondary-color,25%);
+			text-transform: uppercase;
+			font-size: rem-calc(13) !important;
+			margin-top:5px;
+		}
+	}
+}

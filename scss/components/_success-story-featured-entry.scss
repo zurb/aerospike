@@ -1,0 +1,11 @@
+.success-story-featured-entry-container { 
+	padding:$column-gutter;
+	.success-story-featured-entry { 
+		margin-bottom:0; 
+	}
+	.success-story-container { 
+		margin-bottom:0; 
+		h4 { margin-top:0; }
+		padding-left:0;
+	}
+}

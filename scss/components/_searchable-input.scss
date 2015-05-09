@@ -1,0 +1,12 @@
+.searchable-input { 
+	position: relative;
+	input[type='search'] { 
+		padding-left:$column-gutter;
+	}
+	.fa-search { 
+		position: absolute;
+		top:9px;
+		left:12px;
+		color:tint($secondary-color,50%);
+	}
+}

@@ -1,0 +1,14 @@
+.filter-container { 
+	> label[for='docs-filter'] { 
+		float: left;
+		display: inline;
+	}
+	> a { 
+		margin-left:4px;
+		margin-top:-2px;
+	  float: left;
+	  display: inline;
+	  color:$primary-color;
+	  font-weight:bold; 
+	}
+}

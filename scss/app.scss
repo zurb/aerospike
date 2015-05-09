@@ -1,13 +1,15 @@
 //Bourbon Mixins
 @import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
 
+//Font Awesome
+@import "font-awesome/font-awesome";
+
 //Foundation 
 @import "settings";
 @import "foundation";
 
-//Aerospike colors
-$aerospike-cloud: #6f3275;
-$aerospike-burro: $primary-color;  
+//Aerospike Brand Colors
+@import "components/aerospike-brand-colors";
 
 //Aerospike Mixins
 @import "mixins/headings";
@@ -16,10 +18,14 @@ $aerospike-burro: $primary-color;
 
 //Aerospike Site Components
 @import "components/accordion";
+@import "components/about-bio-placard";
 @import "components/buttons";
 @import "components/callouts";
 @import "components/content-icon";
 @import "components/download-list";
+@import "components/expandable-list";
+@import "components/filter-container";
+@import "components/forum-post";
 @import "components/icons";
 @import "components/hero-unit";
 @import "components/top-nav";
@@ -29,7 +35,11 @@ $aerospike-burro: $primary-color;
 @import "components/typography";
 @import "components/utility-page";
 @import "components/site-footer";
+@import "components/success-story-featured-entry";
+@import "components/searchable-input";
 @import "components/side-nav";
+@import "components/success-story-placard";
+@import "components/tags";
 @import "components/video-container";
 
 //Aerospike Content Section Components
@@ -39,6 +49,7 @@ $aerospike-burro: $primary-color;
 @import "components/architecture";
 @import "components/benefits";
 @import "components/brands";
+@import "components/docs-sidebar";
 @import "components/download-container";
 @import "components/download-aerospike-options";
 @import "components/enterprise-support";

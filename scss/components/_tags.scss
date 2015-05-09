@@ -1,0 +1,27 @@
+.tag-container {
+  @include radius($global-radius);
+  line-height: $column-gutter;
+  word-break: keep-all;
+  word-wrap: normal;
+  display: inline;
+  padding: 4px 5px;
+  margin: 5px 5px 5px 0;
+  color: tint($secondary-color,65%);
+  font-size: rem-calc(12);
+  border: tint($secondary-color,70%) 1px solid;
+  margin: 0 5px 10px 0;
+  a:hover { 
+    color:tint($secondary-color,70%) !important;
+  }
+  a:active { 
+    color:tint($secondary-color,90%) !important;
+  }  
+  &:hover {
+    color:darken($primary-color,25%) !important;
+  }
+}
+
+.tag-container:hover {
+  background: tint($secondary-color,97%);
+  cursor: pointer;
+}

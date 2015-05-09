@@ -1,0 +1,40 @@
+.download-aerospike-button { 
+	font-size:rem-calc(21);
+	margin-top:$column-gutter/2;
+	margin-bottom:$column-gutter/3;
+}
+
+.try-burro-button { 
+	font-size:rem-calc(21);
+}
+
+.docs-section-heading { 
+	margin-top:$column-gutter !important;	
+	font-size:rem-calc(18);
+	text-transform: uppercase;
+}
+
+.docs-facet-heading { 
+	font-size:rem-calc(15);
+	font-weight: 600;
+	margin-bottom:0; 
+}
+
+.docs-sidebar { 
+	hr { 
+		margin-top:$column-gutter/6;
+	}
+	padding:$column-gutter/2 !important;
+	@include panel;
+	.try-burro-button,
+	.download-aerospike-button { 
+		width:100%; 
+	} 
+	.try-burro-button { 
+		margin-bottom:0;
+	}
+	.docs-list { 
+		list-style:none; 
+		margin-left:0; 
+	}
+}
