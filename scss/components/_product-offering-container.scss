@@ -1,4 +1,10 @@
 .product-offering-container { 
+	@media #{$small-only} { 
+		&.aerospike-cloud { margin-top:$column-gutter; }  
+	}
+	@media #{$medium-only} { 
+		&.aerospike-cloud { margin-top:$column-gutter; }
+	}	  	
 	text-align:center; 
 	background-color:tint($secondary-color,90%);
 	padding:$column-gutter*1.25;

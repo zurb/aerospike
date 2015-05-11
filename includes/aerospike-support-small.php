@@ -26,7 +26,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="http://placehold.it/600x600" class="content-diagram" alt="Community Support">
+                    <img src="images/icon-community-support.png" class="content-diagram" alt="Community Support">
                   </div>
                   <div class="medium-7 small-12 columns">
                     <h3 class="article-heading">Community Support</h3>
@@ -58,7 +58,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="enterprise-support-container medium-5 small-12 columns">
-                    <img src="http://placehold.it/600x600" class="content-diagram" alt="Enterprise Support">
+                    <img src="images/icon-enterprise-support.png" class="content-diagram" alt="Enterprise Support">
                     <h2>24x7x365</h2>
                     <h5 class="subhead">Production support and access to Aerospike experts</h5>
                   </div>

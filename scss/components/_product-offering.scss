@@ -1,6 +1,5 @@
 // 9. Product Offering on Services Page
 .content-section.product-offering { 
-	@media #{$small-only} { margin-top:$column-gutter*2; }  
 	margin-bottom:$column-gutter*2; 
 	.section-heading-container { 
 		text-align:center; 

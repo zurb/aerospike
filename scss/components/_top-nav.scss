@@ -60,7 +60,7 @@
 	  margin-bottom: 0;
 		list-style:none;
 		margin-left:0;
-		a { 
+		a:not(.getting-started-button) { 
 			//link animation 
 			@include link-animation();			
 			position: relative;
@@ -117,7 +117,12 @@
 	}
 }
 
+.dropdown { 
+	z-index:10;
+}
+
 .dropdown-wrapper { 
+	z-index:10;	
 	padding-top:$column-gutter; 
 	padding-bottom:$column-gutter;
 }
@@ -127,6 +132,7 @@
 }
 
 .dropdown-content-container { 
+	z-index:10;		
 	margin-top:$column-gutter/1.5;
 	padding-top:$column-gutter;
 	padding-bottom:$column-gutter;

@@ -61,7 +61,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="images/architecture-diagram-data-distribution.png" class="content-diagram" alt="Cluster">
+                    <img src="images/smart-client.png" class="content-diagram" alt="Smart Client">
                   </div>
                   <div class="medium-7 small-12 columns">
                     <h3 class="article-heading">Cluster</h3>

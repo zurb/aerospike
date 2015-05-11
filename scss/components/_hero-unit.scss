@@ -95,7 +95,8 @@
 	.hero-mask { 
 		position: absolute;
 		bottom:-2px; //to adjust for browser resize nosense
-		width:100%;
+		width:105%;
+	  min-width: 105%;
 	  z-index: 1;
 	  left:0;
 	}

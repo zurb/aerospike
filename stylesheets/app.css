@@ -13107,11 +13107,12 @@ th.hide-for-touch {
 .hero .hero-mask {
   position: absolute;
   bottom: -2px;
-  width: 100%;
+  width: 105%;
+  min-width: 105%;
   z-index: 1;
   left: 0;
 }
-/* line 102, ../scss/components/_hero-unit.scss */
+/* line 103, ../scss/components/_hero-unit.scss */
 .hero .hero-slash-line {
   position: absolute;
   left: 50%;
@@ -13120,32 +13121,32 @@ th.hide-for-touch {
   margin-left: -86px;
 }
 @media only screen and (max-width: 40em) {
-  /* line 102, ../scss/components/_hero-unit.scss */
+  /* line 103, ../scss/components/_hero-unit.scss */
   .hero .hero-slash-line {
     display: none;
   }
 }
 @media screen and (min-width: 640px) and (max-width: 740px) {
-  /* line 102, ../scss/components/_hero-unit.scss */
+  /* line 103, ../scss/components/_hero-unit.scss */
   .hero .hero-slash-line {
     display: none;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 102, ../scss/components/_hero-unit.scss */
+  /* line 103, ../scss/components/_hero-unit.scss */
   .hero .hero-slash-line {
     top: -90px;
   }
 }
-/* line 118, ../scss/components/_hero-unit.scss */
+/* line 119, ../scss/components/_hero-unit.scss */
 .hero .hero-heading {
   margin-top: 55px;
 }
-/* line 121, ../scss/components/_hero-unit.scss */
+/* line 122, ../scss/components/_hero-unit.scss */
 .hero p {
   color: #fff;
 }
-/* line 122, ../scss/components/_hero-unit.scss */
+/* line 123, ../scss/components/_hero-unit.scss */
 .hero .lead {
   color: #fff;
   margin-top: 30px;
@@ -13239,15 +13240,15 @@ th.hide-for-touch {
   background-color: rgba(255, 255, 255, 0.25);
 }
 /* line 63, ../scss/components/_top-nav.scss */
-.top-nav .nav-products a,
-.top-nav .nav-auxiliary a {
+.top-nav .nav-products a:not(.getting-started-button),
+.top-nav .nav-auxiliary a:not(.getting-started-button) {
   position: relative;
   font-weight: 300;
   color: #f9e7e7;
 }
 /* line 3, ../scss/mixins/_link-animation.scss */
-.top-nav .nav-products a:after,
-.top-nav .nav-auxiliary a:after {
+.top-nav .nav-products a:not(.getting-started-button):after,
+.top-nav .nav-auxiliary a:not(.getting-started-button):after {
   position: absolute;
   top: 43px;
   left: 0;
@@ -13259,37 +13260,37 @@ th.hide-for-touch {
   transition: width 0.3s ease;
 }
 /* line 14, ../scss/mixins/_link-animation.scss */
-.top-nav .nav-products a:hover:after,
-.top-nav .nav-auxiliary a:hover:after {
+.top-nav .nav-products a:not(.getting-started-button):hover:after,
+.top-nav .nav-auxiliary a:not(.getting-started-button):hover:after {
   width: 100%;
   -webkit-transition: width 0.3s ease;
   transition: width 0.3s ease;
 }
 /* line 19, ../scss/mixins/_link-animation.scss */
-.top-nav .nav-products a.active:hover:after, .top-nav .nav-products a.getting-started-button:hover:after,
-.top-nav .nav-auxiliary a.active:hover:after,
-.top-nav .nav-auxiliary a.getting-started-button:hover:after {
+.top-nav .nav-products a:not(.getting-started-button).active:hover:after, .top-nav .nav-products a:not(.getting-started-button).getting-started-button:hover:after,
+.top-nav .nav-auxiliary a:not(.getting-started-button).active:hover:after,
+.top-nav .nav-auxiliary a:not(.getting-started-button).getting-started-button:hover:after {
   width: 0%;
 }
 /* line 69, ../scss/components/_top-nav.scss */
-.top-nav .nav-products a:hover,
-.top-nav .nav-auxiliary a:hover {
+.top-nav .nav-products a:not(.getting-started-button):hover,
+.top-nav .nav-auxiliary a:not(.getting-started-button):hover {
   color: #edb9b9;
 }
 /* line 72, ../scss/components/_top-nav.scss */
-.top-nav .nav-products a:active, .top-nav .nav-products a.active,
-.top-nav .nav-auxiliary a:active,
-.top-nav .nav-auxiliary a.active {
+.top-nav .nav-products a:not(.getting-started-button):active, .top-nav .nav-products a:not(.getting-started-button).active,
+.top-nav .nav-auxiliary a:not(.getting-started-button):active,
+.top-nav .nav-auxiliary a:not(.getting-started-button).active {
   color: white;
 }
 /* line 75, ../scss/components/_top-nav.scss */
-.top-nav .nav-products a.active,
-.top-nav .nav-auxiliary a.active {
+.top-nav .nav-products a:not(.getting-started-button).active,
+.top-nav .nav-auxiliary a:not(.getting-started-button).active {
   position: relative;
 }
 /* line 77, ../scss/components/_top-nav.scss */
-.top-nav .nav-products a.active:after,
-.top-nav .nav-auxiliary a.active:after {
+.top-nav .nav-products a:not(.getting-started-button).active:after,
+.top-nav .nav-auxiliary a:not(.getting-started-button).active:after {
   position: absolute;
   top: 43px;
   left: 0;
@@ -13299,8 +13300,8 @@ th.hide-for-touch {
   background: rgba(255, 255, 255, 0.5);
 }
 /* line 86, ../scss/components/_top-nav.scss */
-.top-nav .nav-products a.active:hover:after,
-.top-nav .nav-auxiliary a.active:hover:after {
+.top-nav .nav-products a:not(.getting-started-button).active:hover:after,
+.top-nav .nav-auxiliary a:not(.getting-started-button).active:hover:after {
   position: absolute;
   top: 43px;
   left: 0;
@@ -13342,28 +13343,35 @@ th.hide-for-touch {
 }
 
 /* line 120, ../scss/components/_top-nav.scss */
+.dropdown {
+  z-index: 10;
+}
+
+/* line 124, ../scss/components/_top-nav.scss */
 .dropdown-wrapper {
+  z-index: 10;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 
-/* line 125, ../scss/components/_top-nav.scss */
+/* line 130, ../scss/components/_top-nav.scss */
 .dropdown .dropdown-button {
   height: 50px;
 }
 
-/* line 129, ../scss/components/_top-nav.scss */
+/* line 134, ../scss/components/_top-nav.scss */
 .dropdown-content-container {
+  z-index: 10;
   margin-top: 1.25rem;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
 }
 
-/* line 136, ../scss/components/_top-nav.scss */
+/* line 142, ../scss/components/_top-nav.scss */
 .dropdown-content li {
   background-color: transparent !important;
 }
-/* line 139, ../scss/components/_top-nav.scss */
+/* line 145, ../scss/components/_top-nav.scss */
 .dropdown-content li a {
   text-transform: capitalize !important;
   padding-left: 0 !important;
@@ -15121,43 +15129,37 @@ a.primary:active {
 .content-section.product-offering {
   margin-bottom: 3.75rem;
 }
-@media only screen and (max-width: 40em) {
-  /* line 2, ../scss/components/_product-offering.scss */
-  .content-section.product-offering {
-    margin-top: 3.75rem;
-  }
-}
-/* line 5, ../scss/components/_product-offering.scss */
+/* line 4, ../scss/components/_product-offering.scss */
 .content-section.product-offering .section-heading-container {
   text-align: center;
   margin-bottom: 1.875rem;
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 5, ../scss/components/_product-offering.scss */
+  /* line 4, ../scss/components/_product-offering.scss */
   .content-section.product-offering .section-heading-container {
     margin-bottom: 3.75rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 9, ../scss/components/_product-offering.scss */
+  /* line 8, ../scss/components/_product-offering.scss */
   .content-section.product-offering .section-heading-container .lead {
     padding: 0.46875rem 0.46875rem 0;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 9, ../scss/components/_product-offering.scss */
+  /* line 8, ../scss/components/_product-offering.scss */
   .content-section.product-offering .section-heading-container .lead {
     padding: 1.875rem 3.75rem 0;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 9, ../scss/components/_product-offering.scss */
+  /* line 8, ../scss/components/_product-offering.scss */
   .content-section.product-offering .section-heading-container .lead {
     padding: 1.875rem 7.5rem 0;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 16, ../scss/components/_product-offering.scss */
+  /* line 15, ../scss/components/_product-offering.scss */
   .content-section.product-offering .aerospike-cloud {
     margin-top: 1.875rem;
   }
@@ -15169,15 +15171,27 @@ a.primary:active {
   background-color: #e8e8e8;
   padding: 2.34375rem;
 }
-/* line 5, ../scss/components/_product-offering-container.scss */
+@media only screen and (max-width: 40em) {
+  /* line 3, ../scss/components/_product-offering-container.scss */
+  .product-offering-container.aerospike-cloud {
+    margin-top: 1.875rem;
+  }
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 6, ../scss/components/_product-offering-container.scss */
+  .product-offering-container.aerospike-cloud {
+    margin-top: 1.875rem;
+  }
+}
+/* line 11, ../scss/components/_product-offering-container.scss */
 .product-offering-container.aerospike-burro {
   background-color: #c31618;
 }
-/* line 8, ../scss/components/_product-offering-container.scss */
+/* line 14, ../scss/components/_product-offering-container.scss */
 .product-offering-container.aerospike-cloud {
   background-color: #6f3275;
 }
-/* line 11, ../scss/components/_product-offering-container.scss */
+/* line 17, ../scss/components/_product-offering-container.scss */
 .product-offering-container .section-heading {
   line-height: 2.8125rem;
   margin-top: 0.625rem;
@@ -15187,17 +15201,17 @@ a.primary:active {
   line-height: 2.25rem;
   margin-bottom: 1.25rem;
 }
-/* line 18, ../scss/components/_product-offering-container.scss */
+/* line 24, ../scss/components/_product-offering-container.scss */
 .product-offering-container .subhead {
   font-size: 1.0625rem;
   margin-bottom: 1.875rem;
   color: #fff;
 }
-/* line 23, ../scss/components/_product-offering-container.scss */
+/* line 29, ../scss/components/_product-offering-container.scss */
 .product-offering-container .link-button {
   display: block;
 }
-/* line 26, ../scss/components/_product-offering-container.scss */
+/* line 32, ../scss/components/_product-offering-container.scss */
 .product-offering-container .lead {
   font-size: 0.9375rem;
   padding: 0 0.9375rem;
@@ -15206,13 +15220,13 @@ a.primary:active {
   color: #fff;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 26, ../scss/components/_product-offering-container.scss */
+  /* line 32, ../scss/components/_product-offering-container.scss */
   .product-offering-container .lead {
     padding: 0 1.875rem;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 26, ../scss/components/_product-offering-container.scss */
+  /* line 32, ../scss/components/_product-offering-container.scss */
   .product-offering-container .lead {
     padding: 0 3.75rem;
   }

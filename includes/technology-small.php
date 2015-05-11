@@ -53,7 +53,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="images/architecture-diagram.png" class="content-diagram" alt="Data Management">
+                    <img src="images/smart-client.png" class="content-diagram" alt="Smart Client">
                   </div>
                   <div class="medium-7 small-12 columns">
                     <h3 class="article-heading">Smart Client&#8482;</h3>
@@ -77,7 +77,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="images/technology-diagram-xdr.png" class="content-diagram" alt="Distribution">
+                    <img src="images/technology-diagram-xdr.png" class="content-diagram" alt="Cross Data Center Replication">
                   </div>
                   <div class="medium-7 small-12 columns">
                     <h3 class="article-heading">Cross Datacenter Replication</h3>

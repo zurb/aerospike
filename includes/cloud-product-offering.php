@@ -1,6 +1,6 @@
 <div class="points-for-product-offering">
   <div class="points-for-product-offering row">
-    <div class="product-offering-points medium-6 small-12 columns">
+    <div class="product-offering-points large-6 medium-12 columns">
       <div class="product-offering-container aerospike-burro">
         <h2 class="section-heading">
           <span class="metadata">Aerospike</span>
@@ -13,7 +13,7 @@
         <a href="#" class="link-button inverted">Learn More</a>
       </div>               
     </div>
-    <div class="product-offering-points medium-6 small-12 columns">
+    <div class="product-offering-points large-6 medium-12 columns">
       <div class="product-offering-container aerospike-cloud">
         <h2 class="section-heading">
           <span class="metadata">Aerospike</span>
