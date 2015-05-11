@@ -12874,6 +12874,12 @@ th.hide-for-touch {
     display: none;
   }
 }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 7, ../scss/components/_icons.scss */
+  .tab-icons img {
+    width: 82%;
+  }
+}
 
 /* line 1, ../scss/components/_hero-unit.scss */
 .hero {
@@ -12966,7 +12972,7 @@ th.hide-for-touch {
 @media only screen and (max-width: 40em) {
   /* line 28, ../scss/components/_hero-unit.scss */
   .hero.inner-pages .hero-heading {
-    margin-top: 19px !important;
+    margin-top: 119px !important;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
@@ -12993,8 +12999,8 @@ th.hide-for-touch {
   }
   /* line 44, ../scss/components/_hero-unit.scss */
   .hero .hero-heading.hero-unit {
-    margin-top: -10px;
-    font-size: 28px !important;
+    margin-top: 90px;
+    font-size: 1.4375rem !important;
     padding-left: 0;
     padding-right: 0;
   }
@@ -13004,7 +13010,7 @@ th.hide-for-touch {
     line-height: 1.125rem;
     width: 90%;
     margin: 0 auto;
-    margin-top: 1.40977rem;
+    margin-top: 0.625rem;
   }
   /* line 57, ../scss/components/_hero-unit.scss */
   .hero .button {
@@ -13050,7 +13056,7 @@ th.hide-for-touch {
   }
   /* line 69, ../scss/components/_hero-unit.scss */
   .hero .hero-heading {
-    margin-top: 35px !important;
+    margin-top: 115px !important;
   }
   /* line 74, ../scss/components/_hero-unit.scss */
   .hero.inner-pages {

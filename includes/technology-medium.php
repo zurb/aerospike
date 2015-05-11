@@ -16,7 +16,7 @@
           <img src="images/technology-icons.png" alt="Technology icons"> 
         </div>
         <ul class="tabs" data-tab>
-          <li class="tab-title active">
+          <li class="tab-title">
             <a href="#technology-smart-cluster">
               <h5>
                 Smart Cluster &#8482;
@@ -26,7 +26,7 @@
               </p>    
             </a>                
           </li>
-          <li class="tab-title">
+          <li class="tab-title active">
             <a href="#technology-smart-client">
               <h5>
                 Smart Client &#8482;  
@@ -49,7 +49,7 @@
           <li class="tab-title">
             <a href="#technology-hybrid-memory-system">
               <h5>
-                Hybrid Memory System
+                In-Memory Storage Engine
               </h5>
               <p class="lead small">
                 Lorem ipsum dolor sit amet                       
@@ -61,10 +61,10 @@
           <div class="content" id="technology-smart-cluster">
             <div class="content-container">
               <div class="row">
-                <div class="medium-5 small-12 columns">
+                <div class="medium-6 small-12 columns">
                   <img src="images/technology-diagram-smart-cluster.png" class="content-diagram" alt="Smart Cluster">
                 </div>
-                <div class="medium-7 small-12 columns">
+                <div class="medium-6 small-12 columns">
                   <h3 class="article-heading">Smart Cluster&#8482;</h3>
                   <p class="lead large">Aerospike Smart Cluster&#8482; has a shared-nothing architecture so there’s no single point of failure. Every node in the cluster is identical. You can start with a few nodes and when you want to scale up, just add more hardware&mdash;the Cluster scales linearly. Data is distributed evenly across the cluster using randomized key hashing to avoid hot spots. With a 24/7 reliability guarantee, the Aerospike Smart Client&#8482; replicates data synchronously for immediate consistency and is able to detect cluster failure, quickly recover and reform the cluster.</p>
                   <a href="#" class="link-button">Learn More About Smart Cluster</a>
@@ -75,10 +75,10 @@
           <div class="content active" id="technology-smart-client">
             <div class="content-container">
               <div class="row">
-                <div class="medium-5 small-12 columns">
+                <div class="medium-6 small-12 columns">
                   <img src="images/smart-client.png" class="content-diagram" alt="Smart Client">
                 </div>
-                <div class="medium-7 small-12 columns">
+                <div class="medium-6 small-12 columns">
                   <h3 class="article-heading">Smart Client&#8482;</h3>
                   <p class="lead large">Aerospike Smart Client&#8482; is designed for speed and implemented as open source libraries available in Java, C#, Node.js, PHP, Go, Python, Ruby, C, Perl, Erlang, Libevent, etc. The architecture reduces transaction latency and makes data available in a single hop from the client. It tracks nodes and knows where data is stored in a cluster, instantly aware of configuration changes or when nodes are added or removed so you don’t have to restart your application or set up additional management servers or proxies. It efficiently handles its own TCP/IP connection pool.</p>
                   <a href="#" class="link-button">Learn More About Smart Client</a>
@@ -89,10 +89,10 @@
           <div class="content" id="technology-xdr">
             <div class="content-container">
               <div class="row">
-                <div class="medium-5 small-12 columns">
+                <div class="medium-6 small-12 columns">
                   <img src="images/technology-diagram-xdr.png" class="content-diagram" alt="Cross Datacenter Replication">
                 </div>
-                <div class="medium-7 small-12 columns">
+                <div class="medium-6 small-12 columns">
                   <h3 class="article-heading">Cross Datacenter Replication</h3>
                   <h5 class="subhead">Enterprise Feature</h5>
                   <p class="lead large">Aerospike Cross Data Center Replication(™) (XDR) manages replication asynchronously across clusters in different data centers for redundancy and disaster recovery. XDR monitors database updates on the "local" cluster and send copies of all write requests to one or more "remote" destination clusters. Data centers can be located closer to consumers for low latency in different geographies. </p>
@@ -104,13 +104,13 @@
           <div class="content" id="technology-hybrid-memory-system">
             <div class="content-container">
               <div class="row">
-                <div class="medium-5 small-12 columns">
-                  <img src="images/hybrid-memory-system.png" class="content-diagram" alt="Hybrid Memory System">
+                <div class="medium-6 small-12 columns">
+                  <img src="images/technologies-diagram-marketecture.png" class="content-diagram" alt="In-Memory Storage Engine">
                 </div>
-                <div class="medium-7 small-12 columns">
-                  <h3 class="article-heading">Hybrid Memory System</h3>
-                  <p class="lead large">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <a href="#" class="link-button">Learn More About Hybrid Memory System</a>
+                <div class="medium-6 small-12 columns">
+                  <h3 class="article-heading">In-Memory Storage Engine</h3>
+                  <p class="lead large">Run in pure RAM with spinning disks for persistence or as a hybrid memory database with RAM and Flash/SSDs. Flash/SSDs provides astonishing random access performance even under write loads --- but at a fraction of the cost and without need for an extra persistence layer.</p>
+                  <a href="#" class="link-button">Learn More About Our In Memory Storage Engine</a>
                 </div>
               </div>
             </div>

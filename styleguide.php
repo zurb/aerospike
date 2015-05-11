@@ -9,13 +9,10 @@
       <nav class="tab-bar hide-for-large-up">
         <section class="left-small">
           <h1 class="logo">
-            <a href="index.php">
+            <a href="https://notable.zurb.com/dashboard/projects/ccf6925dc9bdfef536432e0b66eabd07fe0c0bcc">
               <span>Aerospike</span>
             </a>
           </h1>
-        </section>
-        <section class="right-small">
-          <a class="right-off-canvas-toggle menu-icon" href="#"><span></span></a>
         </section>
       </nav>
     </div>
@@ -28,46 +25,9 @@
               <span>Aerospike</span>
             </a>
           </h1>
-          <ul class="nav-products left">
-            <li>
-              <a href="https://influence.zurb.com/pages/548?t=5fe145c4bfde64ca">Wireframes</a>
-            </li>
-            <li>
-              <a href="https://influence.zurb.com/pages/568?t=08f5b07ac4f8442d">Creative Direction</a>
-            </li>  
-            <li>
-              <a href="https://influence.zurb.com/pages/675?t=5948bff61dec806a">Front-End Code</a>
-            </li>                
-          </ul>
-          <ul class="nav-auxiliary right hide-for-small">
-            <li>
-              <a href="https://influence.zurb.com/pages/700?t=03324df48cbd6b9a" class="active">Styleguide</a>
-            </li>
-            <li>
-              <a href="https://influence.zurb.com/pages/438?t=8866668a9f432bce">Opportunities</a>
-            </li>
-            <li>
-              <a href="https://influence.zurb.com/pages/529?t=9fa3cb880df4a23f">Low-Fi Sketches</a>
-            </li>    
-            <li>
-              <a href="https://influence.zurb.com/pages/713?t=e734d4ed7ac3a2c4" class="getting-started-button inverted-button button tiny">Finished Project</a>
-            </li>        
-          </ul>
         </div>
       </div>
     </nav>
-    <aside class="right-off-canvas-menu">
-      <ul class="off-canvas-list">
-        <li><a href="https://notable.zurb.com/dashboard/projects/ccf6925dc9bdfef536432e0b66eabd07fe0c0bcc">Project Home</a></li>
-        <li><a href="https://influence.zurb.com/pages/548?t=5fe145c4bfde64ca">Wireframes</a></li>
-        <li><a href="https://influence.zurb.com/pages/568?t=08f5b07ac4f8442d">Creative Direction</a></li>
-        <li><a href="https://influence.zurb.com/pages/675?t=5948bff61dec806a">Front-End Code</a></li>
-        <li><a href="https://influence.zurb.com/pages/700?t=03324df48cbd6b9a">Styleguide</a></li>
-        <li><a href="https://influence.zurb.com/pages/438?t=8866668a9f432bce">Opportunities</a></li>
-        <li><a href="https://influence.zurb.com/pages/529?t=9fa3cb880df4a23f">Low-Fi Sketches</a></li>
-        <li class="getting-started-offcanvas-cta"><a href="https://influence.zurb.com/pages/713?t=e734d4ed7ac3a2c4" class="button inverted-button">Finished Project</a></li>
-      </ul>
-    </aside>    
 
     <section class="main-section">
       <section class="hero inner-pages">

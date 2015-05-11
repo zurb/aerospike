@@ -10,7 +10,7 @@
       <section class="hero">
         <?php include("includes/image-mask.php"); ?>    
         <div class="row">
-          <div class="small-12 medium-7 large-6 medium-offset-5 large-offset-6 columns">
+          <div class="small-12 medium-6 large-6 medium-offset-5 large-offset-6 columns end">
             <h1 class="hero-heading hero-unit">The <strong>distributed key-value store</strong> database that delivers speed at scale.</h1>
             <p class="lead large hero-unit">
               We’ve open sourced Aerospike to enable you to build awesome new apps&mdash;cheaper and faster. We welcome you to join our community so that together, we can continue pushing the boundaries of speed at scale. <i>It’s not about speed, it’s what you do with it.</i>

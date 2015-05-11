@@ -3,4 +3,7 @@
 	@media #{$small-only} { 
 		display: none; 
 	}
+	@media #{$medium-only} { 
+		img { width: 82%; } 
+	}
 }

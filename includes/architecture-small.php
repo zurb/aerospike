@@ -29,7 +29,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="images/architecture-diagram-data-management.png" class="content-diagram" alt="Clients">
+                    <img src="images/architecture-diagram-clients.png" class="content-diagram" alt="Clients">
                   </div>
                   <div class="small-12 columns">
                     <h3 class="article-heading">Clients</h3>
@@ -61,7 +61,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="images/smart-client.png" class="content-diagram" alt="Smart Client">
+                    <img src="images/smart-client.png" class="content-diagram" alt="Cluster">
                   </div>
                   <div class="medium-7 small-12 columns">
                     <h3 class="article-heading">Cluster</h3>
@@ -94,7 +94,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="images/architecture-diagram-client-architecture.png" class="content-diagram" alt="Storage">
+                    <img src="images/architecture-diagram-storage.png" class="content-diagram" alt="Storage">
                   </div>
                   <div class="medium-7 small-12 columns">
                     <h3 class="article-heading">Storage</h3>
@@ -127,7 +127,7 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="images/architecture-diagram.png" class="content-diagram" alt="Queries">
+                    <img src="images/architecture-diagram-queries.png" class="content-diagram" alt="Queries">
                   </div>                  
                   <div class="medium-7 small-12 columns">
                     <h3 class="article-heading">Queries</h3>

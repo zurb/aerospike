@@ -27,7 +27,7 @@
 		background:$primary-color url('../images/technologies-hero-unit-sm.jpg') no-repeat top center; 
 		.hero-heading { 
 		  @media #{$small-only} { 
-		  	margin-top: 19px !important;
+		  	margin-top: 119px !important;
 		  }
 			@media #{$medium-only} { 
 				margin-top:156px !important;
@@ -42,8 +42,8 @@
 		text-align:center; 
 		.hero-slash-line { display:none; }
 		.hero-heading.hero-unit { 
-			margin-top: -10px;
-			font-size: 28px !important;
+			margin-top: 90px;
+			font-size: rem-calc(23) !important;
 			padding-left: 0;
 			padding-right: 0;
 		}
@@ -52,7 +52,7 @@
 		  line-height: rem-calc(18);
 		  width: 90%;
 		  margin: 0 auto;
-		  margin-top: $column-gutter/1.33;
+		  margin-top: $column-gutter/3;
 		} 
 		.button { 
 		  margin-bottom: $column-gutter/3;
@@ -67,7 +67,7 @@
 			text-align:left; 
 		}		
 		.hero-heading { 
-			margin-top: 35px !important; 
+			margin-top: 115px !important; 
 		}		
 		background: $primary-color url('../images/home-hero-unit-md.jpg') no-repeat top center;
 		height:737px; 

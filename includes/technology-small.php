@@ -92,7 +92,7 @@
           <li class="accordion-navigation">
             <a href="#technology-hybrid-memory-system">
               <h5>
-                Hybrid Memory System
+                In-Memory Storage Engine
               </h5>
               <p class="lead small">
                 Lorem ipsum dolor sit amet                       
@@ -102,12 +102,12 @@
               <div class="content-container">
                 <div class="row">
                   <div class="medium-5 small-12 columns">
-                    <img src="images/hybrid-memory-system.png" class="content-diagram" alt="Hybrid Memory System">
+                    <img src="images/technologies-diagram-marketecture.png" class="content-diagram" alt="In-Memory Storage Engine">
                   </div>
                   <div class="medium-7 small-12 columns">
-                    <h3 class="article-heading">Hybrid Memory System</h3>
-                    <p class="lead large">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <a href="#" class="link-button">Learn More About Hybrid Memory System</a>
+                    <h3 class="article-heading">In-Memory Storage Engine</h3>
+                    <p class="lead large">Run in pure RAM with spinning disks for persistence or as a hybrid memory database with RAM and Flash/SSDs. Flash/SSDs provides astonishing random access performance even under write loads --- but at a fraction of the cost and without need for an extra persistence layer.</p>
+                    <a href="#" class="link-button">Learn More About Our In-Memory Storage Engine</a>
                   </div>
                 </div>
               </div>
