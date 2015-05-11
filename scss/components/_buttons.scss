@@ -17,6 +17,7 @@
 	font-weight:300;
 	color:tint($primary-color,90%);
 	border-color:rgba(#fff,.8) !important;
+	background: transparent;
 	&:hover { 
 		color:tint($primary-color,100%);
 		border-color:rgba(#fff,.9) !important;

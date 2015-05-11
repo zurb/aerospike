@@ -19,7 +19,7 @@
           <li class="tab-title">
             <a href="#architecture-data-management">
               <h5>
-                Data Management             
+                Clients        
               </h5>
               <p class="lead small">
                 Lorem ipsum dolor sit amet                   
@@ -29,7 +29,7 @@
           <li class="tab-title active">
             <a href="#architecture-data-distribution">
               <h5>
-                Data Distribution
+                Cluster
               </h5>
               <p class="lead small">
                 Lorem ipsum dolor sit amet                   
@@ -39,7 +39,7 @@
           <li class="tab-title">
             <a href="#architecture-client-layer">
               <h5>
-                Client Layer                 
+                Storage
               </h5>
               <p class="lead small">
                 Lorem ipsum dolor sit amet                        
@@ -49,7 +49,7 @@
           <li class="tab-title">
             <a href="#architecture-udf">
               <h5>
-                User Defined Functions                 
+                Queries
               </h5>
               <p class="lead small">
                 Lorem ipsum dolor sit amet                  
@@ -62,19 +62,20 @@
             <div class="content-container">
               <div class="row">
                 <div class="medium-6 small-12 columns">
-                  <img src="images/architecture-diagram-data-management.png" class="content-diagram" alt="Data Management">
+                  <img src="images/architecture-diagram-data-management.png" class="content-diagram" alt="Clients">
                 </div>
                 <div class="medium-6 small-12 columns">
-                  <h3 class="article-heading">Data Management</h3>
-                  <p class="lead large">Aerospike supports enhanced key-value operations</p>
+                  <h3 class="article-heading">Clients</h3>
+                  <p class="lead large">Expose APIs for storing and retrieving data and implement a client-server protocol making them cluster aware&mdash;tracking where data is stored and when nodes are added or removed.</p>
                   <ul>
-                    <li>Data Model</li>
-                    <li>Primary Index (Key-value store)</li>
-                    <li>Secondary Index</li>
-                    <li>Hybrid Storage</li>
-                    <li>Large Data Type</li>
+                    <li>First class observer of the cluster</li>
+                    <li>Open source libraries and packages in 10+ languages including Node.js, Java, C#, PHP, Go and more</li>
+                    <li>Detects transaction failures and re-routes requests to nodes with copies of data </li>
+                    <li>Pools TCP/IP connections</li>
+                    <li>Allows for arbitrary strings, integers, blobs, lists, and maps in bins (columns / fields) and JSON objects</li>
+                    <li>Supports Check-And-Set and Atomic operations</li>
                   </ul>
-                  <a href="#" class="link-button">Learn More About Data Management</a>
+                  <a href="#" class="link-button">Learn More About Our Client Layer</a>
                 </div>
               </div>
             </div>
@@ -83,19 +84,21 @@
             <div class="content-container">
               <div class="row">
                 <div class="medium-6 small-12 columns">
-                  <img src="images/architecture-diagram-data-distribution.png" class="content-diagram" alt="Data Distribution">
+                  <img src="images/architecture-diagram-data-distribution.png" class="content-diagram" alt="Cluster">
                 </div>
                 <div class="medium-6 small-12 columns">
-                  <h3 class="article-heading">Data Distribution</h3>
-                  <p class="lead large">Aerospike has a shared-nothing architecture, every node is identical, and there is no single point of failure. </p>
+                  <h3 class="article-heading">Cluster</h3>
+                  <p class="lead large">The Aerospike “shared nothing” architecture is designed to reliably store data with automatic failover, replication and cross data-center synchronization.</p>
                   <ul>
-                    <li>Partitions</li>
-                    <li>Data Replication</li>
-                    <li>Clustering</li>
-                    <li>Auto-rebalancing</li>
-                    <li>Synchronous Data Replication</li>
+                    <li>Special heartbeat monitors inter-node connectivity</li>
+                    <li>Paxos-like consensus voting process determines which nodes are considered part of the cluster when a node is added or removed</li>
+                    <li>Distributed hash algorithm divides the primary index space into data 'slices' and assign owners</li>
+                    <li>Unique random data distribution ensures equal load across all cluster nodes for predictable low latency</li>
+                    <li>SPF Zero</li>
+                    <li>Data migration module re-distributes data when clusters are reconfigured</li>
+                    <li>Supports immediate and eventual consistency</li>
                   </ul>
-                  <a href="#" class="link-button">Learn More About Data Management</a>
+                  <a href="#" class="link-button">Learn More About Our Clustering</a>
                 </div>
               </div>
             </div>
@@ -104,17 +107,21 @@
             <div class="content-container">
               <div class="row">
                 <div class="medium-6 small-12 columns">
-                  <img src="images/architecture-diagram-client-architecture.png" class="content-diagram" alt="Client Layer">
+                  <img src="images/architecture-diagram-client-architecture.png" class="content-diagram" alt="Storage">
                 </div>
                 <div class="medium-6 small-12 columns">
-                  <h3 class="article-heading">Client Layer</h3>
-                  <p class="lead large">Aerospike’s client drivers sit on your web application server&mdash;completely cluster aware, tracking where data is stored and when nodes are added or removed.</p>
+                  <h3 class="article-heading">Storage</h3>
+                  <p class="lead large">Aerospike can store data in DRAM, Flash (SSDs), and traditional rotating media.</p>
                   <ul>
-                    <li>10+ Client Languages</li>
-                    <li>Cluster Aware</li>
-                    <li>TCP/IP Connection Pool Handling</li>
+                    <li>Indexes in RAM for high performance and parallelism</li>
+                    <li>Multiple data storage models</li>
+                    <li>Schema-less data model</li>
+                    <li>Write batching for high ingest speeds</li>
+                    <li>Built-in defragmentation</li>
+                    <li>Integrated continual data eviction and expiration</li>
+                    <li>Large block writes and small block reads for high performance</li>
                   </ul>
-                  <a href="#" class="link-button">Learn More About Client Layer</a>
+                  <a href="#" class="link-button">Learn More About Our Storage</a>
                 </div>
               </div>
             </div>
@@ -122,21 +129,19 @@
           <div class="content" id="architecture-udf">
             <div class="content-container">
               <div class="row">
-                <!--
-                No diagram for user defined functions found on Aerospike.com
-                <div class="medium-5 small-12 columns">
-                  <img src="images/architecture-diagram.png" class="content-diagram" alt="User Defined Functions">
-                </div>
-                -->
-                <div class="small-12 columns">
-                  <h3 class="article-heading">User Defined Functions</h3>
-                  <p class="lead large">UDFs extend functionality of the Aerospike database, allowing developers to move some processing and compute logic to the same node where data resides, saving network round trips.</p>
+                <div class="medium-6 small-12 columns">
+                  <img src="images/architecture-diagram.png" class="content-diagram" alt="Queries">
+                </div>                  
+                <div class="medium-6 small-12 columns">
+                  <h3 class="article-heading">Queries</h3>
+                  <p class="lead large">Provides value-based lookup through the use of bins (columns) and secondary indexes.</p>
                   <ul>
-                    <li>LUA</li>
-                    <li>Record UDF</li>
-                    <li>Stream UDF</li>
+                    <li>Executes on all nodes in parallel&mdash;in scatter-gather pattern</li>
+                    <li>Supports Equality and Range filters</li>
+                    <li>Enables aggregations through programmatic indexed-MapReduce</li>
+                    <li>Aggregation system is implemented using User Defined Functions (UDFs) written in Lua</li>
                   </ul>
-                  <a href="#" class="link-button">Learn More About User Defined Functions</a>
+                  <a href="#" class="link-button">Learn More About Our Queries</a>
                 </div>
               </div>
             </div>

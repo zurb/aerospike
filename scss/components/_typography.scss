@@ -71,6 +71,12 @@ blockquote {
 	padding-bottom:$column-gutter/3;
 	border-bottom:1px solid tint($secondary-color,75%); 
 }
+.dropdown-nav-heading { 
+	font-size:rem-calc(18);
+	font-weight:600;
+	text-transform: uppercase;
+
+}
 .subhead { 
 	color:tint($secondary-color,35%); 
 	font-weight: 300;

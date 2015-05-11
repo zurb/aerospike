@@ -11,8 +11,10 @@
         <?php include("includes/image-mask.php"); ?>    
         <div class="row">
           <div class="small-12 medium-7 large-6 medium-offset-5 large-offset-6 columns">
-            <h1 class="hero-heading hero-unit">Aerospike is the <strong>distributed key-value store</strong> that delivers speed at scale.</h1>
-            <p class="lead large hero-unit">We’ve open sourced Aerospike to empower you to build a new class of applications that may not have before been easy or affordable. We welcome you to join our community so that together, we can continue pushing the boundaries of speed at scale.</p>
+            <h1 class="hero-heading hero-unit">The <strong>distributed key-value store</strong> database that delivers speed at scale.</h1>
+            <p class="lead large hero-unit">
+              We’ve open sourced Aerospike to enable you to build awesome new apps&mdash;cheaper and faster. We welcome you to join our community so that together, we can continue pushing the boundaries of speed at scale. <i>It’s not about speed, it’s what you do with it.</i>
+            </p>
             <div class="hide-for-small">
               <a href="getting-started.php" class="button inverted-button large">Get Started Now</a>              
             </div>

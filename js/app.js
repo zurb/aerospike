@@ -2,34 +2,13 @@
 // Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
 
-function prepareList() {
-  $('.expList').find('li:has(ul)')
-  .click( function(event) {
-      if (this == event.target) {
-          $(this).toggleClass('expanded');
-          $(this).children('ul').toggle('medium');
-      }
-      return false;
-  })
-  .addClass('collapsed')
-  .children('ul').hide();
 
-  //Create the button funtionality
-  $('.expandList')
-  .unbind('click')
-  .click( function() {
-      $('.collapsed').addClass('expanded');
-      $('.collapsed').children().show('medium');
-  })
-  $('.collapseList')
-  .unbind('click')
-  .click( function() {
-      $('.collapsed').removeClass('expanded');
-      $('.collapsed').children().hide('medium');
-  })
-    
-};
-
-$(document).ready( function() {
-  prepareList()
+$(document).foundation();
+$(".megamenu").mouseenter(function(){
+  if($(window).width()>641){
+    $(".dropdown-wrapper").offset({left: 0});
+    $(".dropdown-wrapper").css("width",$(window).width());
+  }else{
+    $(".dropdown-wrapper").css("width",auto);
+  }
 });

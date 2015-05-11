@@ -15,8 +15,6 @@
 		list-style:none;
 		margin-left:0;
 		a { 
-			//link animation 
-			@include link-animation();				
 			position: relative;
 			font-weight:400;
 			color:lighten($secondary-color,80%) !important;
