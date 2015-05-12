@@ -14463,6 +14463,11 @@ a.primary:active {
   }
 }
 
+/* line 2, ../scss/components/_content-section-technology.scss */
+.content-section.technology .tabs {
+  margin-top: 1.875rem;
+}
+
 /* line 2, ../scss/components/_aerospike-services.scss */
 .content-section.aerospike-services {
   margin-top: 5.625rem;
@@ -14530,6 +14535,10 @@ a.primary:active {
 .content-section.architecture {
   margin-top: 3.75rem;
 }
+/* line 4, ../scss/components/_architecture.scss */
+.content-section.architecture .tabs .tab-title.active {
+  border-bottom: 4px solid #f8f8f8;
+}
 @media only screen and (max-width: 40em) {
   /* line 2, ../scss/components/_architecture.scss */
   .content-section.architecture {
@@ -14551,28 +14560,32 @@ a.primary:active {
     padding-bottom: 7.5rem;
   }
 }
-/* line 16, ../scss/components/_architecture.scss */
+/* line 19, ../scss/components/_architecture.scss */
 .content-section.architecture .lead {
   color: #909090;
 }
-/* line 20, ../scss/components/_architecture.scss */
+/* line 22, ../scss/components/_architecture.scss */
+.content-section.architecture .tabs {
+  margin-top: 1.875rem;
+}
+/* line 26, ../scss/components/_architecture.scss */
 .content-section.architecture .tabs-content .article-heading {
   margin-bottom: 0;
 }
-/* line 23, ../scss/components/_architecture.scss */
+/* line 29, ../scss/components/_architecture.scss */
 .content-section.architecture .tabs-content ul li {
   font-size: 1.0625rem;
   line-height: 21px;
   margin-bottom: 11px;
 }
 
-/* line 31, ../scss/components/_architecture.scss */
+/* line 37, ../scss/components/_architecture.scss */
 .architecture-points .content-icon {
   display: none;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 35, ../scss/components/_architecture.scss */
+  /* line 41, ../scss/components/_architecture.scss */
   .content-section.architecture .link-button {
     clear: both;
     display: block;
@@ -14580,7 +14593,7 @@ a.primary:active {
     margin-bottom: 0.9375rem;
   }
 
-  /* line 42, ../scss/components/_architecture.scss */
+  /* line 48, ../scss/components/_architecture.scss */
   .content-diagram {
     margin-top: 1.875rem;
     margin-bottom: 1.875rem;

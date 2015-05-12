@@ -15,7 +15,7 @@
         <div class="tab-icons">
           <img src="images/technology-icons.png" alt="Technology icons"> 
         </div>
-        <ul class="tabs" data-tab>
+        <ul class="tabs traditional-tab" data-tab>
           <li class="tab-title">
             <a href="#technology-smart-cluster">
               <h5>
@@ -32,17 +32,17 @@
                 Smart Client &#8482;  
               </h5>
               <p class="lead small">
-                Applications link to client libraries                    
+                Applications link to client libs                    
               </p>
             </a>
           </li>
           <li class="tab-title">
             <a href="#technology-xdr">
               <h5>
-                Cross Datacenter Replication             
+                XDR
               </h5>
               <p class="lead small">
-                Applications link to client libraries                           
+                Applications link to client libs                           
               </p>      
             </a>              
           </li>

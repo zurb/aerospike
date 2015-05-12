@@ -14,7 +14,7 @@
     </div>
     <div class="top-nav row show-for-large-up">
       <div class="small-12 columns">
-        <nav class="top-bar" data-topbar role="navigation" data-options="is_hover: false">
+        <nav class="top-bar" data-topbar role="navigation" data-options="is_hover: true">
           <!-- append data-options="is_hover: false" to the nav element to open dropdowns on click. -->
           <ul class="title-area">
             <li class="name">            

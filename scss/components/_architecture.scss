@@ -1,6 +1,9 @@
 // 4. Architecture & Technology Overview 
 .content-section.architecture { 
 	margin-top:$column-gutter*2;
+	.tabs .tab-title.active { 
+		border-bottom: 4px solid tint($secondary-color,97%);
+	}
 	@media #{$small-only} { 
 		padding-top:$column-gutter*2; 	
 		padding-bottom:$column-gutter*2;
@@ -15,6 +18,9 @@
 	}
 	.lead { 
 		color:tint($secondary-color,50%); 
+	}
+	.tabs { 
+		margin-top:$column-gutter;
 	}
 	.tabs-content { 
 		.article-heading { 

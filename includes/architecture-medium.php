@@ -15,7 +15,7 @@
         <div class="tab-icons">
           <img src="images/architecture-icons.png" alt="Architecture icons"> 
         </div>
-        <ul class="tabs" data-tab>
+        <ul class="tabs traditional-tab" data-tab>
           <li class="tab-title">
             <a href="#architecture-data-management">
               <h5>
